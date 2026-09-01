@@ -1,0 +1,380 @@
+% !TEX program = lualatex %
+
+%Document vide aux normes de l'École nationale des Chartes
+%crée par J.B. Camps
+%Dernières modifications E. Rouquette (03/2026)
+
+%%%%%%%%%%%%%%%%%%%%%% PRÉAMBULE
+
+
+%%%%%%%%%%%%%% partie obligatoire du préambule
+\documentclass[12pt,twoside]{book}
+\usepackage{fontspec}
+
+\usepackage[french]{babel}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PACKAGES UTILISÉS
+
+%csquote, lettrine, hyperref déjà présent
+
+\usepackage{csquotes} % les guillemets français
+\usepackage{lettrine} %faire une lettrine (pas obligatoire)
+
+
+\usepackage{xcolor} % couleurs composées pour les liens hyperref
+\definecolor{mymarron}{RGB}{60,30,10}
+\definecolor{mydarkblue}{RGB}{0,0,80}
+\definecolor{mylightblue}{RGB}{80,80,80}
+\definecolor{mydarkgreen}{RGB}{0,80,0}
+\definecolor{mydarkred}{RGB}{80,0,0}
+\definecolor{myshadecolor}{rgb}{0.97,0.97,0.97}
+
+
+\usepackage[style=enc,sorting=nyt,maxbibnames=10]{biblatex}%charger le style de l'EnC (téléchargeable ici https://ctan.org/pkg/biblatex-enc)
+
+\addbibresource{./bibliographies/HumanitesNumeriques.bib}
+\addbibresource{./bibliographies/MachineLearning.bib}
+\addbibresource{./bibliographies/Ontologie.bib}
+%\defbibheading{}{\subsection*{}} Si l'on veut changer le titre de la/les bibliographie(s)
+
+
+%%%Faire un ou plusieurs index
+
+\usepackage{imakeidx} %pour faire un ou plusieurs index
+\makeindex[name=acronymes, title=Liste des acronymes, columns=1]
+
+%RAJOUTEZ ICI VOS PACKAGES
+
+%%%%%% General Settings %%%%%%
+% =============================================================== %
+\usepackage{multicol}
+
+% change the indent setting
+\usepackage{parskip} 
+
+% better formating
+\usepackage[
+    protrusion=true,
+    expansion=true,
+    ]{microtype}
+\SetTracking{encoding={*}, shape=sc}{40}
+
+% optional for saving more space 
+%\usepackage[subtle]{savetrees}
+
+%%%%%% new envs and setting for env %%%%%%
+% =============================================================== %
+
+% create a commenting env
+\usepackage{comment}
+
+% change the size of the itemize environnement.
+\usepackage{enumitem}
+%\setitemize{itemsep=1pt,topsep=2.5pt,parsep=0pt,partopsep=2.5pt}
+\setlist[description]{style=nextline}
+
+\usepackage{amsmath} % Nécessaire pour \text{} dans equation*
+
+%set up new env for left, right and center para
+\usepackage{ragged2e}
+
+% New env for tables
+\usepackage{booktabs}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+
+%%%%%% Graphic library %%%%%%
+% =============================================================== %
+\usepackage{graphicx}
+\usepackage{tikz}
+
+% create a env for better setting between text and figures.
+\usepackage{wrapfig}
+
+% create a env for better figure management
+\usepackage{subcaption}
+
+%graphic data ploting
+\usepackage{pgfplots}
+
+
+%%%%%% Random package %%%%%%
+% =============================================================== %
+\usepackage{verbatim}
+
+% for placeholder
+\usepackage{lipsum}
+
+% syntax highlighting for code
+\usepackage{minted} 
+
+% fontawsome 
+\usepackage{fontawesome}
+
+
+%%%%%% Self created Env & commands %%%%%%
+% =============================================================== %
+
+% commande créant /pmm, une commande insérant un point médiant avec une casse et un gris typographique plus adéquat que la commande \textperiodcentered
+\newcommand{\pmm}{\kern-.25em\textperiodcentered\kern-.25em}
+
+% création d'une commande subsubsubsection parceque je suis un petit gourmand qui adore les sousousoussection
+\newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
+
+% création en urgence d'un truc pour faire ê car j'ai pété ma touche
+\newcommand{\e}[0]{\^e}
+
+%%%%%% Les compteurs (sections, subsections, etc)
+\renewcommand{\thesection}{\Roman{section}.}%On ne fait apparaître que le numéro de la section
+\renewcommand{\thesubsection}{\arabic{subsection}.}%subsection en chiffres arabes
+\renewcommand{\thesubsubsection}{\alph{subsubsection}.}%subsubsection en lettres minuscules
+%Si l'on veut faire apparaître les subsubsection dans le table des matières (à commenter sinon)
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{3}  % La subsubsection (profondeur=3 dans la table des matières) apparaît numérotée dans la TdM
+
+%%%%%  Configurer le document selon les normes de l'école
+
+\usepackage[margin=2.5cm]{geometry} %marges
+\usepackage{setspace} % espacement qui permet ensuite de définir un interligne
+\onehalfspacing % interligne de 1.5
+\setlength\parindent{1cm} % indentation des paragraphes à 1 cm
+
+
+%%%%% Mise en forme des headers (haut de page)
+
+\usepackage{fancyhdr} %package utilisé pour modifier les headers
+\pagestyle{fancy} %utiliser ses propres choix de mise en page et non ceux par défaut du package
+
+\setlength\headheight{16pt}%la hauteur des headers
+
+%%la façon dont les sections apparaissent dans les en-tête:
+
+\renewcommand{\sectionmark}[1]{\markright{\small\textit{\thesection~\  #1}}}%Faire apparaître dans les headers les sections en  petit et en italiques
+%\renewcommand{\sectionmark}[1]{}%Commenter la lign précédetne et mettre celle-ci pour ne pas avoir le titre des sections dans le header
+
+%% réglages propres à frontmatter
+
+\appto\frontmatter{\pagestyle{fancy}%
+	\renewcommand{\chaptermark}[1]{\markboth{\small\textit{#1}}{}}% ne pas faire apparaître de <<numéro>> de chapitre dans les chapitres non numérotés (front: l'introduction, els remerciement, etc)
+}
+
+%% réglages propres à mainmatter
+
+\appto\mainmatter{
+\renewcommand{\chaptermark}[1]{\markboth{\small\chaptername~\thechapter~--\ \textit{#1}}{}}%faire apparaître dans les headers les sections en  petit et en italiques
+%\renewcommand{\chaptermark}[1]{}%Commenter la ligne précédente et mettre celle-ci pour ne pas avoir le titre des chapitres  dans le header
+}
+
+%% réglages propres aux annexes
+
+\appto\appendix{
+	\renewcommand{\chaptermark}[1]{\markboth{\small~Annexe \thechapter~--\ \textit{#1}}{}}%faire apparaître dans les headers le nom des annexes
+	%\renewcommand{\chaptermark}[1]{}%Commenter la ligne précédente et mettre celle-ci pour ne pas avoir le titre des chapitres  dans le header
+}
+
+%indiquer des règles d'hyphénation pour des mots précis si besoin
+%\begin{hyphenrules}{french}
+%	\hyphenation{}
+%\end{hyphenrules}
+
+
+%%%%%%% Package hyperref
+
+% A mettre après les autres appels de packages car redéfinit certaines commandes).
+
+\usepackage[colorlinks=true, breaklinks=true, pdfusetitle, hypertexnames=false, pdfsubject ={Mémoire HN}, pdfkeywords={les mots-clés}]{hyperref}
+
+% Mes petites couleures pour des hyperliens jolies
+\hypersetup{ 
+    colorlinks,
+    linkcolor={red!60!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!50!black}
+}
+
+\usepackage[numbered]{bookmark}%va avec hyperref; marche mieux pour les signets. l'option numbered: les signets dans le pdf sont numérotés
+
+% Compléter pdfsubjet et pdfkeywords
+%Explication des options de hyperref (modifiables)
+% hyperindex=false
+% colorlinks=false: pour que le cadre des liens n'apparaisse pas à l'impression
+% breaklinks permet d'avoir des liens allant sur pusieurs lignes
+%pdfusetitle: utiliser \author et \title pour produire le nom et le titre du pdf
+
+
+%avec overleaf, utiliser :
+%\usepackage[xetex]{hyperref}
+%\hypersetup{
+	%	pdfauthor = {Prénom Nom},
+	%	pdftitle = {titre},
+	%	pdfsubject = {sujet},
+	%	pdfkeywords = {premier mot-clé} {deuxième mot-clé} {troisième mot-clé} {etc}
+	%}
+
+
+
+%%%%%%%%%%%%%%%%%%%% Package glossaries
+
+%Exception: il faut le charger APRÈS hyperref
+\usepackage[toc=true, acronym, automake]{glossaries}
+%ajout des glossaires mutlicol
+\usepackage{glossary-mcols}
+\makeglossaries
+
+\loadglsentries{glossarie}
+
+%%%%%%%%%%%%%% INFORMATIONS POUR LA PAGE DE TITRE
+ 
+\author{Prénom \textsc{Nom} - M2 TNAH}
+\title{Titre du mémoire}
+
+%%%%%%%%%%%%%%%%%%%%%% DOCUMENT
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			
+			\bigskip
+			
+			\begin{large}				
+				ÉCOLE NATIONALE DES CHARTES\\
+				UNIVERSITÉ PARIS, SCIENCES \& LETTRES
+			\end{large}
+			\begin{center}\rule{2cm}{0.02cm}\end{center}
+			
+			\bigskip
+			\bigskip
+			\bigskip
+			\begin{Large}
+				\textbf{Jules Musquin}\\
+			\end{Large}
+		%selon le cas
+			\begin{normalsize}
+				\textit{diplômé de master}
+			\end{normalsize}
+			
+			\bigskip
+			\bigskip
+			\bigskip
+			
+			\begin{Huge}
+				\textbf{Préparer une campagne d'annotation experte avec le projet Aikon}\\
+			\end{Huge}
+			\bigskip
+			\bigskip
+			\begin{LARGE}
+				\textbf{Comprendre et évaluer l'utilisation de la vision artificielle dans le domaine des sciences historiques.}\\
+			\end{LARGE}
+			
+			\bigskip
+			\bigskip
+			\bigskip
+			\begin{large}
+				Sous la direction de \textbf{Bertrand Duménieu}
+			\end{large}
+			\vfill
+			
+			\begin{large}
+				Mémoire 
+				pour le diplôme de master \\
+				\enquote{Technologies numériques appliquées à l'histoire} \\
+				\bigskip
+				2026
+			\end{large}
+			
+		\end{center}
+	\end{titlepage}
+
+	\thispagestyle{empty}	
+	\cleardoublepage
+	
+\frontmatter
+
+	\chapter{Résumé}
+\medskip
+		Résumé du mémoire en français. Cette page ne doit pas dépasser une page.
+	
+	\textbf{Mots-clés:} une liste de mots-clés~; séparés par des points-virgules.
+	
+	\textbf{Informations bibliographiques:} Prénom Nom, \textit{Titre du mémoire. Sous-titre du mémoire}, mémoire de master \enquote{Technologies numériques appliquées à l'histoire}, dir. [Noms des directeurs.trices], École nationale des chartes, 20245.
+	
+	\newpage{\pagestyle{empty}\cleardoublepage}
+
+\addcontentsline{toc}{chapter}{Table des matières}
+\tableofcontents
+	
+\chapter{Avant-propos}
+
+\section*{Remerciements}
+\addcontentsline{toc}{section}{Remerciements}
+
+\lettrine{{M}}{es remerciements} vont tout d'abord à\dots
+	\newpage{\pagestyle{empty}\cleardoublepage}
+	
+%%%%%%%%%%%% \bibliographie ici (normes de l'EnC)
+\addcontentsline{toc}{section}{Bibliographies}
+
+\nocite{*}
+\printbibliography[keyword={hn}, title={Humanités numériques}]
+\chaptermark{Bibliographie --- Sujet : Humanités Numériques}
+
+\nocite{*}
+\printbibliography[keyword={ml}, title={Machine Learning}]
+\chaptermark{Bibliographie --- Sujet : Machine Learning}
+
+\nocite{*}
+\printbibliography[keyword={ont}, title={Ontologies}]
+\chaptermark{Bibliographie --- Sujet : Ontologies}
+
+\chapter{Introduction Générale}	
+	
+\input{00introduction}
+
+\newpage{\pagestyle{empty}\cleardoublepage}
+
+%%%%%%%%%%%%%%%%%Le corps du mémoire
+	\mainmatter
+%Trier par dossiers si besoin (front, main,annexes,), se crérer un docuemnt .tex par structure (section ou chapter selon la taille et la pertinence) Exemple de chemin à partir du dossier où se trouve le document maître: ./dossierA/fichier.tex
+
+\part{La vision par ordinateur et l’historien : rétrospective, enjeux et méthodes}
+
+
+\input{1erpartie/introductionpremierepartie}
+\input{1erpartie/emergencdelavision}
+\input{1erpartie/visionethumanitees}
+\input{1erpartie/Aikon}
+
+\part{Construire un corpus de numérisations pour le traitement par  vision artificielle}
+
+\input{2partie/introductiondeuxiemepartie}	
+\input{2partie/preparercampagneannotation}
+\input{2partie/construirecorpushistorique}
+\input{2partie/entraineretevaluer}
+
+%\input{2partie/}
+	
+\part{Conclusion \& Annexes}
+
+\input{conclusion.tex}
+
+\newpage{\pagestyle{empty}\cleardoublepage}
+
+
+%%%%%%%%%%%%%%%%%%
+
+\appendix %Des appendices: tables figures, etc
+
+\input{annexes.tex}
+
+\chapter{Data Labelling Guideline}
+\label{chap:guideline}
+\input{./Guidelines/guideline.tex}
+
+
+\newpage{\pagestyle{empty}\cleardoublepage}
+
+%%%%%%%%%%%%%%%%%%
+
+\backmatter % glossaire, index, table des figures, table des matières.. (la bibliographie a déjà été appelée)
+
+\printglossary[type=\acronymtype, title={Glossaire des acronymes}, style=mcolindex]
+
+\end{document}

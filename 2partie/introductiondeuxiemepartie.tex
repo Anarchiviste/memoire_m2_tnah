@@ -1,0 +1,24 @@
+\section*{Introduction}
+\sectionmark{Introduction}
+
+\begin{quote}
+    \textit{Depuis au moins cinquante ans, les historiens adoptent continuellement des méthodes issues des sciences naturelles, des sciences mathématiques et des sciences des données, intégrant ainsi des facteurs non humains à leur champ d'interprétation
+grâce à de nouveaux outils (facteurs climatiques, épidémiologiques, datation par des méthodes physiques, etc.). Cependant, le traitement des sources historiques par l'IA pose des défis particuliers aux historiens, même dans ce contexte.
+}
+
+Alexandre Guilbaud, Matthieu Husson, Stavros Lazaris, Ségolène Albouy, Somkeo Norindr, Paul
+Kervegan, Fouad Aouinti, Robin Champenois, Rémy Delanaux, Mathieu Aubry, \og AIKON: A Collaborative Research Environment for the Visual Study of Historical Corpora \fg, publié sur HAL, HAL ID : \href{⟨hal-05249619⟩}{⟨hal-05249619⟩}
+\end{quote}
+
+\lettrine{S}{i l'intelligence artificielle } et sa petite soeur,  la vision artificielle, existent depuis longtemps, l'explosion des performances et des moyens attribués à la recherche en IA au tournant des années 2020 rendent ses outils pertinent pour aider l'historien dans ses méthodologies de dépouillement des sources. Nous retrouvons cette tendance au coeur des Humanités Numériques de pouvoir transformer en données analysable au prisme des méthodes informatiques des documents et des sources qui ont historiquement et encore aujourd'hui un travail minutieux et artisanale. 
+
+Cette partie a pour objectif de revenir sur le contexte institutionnel du projet Aikon, projet de mise à disposition d'outils de vision aux historiens par une équipe du laboratoire IMAGINE sous la direction de Mathieu Aubry. Ce projet a pour objectifs d'offrir un environnement de teste aux historiens pour travailler sur leurs sources avec des méthodes informatiques et spécifiquement de vision.
+
+Le cahier des charges du stage était constituer de ces tâches.
+\begin{description}
+    \item[Intégrer un modèle de détection multiclasse :] Aikon était jusqu'à la construit sur des modèles ne détectant qu'un seul type de région : Illustrations ou diagrammes selon les modèles, une partie de notre mission était également de constituer les premiers essais de détection multiclasse pour Aikon. 
+    \item[Évaluer la possibilité de produire un modèle généraliste.] Contrairement aux approches sur-mesure développées pour des corpus très circonscrits, l'enjeu était de concevoir un système de vision  capable de traiter une grande diversité de documents patrimoniaux. Il s'agissait de vérifier si un modèle unique pouvait maintenir de hautes performances prédictives malgré la forte hétérogénéité des époques, des supports matériels (manuscrits, incunables, imprimés modernes) et des mises en page et de trouver les limites d'une approche généraliste.
+    \item[Évaluer la possibilité de réutiliser des jeux de données existants.] Cette tâche vise à démontrer la faisabilité technique et épistémologique d'une écologie de la donnée. Il s'agissait d'identifier, de nettoyer et d'harmoniser des corpus ouverts créés par d'autres projets, en résolvant les incompatibilités de formats (conversion de segmentations par pixels en boîtes englobantes) et en alignant leurs ontologies respectives sur la notre.
+    \item[Réintégrer des données produites par la communauté d'Aikon.] L'objectif était de valoriser l'expertise documentaire des chercheurs utilisant Aikon. Le stage devait consolider une boucle d'amélioration continue (Human-in-the-loop) permettant d'extraire les annotations et les corrections validées manuellement sur l'interface d'Aikon, afin de les standardiser et de s'en servir comme vérité de terrain pour réentraîner les futurs modèles.
+    
+\end{description}

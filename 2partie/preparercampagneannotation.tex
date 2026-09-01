@@ -1,0 +1,140 @@
+\chapter[Préparer une campagne d'annotation]{Préparer une campagne d’annotation experte : La méthodologie de la fabrique des métadonnées}
+
+\lettrine{L}{'une des} missions de notre stage est d'entraîner un modèle généraliste. Par généraliste, nous entendons un modèle capable d'extraire des éléments visuels indifféremment sur des documents manuscrits ou imprimés. Ce défi implique de surmonter la forte hétérogénéité visuelle de ces supports, allant de la mise en page normée des débuts de l'imprimerie aux structures plus fluides et parfois dégradées des manuscrits médiévaux. L'objectif est d'obtenir une ontologie suffisamment généraliste et pratique pour s'affranchir du bruit visuel ou des spécificités d'une époque. 
+
+\section[L'ontologie en machine learning]{Qu'est ce qu'une ontologie en machine learning ?}
+
+\subsection{L'importance de l'ontologie pour les méthodes d'apprentissage automatique}
+
+En vision artificielle, une ontologie d'annotation désigne le cadre conceptuel et structuré qui définit comment les données brutes (ici, des images de documents historiques) doivent être catégorisées et étiquetées pour entraîner un modèle d'apprentissage automatique. Elle ne se résume pas à une simple liste de mots-clés à appliquer sur des boîtes englobantes, c'est un objet complexe qui a toujours au moins trois dimensions. 
+
+\begin{itemize}
+    \item \textbf{Le vocabulaire :} (ou taxinomie) L'ensemble fini et contrôlé des classes retenues. Pour nous ce sera donc \textit{Illustration}, \textit{Lettrine}, \textit{Tampon}, \textit{Ornementation} et \textit{Table}.
+
+    \item  \textbf{La sémantique :} Ou l'ensemble des règles d'annotation qui définissent la tache d'annotation, le périmètre d'application du vocabulaire et ses exceptions. 
+
+    \item \textbf{La structure :} Ou organisation des relations des classes entre elles. Une ontologie peut avoir une hiérarchie entre les classes (comme le prévoit des ontologies comme SegmOnto) ou une ontologie plate (sans hiérarchie)
+\end{itemize}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.5]{img/GenHisDocOrganisation.png}
+    \caption{Organisation du projet du stage}
+    \label{fig:GenHisDoc}
+\end{figure}
+
+Le but de la création d'une ontologie est de traduire la complexité et la réalité d'un document historique en un langage fini, compréhensible et traitable par des annotateurs et un algorithme. Lors de la réalisation de notre stage, l'enjeux autour de la création était double. En plus d'influencer la manière dont notre modèle allait être réintroduit ou modifié par les équipes d'Aikon sur l'application, L'ontologie de création de GenHisDoc est également l'élément qui conditionne la réutilisation de certains jeux de données plutôt que d'autres en fonction de leurs ontologies de départ et de la forme technique que prend leurs annotations. De plus utiliser une ontologie trop complexe, qui demande également un support technique réduit la facilité de réutilisation des données produites.
+
+\subsection{Les ontologies appliquées aux documents historiques}
+
+Comme expliqué ci-dessus, AIkon utilise encore des modèles de détection avec une seule classe et une grande partie de notre travail était de tester la mise en place d'un modèle à la fois généraliste (supporte beaucoup de type de document) et multiclasse. Nous n'avons donc pas hérité d'une ontologie fixée plus t\^ot dans le projet. 
+
+\subsubsection{Les ontologies PAGE XML et ALTO XML}
+
+Bien qu'il s'agisse techniquement de schémas XML,  PAGE XML et ALTO embarquent une ontologie structurelle de la page et sont les standards de sortie des modèles de vision pour les institutions patrimoniales notamment par exemple pour les datasets PrimA utilisés pour les compétitions internationales comme l'ICPR ou ICDAR.
+
+Dans le détail, PAGE XML\footnote{S. Pletschacher, A. Antonacopoulos, \og The PAGE (Page Analysis and Ground-Truth Elements) Format Framework \fg, communication pour \textit{20th International Conference on Pattern Recognition (ICPR2010)} dans IEEE-CS Press,pp. 257-260, 2010 doi: \href{10.1109/ICPR.2010.72}{10.1109/ICPR.2010.72}}  (\textit{Page Analysis and Ground-Truth Elements}) est développé par le PRImA research lab de l'université Salford Manchester et repose sur une architecture hiérarchique. Son ontologie distingue d'abord de grandes régions de blocs (\textit{TextRegion}, \textit{ImageRegion}, \textit{MathsRegion}, \textit{SeparatorRegion}), qui peuvent elles-mêmes être subdivisées en lignes de texte, en mots, puis en glyphes individuels. PAGE XML associe à ses classes des coordonées géométriques pour des taches de segmentation et des métadonnées internes (langue, orientation, type d'écriture)
+
+De son côté, ALTO XML (\textit{Analyzed Layout and Text Object}) est un standard maintenue par le fiancement européen METAe Projet\footnote{Birgit Stehno, Alexander Egger, Gregor Retti, \og METAe—Automated Encoding of Digitized Texts, Literary and Linguistic Computing \fg , n°18, Vol 1, pp. 77–88, 2003 \href{https://doi.org/10.1093/llc/18.1.77}{https://doi.org/10.1093/llc/18.1.77}}. C'est un format souvent associté au format de métadonnées METS et est le standard privilégié par les grandes bibliothèques mondiales comme Gallica (BnF) ou la Biliothèque du Congrès. Il se concentre sur la description physique et logique de la page, structurant les blocs de texte, les illustrations et les espaces blancs grace à des coordonés en boites englobantes. 
+
+Cependant, si la richesse sémantique et structurelle de ces deux standards garantit une description exhaustive des documents historiques, elle présente une limite majeure dans le cadre technique de notre stage. Ces ontologies sont profondément imbriquées et hiérarchiques (avec parfois des fichiers qui coordonnent d'autres fichiers). Or, pour entraîner des architectures de détection d'objets rapides et efficaces comme les modèles YOLO utilisés par AIkon, les données d'entrée doivent idéalement reposer sur une ontologie \og plate \fg. Si certains projets ont les moyens d'utiliser des ontologies reposant sur des éléments techniques aussi complexes, nous nous en sommes détacher immédiatement. 
+
+
+\subsubsection{SegmOnto}
+
+
+Au début, nous nous somme inspiré de la proposition d'ontologie de base pour la description des documents historiques SegmOnto\footnote{Simon Gabay, Ariane Pinche, Kelly Christensen, Jean-Baptiste Camps, « SegmOnto : A controlled
+Vocabulary to Describe and Process Digital Facsimiles », dans Journal of data Mining and Digital Humanities, 2024, DOI : \href{10.46298/jdmdh.12689}{10.46298/jdmdh.12689}}. De SegmOnto nous avons gardé l'approche purement visuelle, mais pour des raisons de technique (privilégier une ontologie plate), de simplification à l'usage et également en raison de certaines taches réalisées sur Aikon comme le fait de pouvoir différencier entre les ornementations et les illustrations (reliés par GraphicZone dans SegmOnto). 
+
+\begin{table}[h]
+    \centering
+    \ra{1.2}
+    \caption{L'ontologie SegmOnto}
+    \label{tab:segmonto}
+    \begin{tabular}{l l}
+        \toprule           
+        \textbf{Classes SegmOnto} & \textbf{Définition} \\
+        \midrule
+        CustomZone & ... \\
+        DamageZone & Dégâts sur le document \\
+        digitisationArtefactZone & Dégâts sur l'image numérisée \\
+        DropCapitalZone & Lettrine \\
+        GraphicZone & Dessins, Illustration, Ornementation \\
+        MainZone & Texte principal au niveau de la page \\
+        MarginTextZone & Textes marginaux \\
+        MusicZone & Partitions \\
+        NumberingZone & Pagination \\
+        QuireMarksZone & Foliotation \\
+        RunningTitleZone & Titres courants \\
+        SealZone & Sceaux \\
+        StampZone & Estampilles \\
+        TableZone & Tables de données \\
+        TitlePageZone & Page de titre \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Nous avons donc décidé de nous limiter à un maximum de cinq classes en essayant de respecter cette volonté de décrire uniquement les éléments visuels sans les significations sous-jacente. Nous nous sommes donc inspiré du travail sur l'ontologie SegmOnto en appliquant quelques changements. Nous avons d'abord aplati l'ontologie pour respecter les besoins techniques des modèles YOLO. Nous avons également séparer l'élément \textit{GraphicZone} entre une classe \textit{Illustration} et \textit{Ornementation} récupéré de l'ontologie du dataset S-VED. 
+
+\section[Construire une ontologie d'annotation]{Construire une ontologie d'annotation : de la théorie à la pratique}
+
+Une ontologie aussi simple que la notre (seulement cinq classes) déporte la complexité du modèle de représentation des données vers la phase d'annotation manuelle. Il a donc fallu définir des règles strictes pour départager les éléments proches, fonctionnellement différents au sein des documents historiques. 
+
+\subsection{Définir les frontières sémantiques : le défi des cas limites}
+
+Le problème principal a résidé princpalement dans la distinction entre les éléments pouvant \^etre compris dans la classe \textit{Illustration} et les éléments à la frontière entre \textit{Illustration} et \textit{Ornementation}. Dans les manuscrits médiévaux comme dans les premiers imprimés, la frontière entre le décoratif et le figuratif est souvent poreuse. Nous avons fait le choix de nous baser sur le rapport au texte : une \textit{Illustration} possède une fonction sémantique ou didactique directe (elle illustre le propos), tandis que l'\textit{Ornementation} (comme les bandeaux, culs-de-lampe ou frises marginales) remplit une fonction purement esthétique ou structurelle de séparation.
+
+\begin{table}[h]
+    \centering
+    \ra{1.2}
+    \caption{L'ontologie de GenHisDoc}
+    \label{tab:segmonto}
+    \begin{tabular}{l l l}
+        \toprule           
+        \textbf{Label Yolo} & \textbf{Classes GenHisDoc} & \textbf{Définition} \\
+        \midrule
+        0 & Illustration & Visuel qui se réfère au texte \\
+        1 & Initial & Lettrine \\
+        2 & Ornament &  Visuel qui ne se réfère pas au texte \\
+        3 & Stamp & Estampille de bibliothèque \\ 
+        4 & Table & Données tabulaires \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+De la même manière, la classe \textit{Initial} (Lettrine) a nécessité des règles de délimitation claires. Une lettrine historiée (contenant une scène figurative) devait-elle être annotée comme une illustration ou une lettrine ? Pour maintenir la cohérence de l'apprentissage du modèle, nous avons décidé de prioriser la fonction typographique : tout caractère alphabétique agrandi marquant le début d'une section est étiqueté \textit{Initial}, indépendamment de sa richesse iconographique. Un autre élément pour les lettrines à été d'étudier tous les cas hybrides de lettres ou d'autres caractères typographiques comme le Pied-de-mouche (¶) qui peuvent \^etre confondu avec ce que nous voulons vraiment annoter. 
+
+La définition de la classe \textit{Table} a également été semé d'embuche. Contrairement aux documents contemporains où les données tabulaires sont généralement structurées par des grilles ou des lignes séparatrices explicites, les documents historiques s'appuient fréquemment sur des structures implicites (alignements par des espaces, listes structurées). Il a fallu déterminer à partir de quel degré de structuration spatiale un bloc de texte devient une \textit{Table}. Nous avons pris le parti de caractériser cette classe par la présence évidente d'une relation bidimensionnelle (lignes et colonnes) porteuse de sens, même en l'absence de traits tracés. Pour aider le modèle à repérer cette régularité spatiale, la consigne a été donnée d'englober l'intégralité de la structure logique de la table, incluant ses en-têtes de colonnes lorsqu'ils sont présents. Nous avons fait le choix d'ignorer la présence de toutes les tables d'organisation des documents comme les tables des matières, ou les indexes. 
+
+\subsection{Mettre en place l'ontologie : Écrire un guide d'annotation}
+
+Comme montré dans l'organigramme~\ref{fig:GenHisDoc}, la rédaction du guide d'annotation a été réalisé \textit{a posteri} du travail d'annotation et de correction. GenHisDoc n'étant qu'un teste pour une campagne d'annotation future, la construction de l'ontologie a été un processus itératif où nous avons d'abord annoté un volume de données pour chaque type de documents, puis un choix sur la manière dont l'ontologie doit \^etre construite, puis nous avons terminé avec une phase de correction pour remettre à jour les anciennes données avant l'entra\^inement des modèles. 
+
+Le but d'un guide d'annotation est d'offrir au modèle des données cohérentes gr\^ace à un fort accord inter-annotateur tant sur le plan géométrique (comment annoter) que sur les règles et les exceptions internes à chaque classes au sein du document. Pour Aikon, le guide d'annotation est également un document méthodologique permettant de garder une trace des règles, des expériences et des différentes exceptions que nous avons rencontrer durant la construction du jeu de données.
+
+Nous avons découpé le guide d'annotation en deux parties. La première est une partie de contexte, de définition de la tache et de grandes règles générales qui s'appliquent toutes les taches d'annotation.
+
+
+\subsubsection{Les règles générales}
+
+Les règles générales de cadrage établissent les exigences en matière de rigueur géométrique (comment tracer la bo\^ite englobante). Elles imposent notamment un ajustement au plus près des contours des objets (\textit{hug the border}), la séparation stricte d'éléments visuellement disjoints, ainsi qu'un principe empirique fondamental : l'interdiction d'annoter par déduction ce qui n'est pas directement visible à l'œil humain (\textit{annotate what is visible, not what you infer}). 
+
+
+Le but des règles générales est de maximiser l'accord inter-annotateur et donc de réduire le bruit lors de l'entra\^inement en évitant d'inclure trop d'arrière plan ou du texte environnant. 
+
+\subsubsection{Les règles ontologiques}
+
+D'autre part, la section consacrée aux définitions de classes (\textit{Class definition}) décline pour chaque étiquette (\textit{Illustration}, \textit{Ornament}, \textit{Initial}, \textit{Stamp}, \textit{Table}) une structure explicite en trois points :
+
+\begin{enumerate}
+    \item \textbf{Une description fonctionnelle :} rappelant le rôle sémantique et visuel de l'élément au sein de la page ;
+    \item \textbf{Des règles d'annotation précises :} fixant le périmètre exact de la boîte englobante ;
+    \item \textbf{Une analyse des cas limites (\textit{edge cases}) :} apportant une réponse systématique aux typologies complexes identifiées lors de la phase de test (comme les lettrines historiées, les encadrements ornés ou les éléments fragmentés).
+\end{enumerate}
+
+Outre la rigueur des définitions textuelles, l'usage systématique d'exemples visuels et la juxtaposition d'exemples concrets (cas validés versus erreurs à éviter) lève immédiatement les ambiguïtés. Le format de diffusion de ces consignes s'avère tout aussi déterminant que leur contenu. Pour maintenir un engagement fort et limiter les dérives d'annotation, un guide moderne ne doit pas être un document pdf, mais un dispositif dynamique et interactif. Les meilleures directives doivent \og captiver \fg  l'annotateur dès son intégration grâce à des modules de test ou des quiz d'évaluation, puis s'insérer directement au cœur de l'interface d'annotation pour permettre à l'utilisateur de cliquer sur une classe pour afficher instantanément ses cas limites, sans jamais quitter son espace de travail.
+
+
+
+
+

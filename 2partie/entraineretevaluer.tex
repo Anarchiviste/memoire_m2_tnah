@@ -1,0 +1,224 @@
+\chapter[Entraîner et évaluer]{Entraîner et évaluer un modèle.}
+
+\lettrine{A}{fin de valider} la rigueur de notre jeu de données et la pertinence de notre schéma d'annotation, l'aboutissement de ce travail réside dans la conversion de la vérité de terrain en une capacité d'inférence sur des corpus inédits. C'est en effet à travers l'épreuve de l'entraînement que la modélisation conceptuelle se traduit en un outil opérationnel pour l'analyse documentaire.
+
+Ce chapitre retrace l'ensemble du protocole expérimental, de l'entraînement à l'évaluation du modèle. Nous détaillerons d'abord la configuration des hyperparamètres, les derniers éléments sur lesquelles nous pouvons influencer pour améliorer l'efficacité ou  les performances d'un modèle. Nous analyserons ensuite les performances obtenues à l'aune des métriques de détection, en confrontant les indicateurs statistiques aux exigences concrètes du dépouillement historique. Enfin, nous étudierons les principales erreurs de prédiction afin de dégager des pistes d'amélioration ciblées, envisageant l'évaluation non comme un terme, mais comme le moteur d'une démarche itérative.
+
+\section{Hyperparamètres}
+
+Les hyperparamètres sont les variables de configuration fixées par l'expérimentateur avant le lancement de l'entraînement. Contrairement aux paramètres (les poids et biais du réseau de neurones), qui sont appris et ajustés automatiquement par rétropropagation du gradient, les hyperparamètres pilotent la dynamique de l'apprentissage et définissent le cadre dans lequel le modèle évolue.
+
+La performance d'un algorithme de vision par ordinateur vient de sa capacité à généraliser ses inférences sur des documents d'un type différent que ses documents d'entrainements. La capacité de généralisation désigne l'aptitude d'un modèle à maintenir de bonnes performances sur des images inédites, au-delà de son seul corpus d'apprentissage. À l'inverse, l'écueil principal de l'entraînement réside dans le surapprentissage (overfitting) : le réseau mémorise alors les bruits et spécificités propres aux données d'origine au lieu d'en extraire des caractéristiques visuelles réellement représentatives. Le controle des hyperparamètres conditionnent la capacité du réseau à extraire des caractéristiques visuelles abstraites, à gérer les variations d'échelle et à généraliser sur de nouvelles images sans tomber dans le surapprentissage.
+
+Les hyperparamètres structurants en vision par ordinateur s'articulent autour de quatre grands axes : 
+
+\begin{description}
+    \item[Dimensionnement de l'entrée et charge mémoire :]
+
+
+        \subitem \textbf{Taille de l'image :} Définit la résolution spatiale des images fournies au réseau (par exemple $640 \times 640$ pixels). Une résolution élevée est essentielle pour détecter des objets de petite taille ou préserver les détails fins d'une mise en page, mais elle augmente de manière quadratique l'empreinte en mémoire VRAM et les temps de calcul.  
+
+        \subitem \textbf{Taille de lot (Batch Size) :} Une taille de lot important ($32$ ou $64$ images) permet au modèle de dégager une tendance générale très stable, puisqu'il tire ses leçons d'un large échantillon d'un seul coup. À l'inverse, un lot réduit ($8$ ou $16$ images) oblige le modèle à s'ajuster plus fréquemment, sur la base de très peu d'exemples. Cet apprentissage, qui devient alors volontairement un peu plus instable, peut \^etre utiliser comme un garde-fou. Il empêche la machine de s'enfermer dans de fausses déductions par exemple, se convaincre qu'une tache d'humidité récurrente est une illustration. Traiter les images par petits groupes force le modèle à rester adaptable face à la grande hétérogénéité matérielle des documents.
+    
+        
+    \item[Optimisation et dynamique d'apprentissage :]
+
+    \subitem \textbf{Le taux d'apprentissage initial (Learning Rate - $lr$) :} Il détermine l'ampleur des corrections que le modèle s'applique à lui-même lorsqu'il se rend compte d'une erreur. 
+    
+    Un taux trop fort pousse le modèle à réagir de manière excessive. Techniquement on parle de \og divergence de la fonction de perte (loss function) \fg, dans les faits le modèle n'arrive plus à améliorer les variables discrètes de ses poids et n'arrive plus à progresser continuellement à cause de la volatilité de ses prédictions.
+
+    A l'inverse, un taux trop faible rend le modèle excessivement timide dans ses déductions et son apprentissage va alors stagner de manière prématurée. 
+
+    \subitem \textbf{La planification du taux d'apprentissage (LR Scheduler) :} Il adapte la cadence du modèle tout au long de son entraînement. Le réseau commence par apprendre rapidement pour dégager la structure globale des documents, puis réduit progressivement l'ampleur de ses corrections. Une volatilité haute au début lui permet de découvrir les documents, mais une volatilité basse en fin d'entrainement permet de consolider l'entrainement. 
+
+    \subitem \textbf{La décroissance des poids (Weight Decay) :} C'est une règle de modération qui empêche le modèle d'accorder une importance excessive à un détail visuel isolé. En appliquant une forme d'oublie progressif sur la mémoire du réseau, cette technique l'empêche de sur-interpréter les spécificités des données d'entraînement.
+
+    \item[L'augmentation artificielle des données :] En vision artificielle, la quantité et la diversité des données sont déterminantes. Les hyperparamètres d'augmentation génèrent des variations artificielles des images d'origine sans coût d'annotation supplémentaire. La plupart des librairies d'entra\^inement applique automatique des transformations comme des rotations, des translations, du cisaillement et des changements d'échelle dans les images, mais aussi des changments de saturation et de teintes. La librairie Yolo d'Ultralytics ajoute des transformations moins commune comme la juxtaposition de plusieurs images du dataset ensemble, la superposition avec divers niveaux de tansparence pour permettre au modèle de une meilleure généralisation sur des images avec une grande densité d'éléments à détecter.
+
+    \item[L'équilibrage des priorités de détection (Loss Balancing) :]
+
+    Lors d'une tache d'inférence, modèle doit réussir trois tâches en même temps : repérer où se trouve un élément, déterminer sa nature et ajuster ses contours. Ce paramètre permet de doser les priorités de la machine afin qu'elle ne néglige aucune de ces étapes.
+
+    \subitem \textbf{Le repérage de la zone (Box Loss $L_{box}$) :} Il évalue la capacité du modèle à placer son cadrage au bon endroit sur la page.
+
+    \subitem \textbf{L'identification de la catégorie (Class Loss $L_{cls}$) :} Il contrôle si le modèle attribue la bonne étiquette à ce qu'il vient de cadrer.
+
+    \subitem \textbf{La précision des bordures (DFL $(L_{dfl})$) :} Il s'assure du découpage des bords. C'est la finition qui permet au cadre de suivre les limites visuelles de l'objet à détecter m\^eme dans des cas difficiles (flou, chevauchement).
+
+
+\end{description}
+
+L'optimisation des hyperparamètres consiste à rechercher méthodiquement la meilleure combinaison de réglages pour maximiser les capacités du modèle. Dans un projet de vision artificielle documentaire, l'enjeu est d'éviter le surapprentissage en maintenant une bonne capacité de généralisation, rationaliser le temps de calcul (souvent limité sur les infrastructures de recherche), et surtout adapter correctement l'algorithme au corpus.
+
+\section{Évaluer les résultats de l'inférence}
+
+\subsection{Définir la méthodologie d'évaluation}
+
+\subsubsection{L'importance du découpage du jeu de données (Data Splitting)}
+
+La constitution d'un jeu de données repose sur la répartition des documents en trois sous-ensembles hermétiques : l'entraînement (train), la validation (val) et le test (test). Le premier sert à l'ajustement direct des poids du réseau, tandis que le second permet d'évaluer la progression au fil des époques et de guider l'ajustement des hyperparamètres. Le jeu de test, quant à lui, doit être mis de côté et rester inédit pour le modèle jusqu'à l'évaluation finale. Totalement isolé de la phase de développement, il empêche d'adapter implicitement la configuration du modèle aux spécificités de ce corpus d'évaluation. Cette séparation stricte constitue la seule garantie méthodologique d'une mesure objective de la capacité de généralisation de l'algorithme.
+
+Idéalement, Il faut séparer par manuscrit de source, et pas par échantillonnage : si le dataset contient des pages issues de plusieurs documents, il faut répartir des documents entiers entre train/val/test, jamais des pages individuelles d'un même document. Sinon, le modèle peut \og reconnaître \fg le style graphique, le papier, les motifs récurrents d'un manuscrit vu en entraînement, ce qui gonfle artificiellement les scores de test. C'est cependant ce qui a été fait pour l'évaluation des modèles entra\^inés sur GenHisDoc, la raison étant que nous y avons pensé après l'entra\^inement et nous n'avons pas eu le temps de reprendre cette erreur. 
+
+Il faut également tenter d'éviter la présence de casi-doublons entre le dataset d'entraînement et le dataset de test, certains jeux de données utilisés dans GenHisDoc possèdent beaucoup de casi-doublons comme S-VED ou Horae. La définition de casi-doublon est également très difficile à définir et mettre en place (Deux images peuvent appara\^itres similaire à un humain alors que cela n'handicape pas l'entra\^inement du modèle et vice-versa)
+
+\subsubsection{La représentativité de la distribution réelle}
+
+Normalement le jeu de test doit refléter les conditions d'usage réel du modèle, pas seulement la distribution du jeu d'entraînement :
+
+\begin{itemize}
+    \item \textbf{Diversité des sources :} avec les différentes périodes historiques, les différents types de documents, la présence de dégradation et de mauvaises numérisations.
+
+    \item \textbf{Diversité des classes :} toutes les catégories d'intérêt doivent être représentées en nombre suffisant, y compris les classes rares (voir le problème de la distribution à queue longue), un test dominé par la classe majoritaire masque les faiblesses sur les cas minoritaires.
+\end{itemize}
+
+Idéalement, la création du jeu de test doit être stratifier entre les classes, les types de documents, et idéalement la difficulté (la densité d'objets par pages). Avec plus de 8000 images, notre jeu de test $\text{fait} \approx 900$ images et plus de 1600 GT, ce qui est suffisant pour partir du principe que toutes les classes seront représentées. 
+
+\subsection{Résultats pour GenHisDoc}
+
+Il s'agit de jauger le compromis fondamental entre l'exhaustivité de la recherche (le Rappel) et la propreté des données restituées (la Précision). Pour apprécier cette progression en situation réelle, les résultats obtenus par notre modèle entraîné sur GenHisDoc sont directement confrontés à ceux du modèle historiquement déployé dans l'application Aikon, à l'aune des indicateurs statistiques détaillés dans le tableau~\ref{tab:GenHisDocYolo}.
+
+\subsubsection{Comprendre les métriques générales}
+
+\begin{table}[htbp]
+\centering
+\ra{1.25}
+\caption{Comparaison des résultats d'évaluation entre GenHisDoc et Aikon. GenHisDoc est un yolo 26 large entraîné sur le dataset GenHisDoc produit durant le stage. Aikon est un yolo 5 large entraîné d'abord sur les diagrammes puis finetuné pour détecter plus généralement toutes les illustrations. C'est le modèle qui équipe actuellement Aikon.}
+\begin{tabular}{lccc}
+\toprule
+ & \multicolumn{2}{c}{\textbf{GenHisDoc}} & \textbf{Aikon} \\
+\cmidrule(r){2-3} \cmidrule(l){4-4}
+\textbf{Métrique / Indicateur} & \textbf{Illustration} & \textbf{Toutes classes} & \textbf{Illustration} \\
+\midrule
+\multicolumn{4}{l}{\textit{Données de test et Détection}} \\
+\hspace{1em} Fichiers traités & 876 & 876 & 876 \\
+\hspace{1em} Nombre total de GT & 558 & 1659 & 558 \\
+\hspace{1em} IoU Moyen (Détections) & 0,9033 & 0,8595 & 0,8762 \\
+\midrule
+\multicolumn{4}{l}{\textit{Performance globale}} \\
+\hspace{1em} AP@50 (mAP@50) & \textbf{ 0,8787 (87,87\%)} & 0,8404 (84,04\%) & 0,4815 (48,15\%) \\
+\midrule
+\multicolumn{4}{l}{\textit{Métriques au seuil fixe ($\ge$ 0,25)}} \\
+\hspace{1em} Vrais Positifs (TP) & 501 & 1448 & 355 \\
+\hspace{1em} Faux Positifs (FP) & 80 & 261 & 208 \\
+\hspace{1em} Faux Négatifs (FN) & 57 & 211 & 203 \\
+\hspace{1em} Précision & 0,8623 & 0,8473 & 0,6306 \\
+\hspace{1em} Rappel (Recall) & 0,8978 & 0,8728 & 0,6362 \\
+\hspace{1em} Score F1 & \textbf{0,8797} & 0,8599 & 0,6334 \\
+\bottomrule
+\end{tabular}
+\label{tab:GenHisDocYolo}
+\end{table}
+
+Les résultats témoignent d'un niveau de performance élevé et homogène du modèle GenHisDoc, aussi bien sur la classe Illustration que sur l'ensemble des classes du schéma d'annotation. Le score AP@50 atteint 87,87\% pour la seule classe Illustration et se maintient à un niveau comparable (84,04\%) lorsque l'ensemble des classes est pris en compte, malgré un volume de vérité terrain nettement supérieur (1659 occurrences contre 558) et donc une tâche de discrimination plus exigeante. Cette stabilité suggère que le modèle ne doit pas sa performance à une spécialisation étroite sur un type d'objet visuel particulier, mais généralise correctement à la diversité des éléments à détecter dans les documents historiques. La précision et le rappel restent tous deux élevés et proches l'un de l'autre, tant pour la classe Illustration (0,8623 et 0,8978) que toutes classes confondues (0,8473 et 0,8728), ce qui traduit un compromis équilibré entre exhaustivité de la détection et propreté des résultats restitués, plutôt qu'une optimisation d'une métrique au détriment de l'autre. Les scores F1 qui en résultent (0,8797 et 0,8599 respectivement) confirment la robustesse de cet équilibre.
+
+L'IoU moyen des détections, supérieur à 0,85 dans les deux configurations et atteignant 0,9033 sur la seule classe Illustration, indique par ailleurs une bonne qualité de localisation des boîtes englobantes, et non une simple justesse de classification : les objets détectés le sont avec un niveau de précision spatiale élevé, ce qui est particulièrement important pour des applications downstream comme l'extraction ou le recadrage automatique d'illustrations. Enfin, si la comparaison avec le modèle Aikon actuellement en production sort du cadre de cette seule analyse, la possibilité d'une évaluation strictement monoclasse (Illustration contre Illustration) constitue un point méthodologique notable, dans la mesure où elle permet d'isoler la contribution du nouveau modèle et du dataset GenHisDoc indépendamment de la question du périmètre des classes détectées.
+
+\subsubsection{Comprendre les métriques par classes}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth, height=8cm, keepaspectratio]{img/BoxF1_curve.png}
+        \caption{Score F1}
+        \label{fig:f1score}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth, height=8cm, keepaspectratio]{img/confusion_matrix_normalized.png}
+        \caption{Matrice de confusion normalisée}
+        \label{fig:confusionmatrix}
+    \end{subfigure}
+    \label{fig:confusionF1}
+    \caption{Représentation des scores F1 et de la matrice de confusion normalisée des classes du modèle entrainé sur GenHisDoc.}
+\end{figure}
+
+    \textbf{Le score F1 par classes :}
+    \begin{itemize}
+        \item \textbf{Stamp} (rouge) est la classe la plus performante, avec un plateau proche de 0,95 sur une plage de confiance très large (jusqu'à ~0,7). Ce résultat est logique car c'est un objet visuellement homogène et facile à discriminer (formes régulières, contrastes marqués).
+        
+        \item \textbf{Illustration} (bleu) et \textbf{Table} (violet) se comportent bien, autour de 0,88-0,92, avec un comportement proche de l'agrégat global. L'efficacité de détection des tables est l'une des plus grandes surprises du stage. Avant les résultats, il nous semblait que c'était la classe la moins bien définie, cependant l'homogénéité des annotations de tables semble permettre au modèle de réussir à correctement les discriminer. 
+
+        \item \textbf{Initial} (orange) est en retrait, autour de 0,85-0,87, avec une chute qui démarre plus tôt (vers 0,6) que les autres classes. Le modèle semble moins confiant sur cette catégorie, peut-être en raison d'une variabilité visuelle plus grande (lettrines historiques très diverses en style), une règle d'annotation pas assez précise du coté de l'annotateur, ou simplement la présence d'éléments parasites comme les pieds de mouche (Pilcrow, ¶).
+
+        \item \textbf{Ornament} (vert) est la classe la plus faible, plafonnant à environ 0,80 et avec une pente de chute qui démarre dès 0,5-0,6 de confiance. Ceci pointe une classe plus difficile à détecter/discriminer, ce qui est probablement due à une grande variabilité intra-classe (les ornements historiques prennent des formes très hétérogènes). 
+    \end{itemize}
+
+\textbf{La matrice de confusion normalisée :}
+
+Chaque colonne correspond à une classe réelle (\textit{True}), elle répartit le devenir de tous les objets réels de cette classe entre les différentes prédictions possibles. La ligne \og background \fg en bas indique la proportion d'objets réels manqués (faux négatifs, prédits comme absence d'objet). La colonne \og background \fg~ à droite fonctionne différemment : elle répartit l'ensemble des fausses détections (prédictions sans objet réel correspondant, faux positifs) entre les classes prédites à tort.
+
+\begin{table}[h]
+    \centering
+    \ra{1.25}
+    \begin{tabular}{cccc}
+    \toprule
+    \textbf{Classe} & \textbf{Bien Détecté} & \textbf{Manqué} (FN -> Background)\\
+    \midrule
+    Stamp & 0.97 & 0.03 \\
+    Illustration & 0,96 & 0,04 \\
+    Table	& 0,92	 & 0,08 \\
+    Initial & 0,90 & 0,10 \\
+    \textbf{Ornament} & \textbf{0,86} & \textbf{0,11 (+ 0,03 mal classé)}\\
+    \bottomrule
+    \end{tabular}
+    \label{tab:matrice}
+\end{table}
+
+Ornament est bien la classe la plus fragile, avec le taux de rappel le plus faible et, seule classe à afficher des confusions inter-classes non négligeables : 2\% des Ornament réels sont prédits comme Illustration, 1\% comme Initial. Cette confusion est cohérente d'un point de vue codicologique : les ornements peuvent visuellement se rapprocher de motifs décoratifs d'illustrations ou de lettrines historiées, ce qui explique la porosité de la frontière entre ces catégories pour le modèle.
+
+Grâce à la matrice de confusion, on apprend que la classe Ornament concentre à elle seule 43\% (contre 28\% pour Initial, 20\% pour Illustration, 6\% pour Table et seulement 4\% pour Stamp) de toutes les fausses détections du modèle. Autrement dit, quand le modèle \og hallucine \fg un objet qui n'existe pas, c'est souvent un Ornament.
+
+\section{Pistes d'amélioration}
+
+
+Les premiers résultats obtenus sur GenHisDoc, aussi encourageants soient-ils dans l'ensemble, mettent en évidence certaines limites qu'il convient d'interroger avant d'envisager une simple poursuite de l'entraînement. Nous devons reconsidérer en partie, au-delà du seul réglage technique du modèle, la pertinence des choix méthodologiques opérés en amont, qu'il s'agisse de la constitution du corpus, de la définition des classes, ou de l'adéquation de l'approche retenue avec les besoins spécifiques de l'analyse de documents historiques. C'est cette mise en tension entre résultats observés et choix initiaux qui doit guider la définition des axes d'amélioration à privilégier.
+
+Nous détaillons dans cette section les différentes approches testées ainsi que leurs résultats respectifs.
+
+\subsection{Modifier les hyperparamètres}
+
+Le réglage des hyperparamètres constitue le levier d'amélioration le plus immédiat, dans la mesure où il n'implique de revenir ni sur les annotations ni sur la définition des classes : il s'agit d'optimiser la manière dont le modèle apprend. Cet axe est aussi celui pour lequel les courbes de perte et de convergence, déjà présentées, offrent le diagnostic le plus direct, en révélant d'éventuels signes de sous-apprentissage, de surapprentissage, ou une durée d'entraînement mal calibrée.
+
+Les modèles que nous avons entraînés sur GenHisDoc obéissaient tous aux mêmes hyperparamètres (640x640 en taille d'image, 100 epochs d'entrainements, param\^etre par défaut pour le reste des hyperparamètres). 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/loss.png}
+    \caption{Comparaison des pertes d'entraînement et de validation (box loss et classification loss).}
+    \label{fig:losses}
+\end{figure}
+
+L'examen conjoint des pertes d'entraînement et de validation (figure~\ref{fig:losses}) constitue le point le plus instructif du point de vue du réglage des hyperparamètres. Si les deux courbes décroissent de concert jusqu'à environ l'époque 60, un écart croissant apparaît ensuite entre la perte de classification d'entraînement, qui continue de chuter fortement, et son homologue de validation, qui se stabilise puis stagne autour de 0,5 à partir de l'époque 70 : ce découplage constitue un indice classique de début de surapprentissage, contenu néanmoins par le fait que les métriques de validation (précision, rappel, mAP@50, mAP@50-95) n'accusent pas de dégradation correspondante et se maintiennent sur un plateau élevé entre les époques 70 et 100. Le plateau atteint dès l'époque 70 pour le mAP@50 (~0,91) et la poursuite d'une lente progression du mAP@50-95 (de 0,69 à 0,70) jusqu'à l'époque 72-83 indique que la durée d'entraînement de 100 époques était globalement bien calibrée, sans marge de progression significative résiduelle, et qu'un arrêt anticipé (early stopping) autour de l'époque 70-80 aurait vraisemblablement permis d'obtenir des performances quasi identiques à un coût de calcul moindre.
+
+\subsection{Mettre en place une meilleure méthodologie d'évaluation}
+
+La pertinence des indicateurs statistiques présentés précédemment dépend directement de la rigueur avec laquelle le jeu de données d'évaluation est constitué.
+
+Corriger les biais méthodologiques que nous avons identifiés précédemment, afin d'obtenir un jeu de test et de validation parfaitement sain est un enjeu pour l'évolution du projet. Un découpage strict, opéré par manuscrits distincts et expurgé de tout quasi-doublon, permet d'abord d'obtenir des métriques beaucoup plus précises et réalistes quant aux performances de l'algorithme en conditions réelles de dépouillement. L'analyse de ces erreurs, désormais non biaisées par des fuites de données, fournit à la sortie des informations précieuses pour cibler les corrections à apporter (ajustement de l'ontologie, ajout de documents spécifiques pour combler un manque, modification des hyperparamètres). L'évaluation ne s'apparente plus alors à un simple constat, mais devient un véritable levier d'amélioration continue.
+
+\subsection{Modifier et faire évoluer les annotations}
+
+Modifier et enrichir les données au sein d'un corpus d'apprentissage constitue souvent le levier le plus déterminant pour faire progresser les performances d'un modèle de vision. C'est toutefois l'un des plus coûteux en temps et en ressources humaines, puisqu'il implique de revenir sur des phases d'annotation manuelle.
+
+\begin{description}
+    \item[La correction et la purification des annotations :] Un examen qualitatif des prédictions erronées peut révélé une insuffisance de la vérité de terrain. Par exemple dans le cas de GenHisDoc, reprendre les annotations de la classe \textit{Ornement} pour les préciser géométriquement et les corriger ontologiquement pourrait permettre une amélioration des modèles.
+
+    \item[Changer les guidelines d'annotations :] Garder les mêmes classes tout en précisant la manière dont les documents doivent être découpés. En uniformisant ces règles de saisie, on réduit drastiquement la variabilité intra-classe. Le modèle bénéficie alors d'une plus grande cohérence géométrique dans ses exemples, ce qui améliore directement sa capacité à bien dimensionner ses cadres.
+
+    \item[Améliorer la représentativité des classes :] Ce n'est pas un problème qui concerne GenHisDoc (où les volumes d'annotations suffisent à garantir un bon équilibre), mais régler le problème de la distribution des classes peut avoir un effet bénéfique sur l'entrainement d'un modèle.
+\end{description}
+
+\subsection{Transformer l'ontologie}
+
+La dernière solution, et la plus couteuse car cela revient à jeter la plupart du travail d'annotation produit, de remanier en profondeur la vérité de terrain et de reprendre les guides d'annotations.  
+
+\begin{description}
+    \item[La simplification par fusion (Regroupement) :] C'est l'approche la moins destructrice pour le dataset. Si l'objectif final est la simple extraction de zones décorées, fusionner \textit{Ornament} et \textit{Illustration} en une méta-classe supprimerait mécaniquement la confusion inter-classes et ferait chuter le taux de faux positifs. Les annotations existantes sont conservées, on modifie seulement leur étiquette, mais on sacrifie en retour la granularité de l'analyse historique. 
+
+    \item[La complexification par scission (Sous-spécialisation) :] À l'inverse, si nous exigeons une plus grande précision, il faut scinder les catégories confondues. Cela implique de remplacer \textit{Ornament} par des classes visuellement plus cohérentes. C'est ici que le coût est maximal : cette approche oblige l'équipe de recherche à rouvrir des milliers de documents annotés pour re-classifier, redessiner ou supprimer les boîtes existantes en fonction des nouveaux critères.
+\end{description}
+
+Dans le cadre de GenHisDoc, l'une des modification d'ontologie pertinente pour améliorer l'efficacité du modèle sur les ornementations serait de peut être séparer les éléments manuscrits et les éléments imprimés. Si nous voulons pouvoir réintégré des éléments de presse dans GenHisDoc, une refonte encore plus profonde de l'ontologie que nous avons utiliser devrait \^etre considérée. 
