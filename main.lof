@@ -1,0 +1,46 @@
+\babel@toc {french}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces Organisation du projet de stage et structuration des corpus dans GenHisDoc}}{xx}{figure.caption.24}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Application d'une segmentation Felzenszwalb à une page d'un livre d'heure du dataset Horae LSv2. Premièrement avec une segmentation fine avec un seuil de tolérance bas (k=300), et un seuil de tolérance haut (k=600). Le seuil de tolérance détermine à quel point deux zones voisines doivent être différentes pour que l'algorithme refuse de les fusionner et décide de tracer une frontière entre elles.}}{8}{figure.caption.43}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Testes d'évaluation de \textit {Sonnet 5 Moyen} en \textit {Zero-shot} avec les résultats disponibles à l'annexe~\ref {anx:prompt} }}{13}{figure.caption.66}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Exemple de différence entre l'analyse de mise en page et la simple détection d'éléments dans la page.}}{17}{figure.caption.76}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Deux pages du dataset S-VED (2022) représentant les quatre classes du vocabulaire de description du document.}}{22}{figure.caption.87}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Le paradigme \textit {Human in the Loop} dans le projet AIKON}}{30}{figure.caption.102}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Deux exemples de la diversité documentaire au sein des témoins analysés sur AIKON.}}{54}{figure.caption.149}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Exemple de boîtes englobantes d'illustrations détectées sur AIKON au format YOLO.}}{56}{figure.caption.153}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Exemple d'une page et de son masque de segmentation par pixels issus du jeu de données IlluHisDoc.}}{58}{figure.caption.156}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Pipeline des tâches et conversion de formats pour l'utilisation de Label Studio.}}{59}{figure.caption.159}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Distribution des annotations par classe dans le dataset GenHisDoc.}}{60}{figure.caption.163}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Représentation des scores $F_1$ et de la matrice de confusion normalisée des classes du modèle entraîné sur GenHisDoc.}}{67}{figure.caption.174}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Comparaison des pertes d'entraînement et de validation (\textit {box loss} et \textit {classification loss}).}}{70}{figure.caption.178}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Représentation des scores F1 et de la matrice de confusion normalisée des classes du YOLOV26 Large entrainé sur GenHisDoc.}}{81}{figure.caption.189}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Représentation des scores F1 et de la matrice de confusion normalisée des classes du YOLOV8 Large entrainé sur GenHisDoc.}}{81}{figure.caption.191}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Hug the border of the object as tightly as possible.}}{87}{figure.caption.202}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Separate element that are not visualy linked}}{88}{figure.caption.204}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Avoid item overlap between classes}}{88}{figure.caption.206}%
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Annotate only the main page}}{89}{figure.caption.208}%
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Annotate what is visible, not what you infer}}{90}{figure.caption.210}%
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Illustrations examples}}{91}{figure.caption.215}%
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Edgcases for illustrations}}{92}{figure.caption.217}%
+\contentsline {figure}{\numberline {C.8}{\ignorespaces A printer's mark on a title page}}{93}{figure.caption.219}%
+\contentsline {figure}{\numberline {C.9}{\ignorespaces Illustrations and ornaments relationships}}{93}{figure.caption.220}%
+\contentsline {figure}{\numberline {C.10}{\ignorespaces ornaments examples}}{95}{figure.caption.224}%
+\contentsline {figure}{\numberline {C.11}{\ignorespaces Example of initials}}{96}{figure.caption.227}%
+\contentsline {figure}{\numberline {C.12}{\ignorespaces Example of stamps and library labels}}{98}{figure.caption.231}%
+\contentsline {figure}{\numberline {C.13}{\ignorespaces Example of tables}}{101}{figure.caption.236}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces résultats pour \textit {Claude Sonnet 5 Moyen}}}{104}{figure.caption.238}%
+\contentsline {figure}{\numberline {D.2}{\ignorespaces résultats pour \textit {GPT-5.6 Luna}}}{105}{figure.caption.239}%
+\contentsline {figure}{\numberline {D.3}{\ignorespaces résultats pour \textit {Gemini Flash}}}{106}{figure.caption.240}%

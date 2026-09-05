@@ -32,9 +32,9 @@
 
 \usepackage[style=enc,sorting=nyt,maxbibnames=10]{biblatex}%charger le style de l'EnC (téléchargeable ici https://ctan.org/pkg/biblatex-enc)
 
-\addbibresource{./bibliographies/HumanitesNumeriques.bib}
-\addbibresource{./bibliographies/MachineLearning.bib}
-\addbibresource{./bibliographies/Ontologie.bib}
+\addbibresource{bibliographies/HumanitesNumeriques.bib}
+\addbibresource{bibliographies/MachineLearning.bib}
+\addbibresource{bibliographies/Ontologie.bib}
 %\defbibheading{}{\subsection*{}} Si l'on veut changer le titre de la/les bibliographie(s)
 
 
@@ -77,9 +77,24 @@
 %set up new env for left, right and center para
 \usepackage{ragged2e}
 
+%pour intégrer du code et du texte
+\usepackage{listings}
+
+%création d'un environnement pour le json
+\lstdefinelanguage{json}{
+	string=[s]{"}{"},
+	comment=[l]{://},
+	morestring=[b]",
+	sensitive=true,
+	label={s}
+}
+
 % New env for tables
 \usepackage{booktabs}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+
+% Pour plus d'options de mise en page avec des images
+\usepackage{float}
 
 %%%%%% Graphic library %%%%%%
 % =============================================================== %
@@ -286,11 +301,13 @@
 
 	\chapter{Résumé}
 \medskip
-		Résumé du mémoire en français. Cette page ne doit pas dépasser une page.
+		Ce mémoire interroge la manière dont les choix opérés lors de la \og mise en données \fg des sources historiques conditionnent l'efficacité des modèles d'apprentissage profond appliqués à la vision par ordinateur. Il s'agit de comprendre comment les décisions prises en amont par l'expérimentateur, comme la sélection du corpus, modélisation de l'ontologie, protocole d'annotation, déterminent la capacité de la machine à produire des connaissances réellement exploitables par l'historien.
+		
+		Pour répondre à cette question, ce travail parcourt l'ensemble de la chaîne de production algorithmique. Une première partie retrace l'histoire de la rencontre entre sciences informatiques et sciences historiques, de la numérisation des collections jusqu'aux modèles multimodaux actuels, et montre que l'application de la vision artificielle aux documents anciens relève moins de la performance algorithmique que de la structuration rigoureuse des données et de l'adoption de standards ouverts et interopérables (IIIF), incarnés notamment par la plateforme AIKON. Une seconde partie détaille la construction d'une ontologie d'annotation adaptée aux contraintes des modèles YOLO, l'élaboration du jeu de données GenHisDoc à partir de corpus existants et de projets au sein d'AIKON, ainsi que le protocole d'entraînement et d'évaluation des modèles, dont les résultats sont discutés à l'aune de leur validité pour la recherche historique.
 	
-	\textbf{Mots-clés:} une liste de mots-clés~; séparés par des points-virgules.
+	\textbf{Mots-clés:} vision par ordinateur ; apprentissage profond ; humanités numériques ; ontologie ; IIIF ; documents historiques.
 	
-	\textbf{Informations bibliographiques:} Prénom Nom, \textit{Titre du mémoire. Sous-titre du mémoire}, mémoire de master \enquote{Technologies numériques appliquées à l'histoire}, dir. [Noms des directeurs.trices], École nationale des chartes, 20245.
+	\textbf{Informations bibliographiques:} Jules Musquin, \textit{Préparer une campagne d'annotation experte avec le projet Aikon. Comprendre et évaluer l'utilisation de la vision artificielle dans le domaine des sciences historiques}, mémoire de master \enquote{Technologies numériques appliquées à l'histoire}, dir. [Bertrand Duménieu], École nationale des chartes, 2026.
 	
 	\newpage{\pagestyle{empty}\cleardoublepage}
 
@@ -302,21 +319,27 @@
 \section*{Remerciements}
 \addcontentsline{toc}{section}{Remerciements}
 
-\lettrine{{M}}{es remerciements} vont tout d'abord à\dots
+\lettrine{{M}}{es remerciements} vont tout d'abord à mon directeur, Bertrand Duménieu, pour ses conseils précieux tout au long de la rédaction de ce mémoire. Je remercie chaleureusement Ségolène Albouy et Paul Kervegant pour le rôle de tuteurs qu'iels ont joué lors de ce stage, ainsi que pour leur bienveillance et leur implication, qui m'ont permis de concevoir ce mémoire dans les meilleures conditions possibles. Je remercie également Mathieu Aubry pour la confiance qu'il m'a accordée, ses efforts constants pour m'aider au mieux, ainsi que l'ensemble de l'équipe du laboratoire IMAGINE pour son accueil.
+
+Je veux également remercier tous mes ami\pmm es que je me suis faits durant ces deux années, à l'intérieur et à l'extérieur du master TNAH. 
+
 	\newpage{\pagestyle{empty}\cleardoublepage}
 	
 %%%%%%%%%%%% \bibliographie ici (normes de l'EnC)
 \addcontentsline{toc}{section}{Bibliographies}
 
-\nocite{*}
+\nocite{*} % Chargement global de toutes les références du fichier .bib
+
 \printbibliography[keyword={hn}, title={Humanités numériques}]
 \chaptermark{Bibliographie --- Sujet : Humanités Numériques}
 
-\nocite{*}
+\clearpage % Facultatif mais propre pour séparer les chapitres/sections
+
 \printbibliography[keyword={ml}, title={Machine Learning}]
 \chaptermark{Bibliographie --- Sujet : Machine Learning}
 
-\nocite{*}
+\clearpage
+
 \printbibliography[keyword={ont}, title={Ontologies}]
 \chaptermark{Bibliographie --- Sujet : Ontologies}
 
@@ -359,9 +382,101 @@
 
 \input{annexes.tex}
 
-\chapter{Data Labelling Guideline}
-\label{chap:guideline}
-\input{./Guidelines/guideline.tex}
+\chapter[Annexes : Expériences]{Expérience : Évaluation des capacités d'annotation de \gls{vlm} en \textit{zero shot}}
+
+L'objectif de cette expérience était d'évaluer rapidement les capacités de ces nouvelles technologies afin d'en identifier clairement les forces et les limites. Pour ce faire, le prompt ci-dessous a été utilisé pour comparer et analyser les réponses de trois \gls{vlm} différents dans des conditions identiques.
+
+\begin{quote}
+	
+	\textit{Je fais une expérience sur les VLM et leur capacité à annoter des images historiques en zero-shot / few-shot.}
+	
+	\textit{Les classes à détecter sont :}
+	
+	\begin{itemize}
+		\item \textit{Illustrations (imprimés et manuscrites)}
+		
+		\item \textit{lettrines}
+		
+		\item \textit{estampilles de bibliothèques}
+		
+		\item \textit{ornementations}
+		
+		\item \textit{tables (tableaux numériques)}
+	\end{itemize}
+	
+	\textit{Voici une image d'un livre imprimé historique, produis soit un fichier txt avec les coordonnées yolo des classes que tu détectes, soit un masque de segmentation par pixel qui segmente les classes que tu détectes.}
+	\label{anx:prompt}	
+\end{quote}
+
+\begin{figure}[h]
+	\centering
+	\caption{résultats pour \textit{Claude Sonnet 5 Moyen}}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[height=5.5cm]{img/illustrationsonnet5zeroshot.jpg}
+		\caption{Tache de détection d'illustration sur une image du jeu S-VED}
+		
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[height=5.5cm]{img/lettrinesonnet5zeroshot.jpg}
+		\caption{Tache de détection de lettrine sur une image du jeu Horae}
+	\end{subfigure}
+	
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[height=6cm]{img/multiclassesonnet5zeroshot.jpg}
+		\caption{Tache de détection multiclasse sur une image du jeu Horae. On notera que le modèle applique la classe \textit{table} au calendrier.}
+	\end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\caption{résultats pour \textit{GPT-5.6 Luna}}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[height=5.5cm]{img/chatgpt1.png}
+		\caption{Tache de détection d'illustration sur une image du jeu S-VED}
+		
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[height=5.5cm]{img/chatgpt3.png}
+		\caption{Tache de détection de lettrine sur une image du jeu Horae. Les boîtes englobantes des lettrines sont insufissantes et le modèle détecte le texte comme une illustration.}
+	\end{subfigure}
+	
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[height=6cm]{img/chatgpt2.png}
+		\caption{Tache de détection multiclasse sur une image du jeu Horae. Ici le modèle se débrouille très bien et est proche de la qualité d'un annotateur humain.}
+	\end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\caption{résultats pour \textit{Gemini Flash}}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[height=5.5cm]{img/geminitest1.jpeg}
+		\caption{Tache de détection d'illustration sur une image du jeu S-VED}
+		
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[height=5.5cm]{img/geminitest3.png}
+		\caption{Tache de détection de lettrine sur une image du jeu Horae. Les boîtes englobantes des lettrines sont insufissantes et le modèle détecte le texte comme une illustration.}
+	\end{subfigure}
+	
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[height=6cm]{img/geminitest2.jpeg}
+		\caption{Tache de détection multiclasse sur une image du jeu Horae. Ici le modèle se débrouille très bien et est proche de la qualité d'un annotateur humain.}
+	\end{subfigure}
+\end{figure}
+
 
 
 \newpage{\pagestyle{empty}\cleardoublepage}
@@ -371,5 +486,9 @@
 \backmatter % glossaire, index, table des figures, table des matières.. (la bibliographie a déjà été appelée)
 
 \printglossary[type=\acronymtype, title={Glossaire des acronymes}, style=mcolindex]
+
+\listoffigures
+
+\listoftables
 
 \end{document}

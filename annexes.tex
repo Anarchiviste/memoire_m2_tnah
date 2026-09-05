@@ -1,23 +1,113 @@
-\chapter{Rendu Technique : GenHisDoc Dataset}
+\chapter[Annexes : Code]{Rendus Techniques : réalisations informatiques}
 
-\chapter{Évaluation des capacités d'annotation de \gls{vlm} en \textit{zero shot}}
+\section{GenHisDoc et ses modèles}
+
+ Le jeu de données final est disponible sur \href{https://huggingface.co/datasets/Anarchiviste/GenHisDoc_dataset}{Huggin Face} et contient les images (demande d'utiliser git lfs pull après avoir cloné), les annotations, les scripts de génération du split entre un jeu train, val et test, un notebook jupyter d'entrainement de modèle, le csv qui retrace l'origine de chaques images ainsi qu'un générateur html de présentation du jeu de données. 
+
+ La version de travail est encore disponible sur \href{https://github.com/Anarchiviste/GenHisDoc_Lab}{GitHub} avec en son sein de la documentation interne à la méthodologie de réannotation. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.9]{img/distribution.png}
+\end{figure}
+
+\section{Description des modèles entraînés}
+
+ Le dépôt \href{https://huggingface.co/Anarchiviste/GenHisDoc_model}{Huggin Face} contient deux modèles entraînés durant le stage (GenHisDoc YOLOV26 et YOLOV8) ainsi que les modèles YOLOV5 déployés sur AIKON. On y trouve un script pour faire tourner des inférences, un script pour générer des métriques suite à l'inférence et un script pour filtrer uniquement les illustrations (pour pouvoir comparer à AIKON qui est monoclasse)
+
+\subsection{GenHisDoc YOLOv26L}
+
+Algorithme : YOLOv26 Large 
+
+Nombre d'époques : 100 
+
+Taille du batch : 8 
+
+Taille images: 640x640
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.48\textwidth}
+		\centering
+		\includegraphics[width=\linewidth, height=8cm, keepaspectratio]{img/BoxF1_curve.png}
+		\caption{Score F1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.48\textwidth}
+		\centering
+		\includegraphics[width=\linewidth, height=8cm, keepaspectratio]{img/confusion_matrix_normalized.png}
+		\caption{Matrice de confusion normalisée}
+	\end{subfigure}
+	\caption{Représentation des scores F1 et de la matrice de confusion normalisée des classes du YOLOV26 Large entrainé sur GenHisDoc.}
+\end{figure}
+
+\subsection{GenHisDoc YOLOV8L}
+
+Algorithme : YOLOv8 Large 
+
+Nombre d'époques : 100 
+
+Taille du batch : 8 
+
+Taille images: 640x640
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.48\textwidth}
+		\centering
+		\includegraphics[width=\linewidth, height=8cm, keepaspectratio]{img/F1V8.png}
+		\caption{Score F1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.48\textwidth}
+		\centering
+		\includegraphics[width=\linewidth, height=8cm, keepaspectratio]{img/CONFUSIONV8.png}
+		\caption{Matrice de confusion normalisée}
+	\end{subfigure}
+	\caption{Représentation des scores F1 et de la matrice de confusion normalisée des classes du YOLOV8 Large entrainé sur GenHisDoc.}
+\end{figure}
+
+\subsection[Benchmark Aikon]{Benchmark du YOLOV5 \og Illustation \fg{} d'AIKON sur GenHisDoc Test}
+
+\begin{table}[H]
+	\centering
+	\ra{1.25}
+	\caption{Comparaison des résultats d'évaluation entre GenHisDoc YOLOV26 Large et Aikon YOLOV5 Large}
+	\begin{tabular}{lccc}
+		\toprule
+		& \multicolumn{2}{c}{\textbf{GenHisDoc}} & \textbf{Aikon} \\
+		\cmidrule(r){2-3} \cmidrule(l){4-4}
+		\textbf{Métrique / Indicateur} & \textbf{Illustration} & \textbf{Toutes classes} & \textbf{Illustration} \\
+		\midrule
+		\multicolumn{4}{l}{\textit{Données de test et Détection}} \\
+		\hspace{1em} Fichiers traités & 876 & 876 & 876 \\
+		\hspace{1em} Nombre total de GT & 558 & 1659 & 558 \\
+		\hspace{1em} IoU Moyen (Détections) & 0,9033 & 0,8595 & 0,8762 \\
+		\midrule
+		\multicolumn{4}{l}{\textit{Performance globale}} \\
+		\hspace{1em} AP@50 (mAP@50) & \textbf{0,8787 (87,87\%)} & 0,8404 (84,04\%) & 0,4815 (48,15\%) \\
+		\midrule
+		\multicolumn{4}{l}{\textit{Métriques au seuil fixe ($\ge$ 0,25)}} \\
+		\hspace{1em} Vrais Positifs (TP) & 501 & 1448 & 355 \\
+		\hspace{1em} Faux Positifs (FP) & 80 & 261 & 208 \\
+		\hspace{1em} Faux Négatifs (FN) & 57 & 211 & 203 \\
+		\hspace{1em} Précision & 0,8623 & 0,8473 & 0,6306 \\
+		\hspace{1em} Rappel (Recall) & 0,8978 & 0,8728 & 0,6362 \\
+		\hspace{1em} Score F1 & \textbf{0,8797} & 0,8599 & 0,6334 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\section{Aikoncli}
+
+Le dépot \href{https://github.com/Anarchiviste/aikoncli/tree/main}{GitHub} contient le code d'Aikon CLI. C'est un petit outil en ligne de commande conçu pour télécharger des images et des annotations de boîtes englobantes (bounding boxes) connectées à un serveur d'annotations IIIF Aikon. Le format de sortie suit le système d'annotation de style YOLO, s'organisant autour de deux répertoires distincts (images et labels) contenant des paires de fichiers associés (par exemple, 1.jpg et 1.txt).
 
 
-\begin{quote}
-
-\textit{Je fais une expérience sur les VLM et leur capacité à annoter des images historiques en zero-shot / few-shot.}
-
-\textit{Les classes à détecter sont :}
-
-\textit{Illustrations (imprimés et manuscrites)
-	lettrines
-	estampilles de bibliothèques
-	ornementations
-	tables (tableaux numériques)}
-
-\textit{Voici une image d'un livre imprimé historique, produis soit un fichier txt avec les coordonnées yolo des classes que tu détectes, soit un masque de segmentation par pixel qui segmente les classes que tu détectes.}
-\label{anx:prompt}	
-\end{quote}
-
-
+ \chapter[Annexes : Formations]{Rendus Techniques : formation et documentation}
+ 
+ Ce dépôt \href{https://github.com/Anarchiviste/GenHisDoc_Lab/edit/main/labelstudio_reannotation.md}{GitHub} contient un tutoriel que nous avons produits dans le cadre de la mise en place de l'environnement de réannotation Label Studio. Le stage s'étant déroulé entièrement en anglais, l'ensemble des travaux, des échanges et de la documentation technique a été produit dans cette langue. C'est pourquoi certains supports de rendu et documents présentés ici conservent leur terminologie originale anglaise.
+ 
+ \label{chap:guideline}
+ \input{./Guidelines/guideline.tex} 
+ 
 

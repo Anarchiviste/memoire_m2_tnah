@@ -1,0 +1,3737 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{noauthor_systematic_nodate}{online}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{title}{A Systematic Review on Long-Tailed Learning}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb A Systematic Review on Long-Tailed Learning:/home/lunes/snap/zotero-snap/common/Zotero/storage/L2VLH8EQ/2408.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/html/2408.00483v1#S3
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/html/2408.00483v1#S3
+      \endverb
+      \keyw{ont}
+    \endentry
+    \entry{albouy2025aikon}{book}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=3f5897d60f76c11de1036accafdce252}{%
+           family={Albouy},
+           familyi={A\bibinitperiod},
+           given={Ségolène},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac48f72d2cab97c037a9df54c0533c36}{%
+           family={Norindr},
+           familyi={N\bibinitperiod},
+           given={Somkeo},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3cb5a0f123665e8ac6a0894c50a34007}{%
+           family={Kervegan},
+           familyi={K\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c0c362e9d2abdd0657b4311efb7d490}{%
+           family={Aouinti},
+           familyi={A\bibinitperiod},
+           given={Fouad},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8494ef65f2c6df7523833cf7b2c3f849}{%
+           family={Delanaux},
+           familyi={D\bibinitperiod},
+           given={Rémy},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10a5757b01c1a9c4cd703664ceae1f18}{%
+           family={Champenois},
+           familyi={C\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=885ad74bd917499e4711d2deb91ab57b}{%
+           family={Lazaris},
+           familyi={L\bibinitperiod},
+           given={Stavros},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a82f3c2a9f2a8008127ef01af2b5032b}{%
+           family={Guilbaud},
+           familyi={G\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24cdf3dce92c8f8a6f3679fb1ab6b865}{%
+           family={Husson},
+           familyi={H\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9520cf3d326610c36a727c2b40c80c7b}{%
+           family={Aubry},
+           familyi={A\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ea4b867c2f2519933ba745face2e980e}
+      \strng{fullhash}{f1a1774f5e3f585dc9f336778e392225}
+      \strng{fullhashraw}{f1a1774f5e3f585dc9f336778e392225}
+      \strng{bibnamehash}{f1a1774f5e3f585dc9f336778e392225}
+      \strng{authorbibnamehash}{f1a1774f5e3f585dc9f336778e392225}
+      \strng{authornamehash}{ea4b867c2f2519933ba745face2e980e}
+      \strng{authorfullhash}{f1a1774f5e3f585dc9f336778e392225}
+      \strng{authorfullhashraw}{f1a1774f5e3f585dc9f336778e392225}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{HAL Pre-Print}
+      \field{month}{9}
+      \field{number}{hal-05248250}
+      \field{title}{{AIKON : A Modular Computer Vision Platform for Historical Corpora}}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://hal.science/hal-05248250
+      \endverb
+      \verb{url}
+      \verb https://hal.science/hal-05248250
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{aljalbout_semantic_2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=002194ddbf1a5ee3ec093baa748d55ee}{%
+           family={Aljalbout},
+           familyi={A\bibinitperiod},
+           given={Sahar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a48cccf864778f80c8fca9ee288a8441}{%
+           family={Falquet},
+           familyi={F\bibinitperiod},
+           given={Gilles},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{027f4651e8bbe0f3e7a21f83697c0f00}
+      \strng{fullhash}{027f4651e8bbe0f3e7a21f83697c0f00}
+      \strng{fullhashraw}{027f4651e8bbe0f3e7a21f83697c0f00}
+      \strng{bibnamehash}{027f4651e8bbe0f3e7a21f83697c0f00}
+      \strng{authorbibnamehash}{027f4651e8bbe0f3e7a21f83697c0f00}
+      \strng{authornamehash}{027f4651e8bbe0f3e7a21f83697c0f00}
+      \strng{authorfullhash}{027f4651e8bbe0f3e7a21f83697c0f00}
+      \strng{authorfullhashraw}{027f4651e8bbe0f3e7a21f83697c0f00}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The study and publication of historical scientific manuscripts are com- plex tasks that involve, among others, the explicit representation of the text mean- ings and reasoning on temporal entities. In this paper we present the first results of an interdisciplinary project dedicated to the study of Saussure's manuscripts. These results aim to fulfill requirements elaborated with Saussurean humanists. They comprise a model for the representation of time-varying statements and time-varying domain knowledge (in particular terminologies) as well as imple- mentation techniques for the semantic indexing of manuscripts and for temporal reasoning on knowledge extracted from the manuscripts.}
+      \field{day}{2}
+      \field{eprinttype}{arxiv}
+      \field{month}{2}
+      \field{number}{{arXiv}:1802.00295}
+      \field{title}{A Semantic Model for Historical Manuscripts}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.1802.00295
+      \endverb
+      \verb{eprint}
+      \verb 1802.00295 [cs]
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/YS3BQI6E/Aljalbout and Falquet - 2018 - A Semantic Model for Historical Manuscripts.pdf:application/pdf;Snapshot:/home/lunes/snap/zotero-snap/common/Zotero/storage/7LINKD2W/1802.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1802.00295
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1802.00295
+      \endverb
+      \keyw{ont}
+    \endentry
+    \entry{fouad_aouinti_computer_2023}{book}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=0c0c362e9d2abdd0657b4311efb7d490}{%
+           family={Aouinti},
+           familyi={A\bibinitperiod},
+           given={Fouad},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3cf6bad2e7491be392c440f6e391917}{%
+           family={Baltaci},
+           familyi={B\bibinitperiod},
+           given={Zeynep\bibnamedelima Sonat},
+           giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9520cf3d326610c36a727c2b40c80c7b}{%
+           family={Aubry},
+           familyi={A\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcbb6d187e368a0cb7786eff6f44dc2e}{%
+           family={Guilbaud},
+           familyi={G\bibinitperiod},
+           given={Aleksandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=885ad74bd917499e4711d2deb91ab57b}{%
+           family={Lazaris},
+           familyi={L\bibinitperiod},
+           given={Stavros},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b29a4af2ca8bcc707d044520cf16184}
+      \strng{fullhash}{2c8fcacb5f7846ca64ac7d94da84044d}
+      \strng{fullhashraw}{2c8fcacb5f7846ca64ac7d94da84044d}
+      \strng{bibnamehash}{2c8fcacb5f7846ca64ac7d94da84044d}
+      \strng{authorbibnamehash}{2c8fcacb5f7846ca64ac7d94da84044d}
+      \strng{authornamehash}{1b29a4af2ca8bcc707d044520cf16184}
+      \strng{authorfullhash}{2c8fcacb5f7846ca64ac7d94da84044d}
+      \strng{authorfullhashraw}{2c8fcacb5f7846ca64ac7d94da84044d}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The {VHS} project (computer Vision and Historical analysis of Scientific illustration circulation) proposes a new approach to the historical study of the circulation of scientific knowledge based on new methods of illustration analysis. Our contributions in this paper are twofold. First, we present a semi-automatic interactive pipeline for scientific illustration extraction that allows and incorporates expert feedback from historians. Second, we introduce a new dataset of scientific illustrations from the Middle Ages to the modern era consisting of 8k illustrations validated by historians and a total number of 235k illustrations obtained from 405k corpora pages. We further discuss our current research for identifying a series of related illustrations from this data.}
+      \field{langid}{english}
+      \field{title}{Computer Vision and Historical Scientific Illustrations}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/S9U7F9E3/Fouad Aouinti et al. - 2023 - Computer Vision and Historical Scientific Illustrations.pdf:application/pdf
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{sofia_pescarin_chromatic_2025}{book}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=0c0c362e9d2abdd0657b4311efb7d490}{%
+           family={Aouinti},
+           familyi={A\bibinitperiod},
+           given={Fouad},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3cf6bad2e7491be392c440f6e391917}{%
+           family={Baltaci},
+           familyi={B\bibinitperiod},
+           given={Zeynep\bibnamedelima Sonat},
+           giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9520cf3d326610c36a727c2b40c80c7b}{%
+           family={Aubry},
+           familyi={A\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcbb6d187e368a0cb7786eff6f44dc2e}{%
+           family={Guilbaud},
+           familyi={G\bibinitperiod},
+           given={Aleksandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=885ad74bd917499e4711d2deb91ab57b}{%
+           family={Lazaris},
+           familyi={L\bibinitperiod},
+           given={Stavros},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{1b29a4af2ca8bcc707d044520cf16184}
+      \strng{fullhash}{2c8fcacb5f7846ca64ac7d94da84044d}
+      \strng{fullhashraw}{2c8fcacb5f7846ca64ac7d94da84044d}
+      \strng{bibnamehash}{2c8fcacb5f7846ca64ac7d94da84044d}
+      \strng{authorbibnamehash}{2c8fcacb5f7846ca64ac7d94da84044d}
+      \strng{authornamehash}{1b29a4af2ca8bcc707d044520cf16184}
+      \strng{authorfullhash}{2c8fcacb5f7846ca64ac7d94da84044d}
+      \strng{authorfullhashraw}{2c8fcacb5f7846ca64ac7d94da84044d}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This open access book explores the challenges and opportunities of preserving, reconstructing, exhibiting, and communicating the phenomenon of colour change in heritage collections and artworks through advanced digital technologies, from the perspectives of the authors, many of whom belong to renowned institutions around Europe. Developed within the Horizon Europe project {PERCEIVE}, this is the first of two volumes offering a comprehensive, interdisciplinary approach to chromatic heritage. Focusing on perception, historical transformations of colour, digital heritage design, and civic participation, the book introduces five key scenarios: from ancient polychrome sculpture and paintings to textiles, historical photographs, and digital-born artworks. Through these, it investigates how colour can be experienced, interpreted, and cared for in both physical and virtual spaces. Combining scientific investigations and concept-oriented design, the volume presents new methodologies based on the concepts of care, authenticity, civic participation and accessibility. It is an essential resource for researchers, curators, designers, and all those engaged in the digital transformation of cultural heritage.}
+      \field{day}{31}
+      \field{isbn}{978-3-032-07792-9}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{note}{Google-Books-{ID}: {KfqTEQAAQBAJ}}
+      \field{pagetotal}{266}
+      \field{shorttitle}{Chromatic Visions}
+      \field{title}{Chromatic Visions: Exploring Colour in Art, Archaeology and Digital Realities, Part I}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \true{nocite}
+      \keyw{hn}
+    \endentry
+    \entry{fouad_aouinti_illumination_2022}{book}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0c0c362e9d2abdd0657b4311efb7d490}{%
+           family={Aouinti},
+           familyi={A\bibinitperiod},
+           given={Fouad},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfbc92e4761da8d55098014b42c6f0f3}{%
+           family={Eyharabide},
+           familyi={E\bibinitperiod},
+           given={Victoria},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6afaff1ed19afe7e852a794243b68d1c}{%
+           family={Fresquet},
+           familyi={F\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ced5a2e340f5ef4590e3a24aa2efed4a}{%
+           family={Billiet},
+           familyi={B\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b29a4af2ca8bcc707d044520cf16184}
+      \strng{fullhash}{aab938aa8fe05283b1fc4f220a88a449}
+      \strng{fullhashraw}{aab938aa8fe05283b1fc4f220a88a449}
+      \strng{bibnamehash}{aab938aa8fe05283b1fc4f220a88a449}
+      \strng{authorbibnamehash}{aab938aa8fe05283b1fc4f220a88a449}
+      \strng{authornamehash}{1b29a4af2ca8bcc707d044520cf16184}
+      \strng{authorfullhash}{aab938aa8fe05283b1fc4f220a88a449}
+      \strng{authorfullhashraw}{aab938aa8fe05283b1fc4f220a88a449}
+      \field{extraname}{3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Illuminated manuscripts are essential iconographic sources for medieval studies. With the massive adoption of {IIIF}, old and new digital collections of manuscripts are accessible online and provide interoperable image data. However, finding illuminations within the manuscripts’ pages is increasingly time consuming. This article proposes an approach based on machine learning and transfer learning that browses {IIIF} manuscript pages and detects the illuminated ones. To evaluate our approach, a group of domain experts created a new dataset of manually annotated {IIIF} manuscripts. The preliminary results show that our algorithm detects the main illuminated pages in a manuscript, thus reducing experts’ search time.}
+      \field{day}{25}
+      \field{issn}{1715-0736}
+      \field{journaltitle}{Digital Medievalist}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{1}
+      \field{title}{Illumination Detection in {IIIF} Medieval Manuscripts Using Deep Learning}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{15}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.16995/dm.8073
+      \endverb
+      \verb{file}
+      \verb PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/X3FM5F6P/Fouad Aouinti et al. - 2022 - Illumination Detection in IIIF Medieval Manuscripts Using Deep Learning.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journal.digitalmedievalist.org/article/id/8073/
+      \endverb
+      \verb{url}
+      \verb https://journal.digitalmedievalist.org/article/id/8073/
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{oliveiraseguinkaplan2018dhsegment}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3b99083bc7f790c8e53e89e8809ef8f6}{%
+           family={Ares\bibnamedelima Oliveira},
+           familyi={A\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Sofia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a946d95439039d67be2873c79b314b5}{%
+           family={Seguin},
+           familyi={S\bibinitperiod},
+           given={Benoit},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22c359fab4eb3d238977e57ff39761e4}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{819cbbf30600c70502463a18831cb879}
+      \strng{fullhash}{819cbbf30600c70502463a18831cb879}
+      \strng{fullhashraw}{819cbbf30600c70502463a18831cb879}
+      \strng{bibnamehash}{819cbbf30600c70502463a18831cb879}
+      \strng{authorbibnamehash}{819cbbf30600c70502463a18831cb879}
+      \strng{authornamehash}{819cbbf30600c70502463a18831cb879}
+      \strng{authorfullhash}{819cbbf30600c70502463a18831cb879}
+      \strng{authorfullhashraw}{819cbbf30600c70502463a18831cb879}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Frontiers in Handwriting Recognition (ICFHR), 2018 16th International Conference on}
+      \field{title}{dhSegment: A generic deep-learning approach for document segmentation}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{7\bibrangedash 12}
+      \range{pages}{6}
+      \keyw{ml}
+    \endentry
+    \entry{barzaghi_development_2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=005775f210083bb4a00e89673b1becd8}{%
+           family={Barzaghi},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=989b96a27d00fd6a17cd013853283aae}{%
+           family={Palmirani},
+           familyi={P\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=afd64f8148c1cb5f4e04d4bf1d46e22d}{%
+           family={Peroni},
+           familyi={P\bibinitperiod},
+           given={Silvio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2a6e3d43f5c2f090ab67959d61c843bd}
+      \strng{fullhash}{2a6e3d43f5c2f090ab67959d61c843bd}
+      \strng{fullhashraw}{2a6e3d43f5c2f090ab67959d61c843bd}
+      \strng{bibnamehash}{2a6e3d43f5c2f090ab67959d61c843bd}
+      \strng{authorbibnamehash}{2a6e3d43f5c2f090ab67959d61c843bd}
+      \strng{authornamehash}{2a6e3d43f5c2f090ab67959d61c843bd}
+      \strng{authorfullhash}{2a6e3d43f5c2f090ab67959d61c843bd}
+      \strng{authorfullhashraw}{2a6e3d43f5c2f090ab67959d61c843bd}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The catalogue of digitized medieval texts managed by Progetto {IRNERIO} contains a rich amount of legal, cultural and historical data that is neither easy to access nor linked to relevant external information. This paper introduces an ontology, called Medieval Manuscripts Ontology ({MeMO}), to model these texts so as to allow researchers to represent, identify, analyse and retrieve the information within and related to them. {MeMO} has been designed with a solid methodology in order to be compliant with the requirements of the domain experts (the preservation of the historical narrative, the representation of the context and the description of the collection). Also, it is flexible and richly documented so as to be easily reusable and extensible for further expansions. Thus {MeMO} allows one to model the resources managed by Progetto {IRNERIO} with precise semantics so as to avoid information loss and to support a better representation of the conceptual complexities that characterize the collection.}
+      \field{day}{31}
+      \field{issn}{2532-8816}
+      \field{journaltitle}{Umanistica Digitale}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{9}
+      \field{shorttitle}{Development of an ontology for modelling medieval manuscripts}
+      \field{title}{Development of an ontology for modelling medieval manuscripts: the case of Progetto {IRNERIO}}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{117\bibrangedash 140}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.6092/issn.2532-8816/11187
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/9JZBDDKZ/Barzaghi et al. - 2020 - Development of an ontology for modelling medieval manuscripts the case of Progetto IRNERIO.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://umanisticadigitale.unibo.it/article/view/11187
+      \endverb
+      \verb{url}
+      \verb https://umanisticadigitale.unibo.it/article/view/11187
+      \endverb
+      \keyw{ont}
+    \endentry
+    \entry{alexis_burlot_numerique_nodate}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7e74ea21eb009081625834726588b8e7}{%
+           family={Burlot},
+           familyi={B\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Mémoire de Master 1. ENSSIB & Université Lumière Lyon 2}%
+      }
+      \strng{namehash}{7e74ea21eb009081625834726588b8e7}
+      \strng{fullhash}{7e74ea21eb009081625834726588b8e7}
+      \strng{fullhashraw}{7e74ea21eb009081625834726588b8e7}
+      \strng{bibnamehash}{7e74ea21eb009081625834726588b8e7}
+      \strng{authorbibnamehash}{7e74ea21eb009081625834726588b8e7}
+      \strng{authornamehash}{7e74ea21eb009081625834726588b8e7}
+      \strng{authorfullhash}{7e74ea21eb009081625834726588b8e7}
+      \strng{authorfullhashraw}{7e74ea21eb009081625834726588b8e7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Digital technology is today penetrating the field of historian’s practices. It deeply disrupts scientific research for it has become the medium of new written historical sources : the digitized old printed books. The latter are rapidly multiplying on the Internet and force us to think about the nature of the digital offer and about the historical work it could determine. This digital offer finally leads us to assess the ties which bring the social and human sciences closer to the computer sciences, it questions the emerging notion of digital humanities.}
+      \field{langid}{french}
+      \field{title}{Le numérique au service de l’historien du livre}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/II7U86EG/Alexis Burlot - Le numérique au service de l’historien du livre.pdf:application/pdf
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{buttner_cordeep_2022}{book}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7a1a56f1d70814adc3a4a7246633d444}{%
+           family={Büttner},
+           familyi={B\bibinitperiod},
+           given={Jochen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d725aff24499991dad370cb436c31fc}{%
+           family={Martinetz},
+           familyi={M\bibinitperiod},
+           given={Julius},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=897725e23df0091693154dc3da44d48b}{%
+           family={El-Hajj},
+           familyi={E\bibinithyphendelim H\bibinitperiod},
+           given={Hassan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e5c08c4fa225c9fda1c8cf1d734cb29}{%
+           family={Valleriani},
+           familyi={V\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{1061dd29e42ef788f31a6febf604ea14}
+      \strng{fullhash}{509fdf627f4ab01a4a991e0114b1eefe}
+      \strng{fullhashraw}{509fdf627f4ab01a4a991e0114b1eefe}
+      \strng{bibnamehash}{509fdf627f4ab01a4a991e0114b1eefe}
+      \strng{authorbibnamehash}{509fdf627f4ab01a4a991e0114b1eefe}
+      \strng{authornamehash}{1061dd29e42ef788f31a6febf604ea14}
+      \strng{authorfullhash}{509fdf627f4ab01a4a991e0114b1eefe}
+      \strng{authorfullhashraw}{509fdf627f4ab01a4a991e0114b1eefe}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Recent advances in object detection facilitated by deep learning have led to numerous solutions in a myriad of fields ranging from medical diagnosis to autonomous driving. However, historical research is yet to reap the benefits of such advances. This is generally due to the low number of large, coherent, and annotated datasets of historical documents, as well as the overwhelming focus on Optical Cha\textit{}racter Recognition to support the analysis of historical documents. In this paper, we highlight the importance of visual elements, in particular illustrations in historical documents, and offer a public multi-class historical visual element dataset based on the Sphaera corpus. Additionally, we train an image extraction model based on {YOLO} architecture and publish it through a publicly available web-service to detect and extract multi-class images from historical documents in an effort to bridge the gap between traditional and computational approaches in historical studies.}
+      \field{issn}{2313-433X}
+      \field{journaltitle}{Journal of Imaging}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{shorttitle}{{CorDeep} and the Sacrobosco Dataset}
+      \field{title}{{CorDeep} and the Sacrobosco Dataset: Detection of Visual Elements in Historical Documents}
+      \field{urlday}{1}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{8}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{285}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/jimaging8100285
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/26EH8HZL/Büttner et al. - 2022 - CorDeep and the Sacrobosco Dataset Detection of Visual Elements in Historical Documents.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2313-433X/8/10/285
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2313-433X/8/10/285
+      \endverb
+      \keyw{lu}
+    \endentry
+    \entry{marion_charpier_computer_nodate}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=66d506534e99b9c37c2c4ce4d06d2684}{%
+           family={Charpier},
+           familyi={C\bibinitperiod},
+           given={Marion},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{66d506534e99b9c37c2c4ce4d06d2684}
+      \strng{fullhash}{66d506534e99b9c37c2c4ce4d06d2684}
+      \strng{fullhashraw}{66d506534e99b9c37c2c4ce4d06d2684}
+      \strng{bibnamehash}{66d506534e99b9c37c2c4ce4d06d2684}
+      \strng{authorbibnamehash}{66d506534e99b9c37c2c4ce4d06d2684}
+      \strng{authornamehash}{66d506534e99b9c37c2c4ce4d06d2684}
+      \strng{authorfullhash}{66d506534e99b9c37c2c4ce4d06d2684}
+      \strng{authorfullhashraw}{66d506534e99b9c37c2c4ce4d06d2684}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Computer Vision appliquée à l'analyse de sources visuelles médiévales: exploration et implications historiques}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/LR9FSHRU/Marion Charpier - Computer Vision appliquée à l'analyse de sources visuelles médiévales exploration et implications h.pdf:application/pdf
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{crehange_par_1988}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b42f53e907016d0a4354419f6854276b}{%
+           family={Crehange},
+           familyi={C\bibinitperiod},
+           given={Marion},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Persée - Portail des revues scientifiques en {SHS}}%
+      }
+      \strng{namehash}{b42f53e907016d0a4354419f6854276b}
+      \strng{fullhash}{b42f53e907016d0a4354419f6854276b}
+      \strng{fullhashraw}{b42f53e907016d0a4354419f6854276b}
+      \strng{bibnamehash}{b42f53e907016d0a4354419f6854276b}
+      \strng{authorbibnamehash}{b42f53e907016d0a4354419f6854276b}
+      \strng{authornamehash}{b42f53e907016d0a4354419f6854276b}
+      \strng{authorfullhash}{b42f53e907016d0a4354419f6854276b}
+      \strng{authorfullhashraw}{b42f53e907016d0a4354419f6854276b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Le médiéviste et l'ordinateur}
+      \field{number}{1}
+      \field{shorttitle}{Par et pour la recherche d'images}
+      \field{title}{Par et pour la recherche d'images : {EXPRIM}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{volume}{19}
+      \field{year}{1988}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{15\bibrangedash 21}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.3406/medio.1988.1758
+      \endverb
+      \verb{urlraw}
+      \verb https://www.persee.fr/doc/medio_0223-3843_1988_num_19_1_1758
+      \endverb
+      \verb{url}
+      \verb https://www.persee.fr/doc/medio_0223-3843_1988_num_19_1_1758
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{noauthor_data-centric_nodate}{book}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{title}{Data-Centric Artificial Intelligence}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb Data-Centric Artificial Intelligence:/home/lunes/snap/zotero-snap/common/Zotero/storage/DW7Z3K7H/2212.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/html/2212.11854v4
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/html/2212.11854v4
+      \endverb
+    \endentry
+    \entry{5206848}{book}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=0ae7fdc13773f928525f673b05f37149}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d87c5957b07153c7f18918b92830bf8}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5670b2600fea169724521e252d9d09d}{%
+           family={Socher},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2afdae52015b97674d81efea449edce2}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Li-Jia},
+           giveni={L\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4838f7fdd28d5cefb28f3b3c734976d4}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd00ce5bc45f687c432e52e0fa1a7aa6}{%
+           family={Fei-Fei},
+           familyi={F\bibinithyphendelim F\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{990420f755e01028377fcad1464c9706}
+      \strng{fullhash}{a16fdd05c52c264b99fe98f4a5e24c60}
+      \strng{fullhashraw}{a16fdd05c52c264b99fe98f4a5e24c60}
+      \strng{bibnamehash}{a16fdd05c52c264b99fe98f4a5e24c60}
+      \strng{authorbibnamehash}{a16fdd05c52c264b99fe98f4a5e24c60}
+      \strng{authornamehash}{990420f755e01028377fcad1464c9706}
+      \strng{authorfullhash}{a16fdd05c52c264b99fe98f4a5e24c60}
+      \strng{authorfullhashraw}{a16fdd05c52c264b99fe98f4a5e24c60}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2009 IEEE Conference on Computer Vision and Pattern Recognition}
+      \field{title}{ImageNet: A large-scale hierarchical image database}
+      \field{year}{2009}
+      \true{nocite}
+      \field{pages}{248\bibrangedash 255}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/CVPR.2009.5206848
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{drimmer_sonja_how_nodate}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=76e980c5b5709a76eef36959de5aacaa}{%
+           family={Drimmer},
+           familyi={D\bibinitperiod},
+           given={Sonja},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {{CounterPunch}, 2021, p. 1}%
+      }
+      \strng{namehash}{76e980c5b5709a76eef36959de5aacaa}
+      \strng{fullhash}{76e980c5b5709a76eef36959de5aacaa}
+      \strng{fullhashraw}{76e980c5b5709a76eef36959de5aacaa}
+      \strng{bibnamehash}{76e980c5b5709a76eef36959de5aacaa}
+      \strng{authorbibnamehash}{76e980c5b5709a76eef36959de5aacaa}
+      \strng{authornamehash}{76e980c5b5709a76eef36959de5aacaa}
+      \strng{authorfullhash}{76e980c5b5709a76eef36959de5aacaa}
+      \strng{authorfullhashraw}{76e980c5b5709a76eef36959de5aacaa}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How {AI} is Hijacking Art History. {|} {EBSCOhost}}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb How AI is Hijacking Art History. | EBSCOhost:/home/lunes/snap/zotero-snap/common/Zotero/storage/G25ES52M/detailv2.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://openurl.ebsco.com/EPDB%3Agcd%3A4%3A36185716/detailv2?sid=ebsco%3Aplink%3Ascholar&id=ebsco%3Agcd%3A163066324&crl=c&link_origin=scholar.google.com
+      \endverb
+      \verb{url}
+      \verb https://openurl.ebsco.com/EPDB%3Agcd%3A4%3A36185716/detailv2?sid=ebsco%3Aplink%3Ascholar&id=ebsco%3Agcd%3A163066324&crl=c&link_origin=scholar.google.com
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{lin_du_probing_2024}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b305a709e78f53693db6104541f973b3}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e43808b461fdb1dd622e29081544434}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Brandon},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c6a0001b57de17e7eba744e8eca7b19}{%
+           family={Honig},
+           familyi={H\bibinitperiod},
+           given={Edouardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c8490a08c854e9256396ed2ba8bb76c7}
+      \strng{fullhash}{c8490a08c854e9256396ed2ba8bb76c7}
+      \strng{fullhashraw}{c8490a08c854e9256396ed2ba8bb76c7}
+      \strng{bibnamehash}{c8490a08c854e9256396ed2ba8bb76c7}
+      \strng{authorbibnamehash}{c8490a08c854e9256396ed2ba8bb76c7}
+      \strng{authornamehash}{c8490a08c854e9256396ed2ba8bb76c7}
+      \strng{authorfullhash}{c8490a08c854e9256396ed2ba8bb76c7}
+      \strng{authorfullhashraw}{c8490a08c854e9256396ed2ba8bb76c7}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This study examines the longstanding need and challenge of providing contextual analysis of historical images stored in digital visual archives and the accessibility of retrieving contextual information from these historical archives. Contextual analysis is essential for disciplines such as history and art history, as it allows for the contextualization of artwork and historical sources with historical narratives, which, in turn, enhances understanding of the artistic or political expression in the contents of cultural products. To address this challenge, a novel approach is proposed utilizing computer vision to trace the circulation and dissemination of historical photographs in their original contexts. This method involves first using {YOLO} v7 to crop historical images from pictorial magazines, then training machine learning models on the cropped printed images plus another large dataset of original historical photographs, and comparing the similarity of images between the datasets of printed images and original photographs. To ensure accuracy of image similarities between the two subsets with distinct image qualities, an ensemble of three machine learning models—Vision Transformer, {EfficientNetv}2, and Swin Transformer—was developed. Through this system, contexts in the circulation of historical photographs were discovered and new insights regarding the editing strategies of propaganda magazines in East Asia during {WWII} were uncovered. These outcomes offer supporting evidence for previous research in the history and art historical disciplines, and demonstrate the potential of computer vision for uncovering new information from digital visual archives. Our model achieves a 77.8\% top-15 retrieval accuracy on our evaluation dataset.}
+      \field{day}{8}
+      \field{issn}{1556-4673}
+      \field{journaltitle}{{ACM} Journal on Computing and Cultural Heritage}
+      \field{month}{1}
+      \field{number}{4}
+      \field{shortjournal}{J. Comput. Cult. Herit.}
+      \field{shorttitle}{Probing Historical Image Contexts}
+      \field{title}{Probing Historical Image Contexts: Enhancing Visual Archive Retrieval through Computer Vision}
+      \field{urlday}{22}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{16}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{84:1\bibrangedash 84:17}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1145/3631129
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/MWNIGDBU/Lin Du et al. - 2024 - Probing Historical Image Contexts Enhancing Visual Archive Retrieval through Computer Vision.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3631129
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3631129
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{gabay_segmonto_2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7fe1ec35c644906499707ac25bc7780b}{%
+           family={Gabay},
+           familyi={G\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=865eef5eb27967d9e0c01708cbad832e}{%
+           family={Pinche},
+           familyi={P\bibinitperiod},
+           given={Ariane},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=924d6687f037178387f3d71baf1c72f5}{%
+           family={Christensen},
+           familyi={C\bibinitperiod},
+           given={Kelly},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16d4f02e5493261103bfb3611317d21d}{%
+           family={Camps},
+           familyi={C\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {INRIA}%
+      }
+      \strng{namehash}{19260dbbe635aee5f8a6812d16a87608}
+      \strng{fullhash}{77b234994497be4c7d43fd3de6e143b7}
+      \strng{fullhashraw}{77b234994497be4c7d43fd3de6e143b7}
+      \strng{bibnamehash}{77b234994497be4c7d43fd3de6e143b7}
+      \strng{authorbibnamehash}{77b234994497be4c7d43fd3de6e143b7}
+      \strng{authornamehash}{19260dbbe635aee5f8a6812d16a87608}
+      \strng{authorfullhash}{77b234994497be4c7d43fd3de6e143b7}
+      \strng{authorfullhashraw}{77b234994497be4c7d43fd3de6e143b7}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Our initiative aims at designing a controlled vocabulary for the description of the layout of textual sources: {SegmOnto}. Following a more physical approach rather than a strictly semantic one, it is designed as a pragmatic and generic typology, coping with most of the Western historical documents rather than answering specific needs. The harmonisation of the layout description has a double objective: on the one hand it facilitates the mutualisation of annotated data and therefore the training of better models for page segmentation (a crucial preliminary step for text recognition), on the other hand it allows the development of a shared post-processing workflow and pipeline for the transformation of {ALTO} or {PAGE} files into {DH} standard formats, which preserves as much as possible the link between the extracted information and the digital facsimile. To demonstrate the capacity of {SegmOnto} to answer both these objectives, we aggregate data from multiple projects to train a layout analysis model, and we propose a prototype of a generic pipeline for converting {ALTO}-{XMLs} into {XML}-{TEI}.}
+      \field{journaltitle}{Journal of Data Mining and Digital Humanities}
+      \field{month}{12}
+      \field{shorttitle}{{SegmOnto}}
+      \field{title}{{SegmOnto}: A Controlled Vocabulary to Describe and Process Digital Facsimiles}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.46298/jdmdh.12689
+      \endverb
+      \verb{file}
+      \verb HAL PDF Full Text:/home/lunes/snap/zotero-snap/common/Zotero/storage/NRK6KKVK/Gabay et al. - 2024 - SegmOnto A Controlled Vocabulary to Describe and Process Digital Facsimiles.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://hal.science/hal-04343404
+      \endverb
+      \verb{url}
+      \verb https://hal.science/hal-04343404
+      \endverb
+      \keyw{ont}
+    \endentry
+    \entry{garnier_recherche_1984}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b2598dc20f7493b18327eb56cfe3342}{%
+           family={Garnier},
+           familyi={G\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Persée - Portail des revues scientifiques en {SHS}}%
+      }
+      \strng{namehash}{8b2598dc20f7493b18327eb56cfe3342}
+      \strng{fullhash}{8b2598dc20f7493b18327eb56cfe3342}
+      \strng{fullhashraw}{8b2598dc20f7493b18327eb56cfe3342}
+      \strng{bibnamehash}{8b2598dc20f7493b18327eb56cfe3342}
+      \strng{authorbibnamehash}{8b2598dc20f7493b18327eb56cfe3342}
+      \strng{authornamehash}{8b2598dc20f7493b18327eb56cfe3342}
+      \strng{authorfullhash}{8b2598dc20f7493b18327eb56cfe3342}
+      \strng{authorfullhashraw}{8b2598dc20f7493b18327eb56cfe3342}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Le médiéviste et l'ordinateur}
+      \field{number}{1}
+      \field{shorttitle}{A la recherche des images}
+      \field{title}{A la recherche des images : vidéo-disque et iconographie}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{1984}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{7\bibrangedash 8}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.3406/medio.1984.1693
+      \endverb
+      \verb{urlraw}
+      \verb https://www.persee.fr/doc/medio_0223-3843_1984_num_12_1_1693
+      \endverb
+      \verb{url}
+      \verb https://www.persee.fr/doc/medio_0223-3843_1984_num_12_1_1693
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{ghassan_beydoun_how_2011}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fe46947fca43126119a840f191f0148e}{%
+           family={{Ghassan Beydoun}},
+           familyi={G\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=4f77e2cc3e1306b360cdff4af3ea0222}{%
+           family={{Antonio A. Lopez-Lorca}},
+           familyi={A\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=eb2ab4172cd84721edf6929d3597ef2f}{%
+           family={{Francisco García-Sánchez}},
+           familyi={F\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=8460998e193a47452cae24267663b7f6}{%
+           family={{Rodrigo Martínez-Béjar}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c54c1afa6d558faa2695fef6bfe05baa}
+      \strng{fullhash}{0f274a8bd652ec5bc6ae282c4f0a3141}
+      \strng{fullhashraw}{0f274a8bd652ec5bc6ae282c4f0a3141}
+      \strng{bibnamehash}{0f274a8bd652ec5bc6ae282c4f0a3141}
+      \strng{authorbibnamehash}{0f274a8bd652ec5bc6ae282c4f0a3141}
+      \strng{authornamehash}{c54c1afa6d558faa2695fef6bfe05baa}
+      \strng{authorfullhash}{0f274a8bd652ec5bc6ae282c4f0a3141}
+      \strng{authorfullhashraw}{0f274a8bd652ec5bc6ae282c4f0a3141}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Hierarchical ontologies enable organising information in a human–machine understandable form, but constructing them for reuse and maintainability remains difficult. Often supporting tools available lack formal methodological underpinning and their developers are not supported by any concomitant metrics. The paper presents a formal underpinning to provide quality metrics of a taxonomy hierarchical ontology and proposes a methodology for semi-automatic building of maintainable taxonomies. Users provide terms to be used to describe different ontological elements as well as their attributes and their ranges of values. The methodology uses the formalised metrics to assess the quality of the users input and proposes changes according to given quality constraints. The paper illustrates the metrics and the methodology in constructing and repairing two medium size well-known taxonomies.}
+      \field{issn}{0164-1212}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{number}{12}
+      \field{title}{How do we measure and improve the quality of a hierarchical ontology?}
+      \field{volume}{84}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{2363\bibrangedash 2373}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jss.2011.07.010
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0164121211001853
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0164121211001853
+      \endverb
+      \keyw{ont}
+    \endentry
+    \entry{gorshick2015fastrcnn}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{fullhash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{fullhashraw}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{bibnamehash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{authorbibnamehash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{authornamehash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{authorfullhash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{authorfullhashraw}{bd5dadbe57bedc5957c19a3154c4d424}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2015 International Conference on Computer Vision}
+      \field{title}{Fast R-CNN}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://doi.org/10.48550/arXiv.1504.08083
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.48550/arXiv.1504.08083
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{7112511}{book}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=913090a0d65c7a300c602f5a5a5a61e3}{%
+           family={Donahue},
+           familyi={D\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90180e1a30742e0d15328bfe637c2ef4}{%
+           family={Darrell},
+           familyi={D\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c75a5377b6dc5213831576e88ffe553c}{%
+           family={Malik},
+           familyi={M\bibinitperiod},
+           given={Jitendra},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5aa9f085e8eccf547d1eb54a05cb1beb}
+      \strng{fullhash}{9147daa2f6a058d5b8880ff5cf38abd6}
+      \strng{fullhashraw}{9147daa2f6a058d5b8880ff5cf38abd6}
+      \strng{bibnamehash}{9147daa2f6a058d5b8880ff5cf38abd6}
+      \strng{authorbibnamehash}{9147daa2f6a058d5b8880ff5cf38abd6}
+      \strng{authornamehash}{5aa9f085e8eccf547d1eb54a05cb1beb}
+      \strng{authorfullhash}{9147daa2f6a058d5b8880ff5cf38abd6}
+      \strng{authorfullhashraw}{9147daa2f6a058d5b8880ff5cf38abd6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{number}{1}
+      \field{title}{Region-Based Convolutional Networks for Accurate Object Detection and Segmentation}
+      \field{volume}{38}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{142\bibrangedash 158}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1109/TPAMI.2015.2437384
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{gruning_read-bad_2017}{misc}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=5ca5c74c6f5318719c3b422453b68d5d}{%
+           family={Grüning},
+           familyi={G\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbb5ed78da870d9c4a30a6849bc0ae58}{%
+           family={Labahn},
+           familyi={L\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f2f4129024014aeb3a83c0745b7a8a3}{%
+           family={Diem},
+           familyi={D\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3ea26d1d8fad182308f555edef89717}{%
+           family={Kleber},
+           familyi={K\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=443ffa4fe98bdf479cb6ab7a3662aae4}{%
+           family={Fiel},
+           familyi={F\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{7db6098c9c6beef9cc9a9c6a46c626fc}
+      \strng{fullhash}{9ca2109f976dea13778f0f33d283b6c3}
+      \strng{fullhashraw}{9ca2109f976dea13778f0f33d283b6c3}
+      \strng{bibnamehash}{9ca2109f976dea13778f0f33d283b6c3}
+      \strng{authorbibnamehash}{9ca2109f976dea13778f0f33d283b6c3}
+      \strng{authornamehash}{7db6098c9c6beef9cc9a9c6a46c626fc}
+      \strng{authorfullhash}{9ca2109f976dea13778f0f33d283b6c3}
+      \strng{authorfullhashraw}{9ca2109f976dea13778f0f33d283b6c3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Text line detection is crucial for any application associated with Automatic Text Recognition or Keyword Spotting. Modern algorithms perform good on well-established datasets since they either comprise clean data or simple/homogeneous page layouts. We have collected and annotated 2036 archival document images from different locations and time periods. The dataset contains varying page layouts and degradations that challenge text line segmentation methods. Well established text line segmentation evaluation schemes such as the Detection Rate or Recognition Accuracy demand for binarized data that is annotated on a pixel level. Producing ground truth by these means is laborious and not needed to determine a method’s quality. In this paper we propose a new evaluation scheme that is based on baselines. The proposed scheme has no need for binarization and it can handle skewed as well as rotated text lines. The {ICDAR} 2017 Competition on Baseline Detection and the {ICDAR} 2017 Competition on Layout Analysis for Challenging Medieval Manuscripts used this evaluation scheme. Finally, we present results achieved by a recently published text line detection algorithm.}
+      \field{day}{11}
+      \field{eprinttype}{arxiv}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{{arXiv}:1705.03311}
+      \field{shorttitle}{{READ}-{BAD}}
+      \field{title}{{READ}-{BAD}: A New Dataset and Evaluation Scheme for Baseline Detection in Archival Documents}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.1705.03311
+      \endverb
+      \verb{eprint}
+      \verb 1705.03311 [cs]
+      \endverb
+      \verb{file}
+      \verb PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/PJCK5M8S/Grüning et al. - 2017 - READ-BAD A New Dataset and Evaluation Scheme for Baseline Detection in Archival Documents.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1705.03311
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1705.03311
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{james_hutson_augmenting_2026}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=063b5ff5e13d7b11d09edbeacc3c6d4c}{%
+           family={Hutson},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=063b5ff5e13d7b11d09edbeacc3c6d4c}{%
+           family={Hutson},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Switzerland}%
+      }
+      \strng{namehash}{063b5ff5e13d7b11d09edbeacc3c6d4c}
+      \strng{fullhash}{063b5ff5e13d7b11d09edbeacc3c6d4c}
+      \strng{fullhashraw}{063b5ff5e13d7b11d09edbeacc3c6d4c}
+      \strng{bibnamehash}{063b5ff5e13d7b11d09edbeacc3c6d4c}
+      \strng{authorbibnamehash}{063b5ff5e13d7b11d09edbeacc3c6d4c}
+      \strng{authornamehash}{063b5ff5e13d7b11d09edbeacc3c6d4c}
+      \strng{authorfullhash}{063b5ff5e13d7b11d09edbeacc3c6d4c}
+      \strng{authorfullhashraw}{063b5ff5e13d7b11d09edbeacc3c6d4c}
+      \strng{editorbibnamehash}{063b5ff5e13d7b11d09edbeacc3c6d4c}
+      \strng{editornamehash}{063b5ff5e13d7b11d09edbeacc3c6d4c}
+      \strng{editorfullhash}{063b5ff5e13d7b11d09edbeacc3c6d4c}
+      \strng{editorfullhashraw}{063b5ff5e13d7b11d09edbeacc3c6d4c}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This section investigates the ways in which algorithmic, machine-based, and generative technologies are fundamentally reshaping art historical research, catalyzing new paradigms in both methodology and collaboration. The chapter begins by outlining how the intersection of art history and computational systems has initiated a series of profound shifts, moving beyond conventional models of visual inquiry toward data-driven and automated approaches that uncover patterns and relationships invisible to the unaided eye. It critically assesses the use of generative tools for scholarly research, from large-scale data aggregation and multimodal interpretation to automated bibliometric mapping and the creation of synthetic datasets. Through detailed case studies, the discussion foregrounds emerging methodologies in computational art analysis, such as neural network-based attribution, stylistic clustering, and automated iconographic mapping, illustrating their strengths and limitations within academic practice. The chapter also explores how smart, collaborative platforms are breaking down disciplinary silos, fostering new alliances among art historians, computer scientists, data engineers, and cultural institutions.}
+      \field{booktitle}{Art History in the Age of Artificial Intelligence}
+      \field{isbn}{978-3-032-02920-1}
+      \field{langid}{english}
+      \field{title}{Augmenting Art Historical Research}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{47\bibrangedash 83}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1007/978-3-032-02920-1_3
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-032-02920-1_3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-032-02920-1_3
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{8893029}{book}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=77c03197328a537f9c8626447cee396b}{%
+           family={Kiessling},
+           familyi={K\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a29c644caee3912d89cab4b276b89b91}{%
+           family={Tissot},
+           familyi={T\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a13af479f6c11ecda32eaee18a382808}{%
+           family={Stokes},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09ea845b6a7b6bfc728cda12ec98be25}{%
+           family={Stökl\bibnamedelimb Ben\bibnamedelima Ezra},
+           familyi={S\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8935245432813fb23dd85f47405e842}
+      \strng{fullhash}{f7f7199539a3023401c3feaa63ac7ad6}
+      \strng{fullhashraw}{f7f7199539a3023401c3feaa63ac7ad6}
+      \strng{bibnamehash}{f7f7199539a3023401c3feaa63ac7ad6}
+      \strng{authorbibnamehash}{f7f7199539a3023401c3feaa63ac7ad6}
+      \strng{authornamehash}{a8935245432813fb23dd85f47405e842}
+      \strng{authorfullhash}{f7f7199539a3023401c3feaa63ac7ad6}
+      \strng{authorfullhashraw}{f7f7199539a3023401c3feaa63ac7ad6}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 International Conference on Document Analysis and Recognition Workshops (ICDARW)}
+      \field{title}{eScriptorium: An Open Source Platform for Historical Document Analysis}
+      \field{volume}{2}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{19\bibrangedash 19}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1109/ICDARW.2019.10032
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{jan-christoph_klie_analyzing_nodate}{online}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2a552f718c3488f1ad0cce7b12a7d08c}{%
+           family={Klie},
+           familyi={K\bibinitperiod},
+           given={Jan-Christoph},
+           giveni={J\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea70b44be1920f6e8c379706bc7d047a}{%
+           family={Gurevych},
+           familyi={G\bibinitperiod},
+           given={Iryna},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3f5ccb89a0b32a442a37a99a12bea15}{%
+           family={Eckart\bibnamedelimb de\bibnamedelima Castilho},
+           familyi={E\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7f3b2186fe08df0b30732f8180aba9d2}
+      \strng{fullhash}{7f3b2186fe08df0b30732f8180aba9d2}
+      \strng{fullhashraw}{7f3b2186fe08df0b30732f8180aba9d2}
+      \strng{bibnamehash}{7f3b2186fe08df0b30732f8180aba9d2}
+      \strng{authorbibnamehash}{7f3b2186fe08df0b30732f8180aba9d2}
+      \strng{authornamehash}{7f3b2186fe08df0b30732f8180aba9d2}
+      \strng{authorfullhash}{7f3b2186fe08df0b30732f8180aba9d2}
+      \strng{authorfullhashraw}{7f3b2186fe08df0b30732f8180aba9d2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analyzing Dataset Annotation Quality Management in the Wild}
+      \field{urlday}{30}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb Analyzing Dataset Annotation Quality Management in the Wild:/home/lunes/snap/zotero-snap/common/Zotero/storage/8GS8X5I9/2307.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/html/2307.08153v3#S3
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/html/2307.08153v3#S3
+      \endverb
+      \keyw{ont}
+    \endentry
+    \entry{10.1145/3065386}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c5e3a676e2ac1164b3afcd539c131fc9}{%
+           family={Krizhevsky},
+           familyi={K\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d569d1d5b8b5a7836017a98b430f959}{%
+           family={Sutskever},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=813bd95fe553e6079cd53a567b238287}{%
+           family={Hinton},
+           familyi={H\bibinitperiod},
+           given={Geoffrey\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{fullhash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{fullhashraw}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{bibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{authorbibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{authornamehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{authorfullhash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{authorfullhashraw}{1a23c09aa65b3c2ade45ed18d8127375}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5\% and 17.0\%, respectively, which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overfitting in the fully connected layers we employed a recently developed regularization method called "dropout" that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3\%, compared to 26.2\% achieved by the second-best entry.}
+      \field{issn}{0001-0782}
+      \field{journaltitle}{Commun. ACM}
+      \field{month}{5}
+      \field{number}{6}
+      \field{title}{ImageNet classification with deep convolutional neural networks}
+      \field{volume}{60}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{84\bibrangedash 90}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1145/3065386
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3065386
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3065386
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{langlois_conditions_2014}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e402dcc5ddcc705a3d47b9d9bb39ba1f}{%
+           family={Langlois},
+           familyi={L\bibinitperiod},
+           given={Charles-Victor},
+           giveni={C\bibinithyphendelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37b558e7e9e068843ba98af46aed2f31}{%
+           family={Seignobos},
+           familyi={S\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Lyon}%
+      }
+      \list{publisher}{1}{%
+        {{ENS} Éditions}%
+      }
+      \strng{namehash}{77e697903e2af40c879a3abdcd82259b}
+      \strng{fullhash}{77e697903e2af40c879a3abdcd82259b}
+      \strng{fullhashraw}{77e697903e2af40c879a3abdcd82259b}
+      \strng{bibnamehash}{77e697903e2af40c879a3abdcd82259b}
+      \strng{authorbibnamehash}{77e697903e2af40c879a3abdcd82259b}
+      \strng{authornamehash}{77e697903e2af40c879a3abdcd82259b}
+      \strng{authorfullhash}{77e697903e2af40c879a3abdcd82259b}
+      \strng{authorfullhashraw}{77e697903e2af40c879a3abdcd82259b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Introduction aux études historiques}
+      \field{isbn}{978-2-84788-576-7}
+      \field{langid}{french}
+      \field{note}{Code: Introduction aux études historiques}
+      \field{series}{Bibliothèque idéale des sciences sociales}
+      \field{title}{Conditions générales de la connaissance historique}
+      \field{urlday}{11}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.4000/books.enseditions.284
+      \endverb
+      \verb{urlraw}
+      \verb https://books.openedition.org/enseditions/284
+      \endverb
+      \verb{url}
+      \verb https://books.openedition.org/enseditions/284
+      \endverb
+      \keyw{lu}
+    \endentry
+    \entry{fantin_le_ber_ia_2025}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=06bf779c52b25930c31d49bbad2b18fb}{%
+           family={Le\bibnamedelima Ber},
+           familyi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Fantin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{06bf779c52b25930c31d49bbad2b18fb}
+      \strng{fullhash}{06bf779c52b25930c31d49bbad2b18fb}
+      \strng{fullhashraw}{06bf779c52b25930c31d49bbad2b18fb}
+      \strng{bibnamehash}{06bf779c52b25930c31d49bbad2b18fb}
+      \strng{authorbibnamehash}{06bf779c52b25930c31d49bbad2b18fb}
+      \strng{authornamehash}{06bf779c52b25930c31d49bbad2b18fb}
+      \strng{authorfullhash}{06bf779c52b25930c31d49bbad2b18fb}
+      \strng{authorfullhashraw}{06bf779c52b25930c31d49bbad2b18fb}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This work is the result of a 6 months internship experience in the {ANR} Highvision project, dedicated to automatic study of the circulation of press photographs in the early {XXth} century, and in the {PictorIA} consortium, an initiative dedicated to the study of {AI} possibilities for image analysis in Digital Humanities. The said mémoire mainly studies the impact of machine learning technologies in historical research and {LAM} institutions. It also presents a protocol used for automatic segmentation of newpaper pages based on a custom {YOLO} model and pero-ocr, and an attempt to tackle the trials of image-text links in the context of press, through the {CLIP} model.}
+      \field{month}{9}
+      \field{pagetotal}{xvi-90}
+      \field{shorttitle}{{IA} et patrimoine, un changement dans la continuité}
+      \field{title}{{IA} et patrimoine, un changement dans la continuité : l'exemple du projet Highvision}
+      \field{type}{Master's Thesis}
+      \field{urlday}{10}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb HAL PDF Full Text:/home/lunes/snap/zotero-snap/common/Zotero/storage/WKVET3BS/Fantin Le Ber - 2025 - IA et patrimoine, un changement dans la continuité l'exemple du projet Highvision.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dumas.ccsd.cnrs.fr/dumas-05387596
+      \endverb
+      \verb{url}
+      \verb https://dumas.ccsd.cnrs.fr/dumas-05387596
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{lombardi_deep_2020}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=620632e1bd85cf34a1727c9450210886}{%
+           family={Lombardi},
+           familyi={L\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=3807127b226407198691259c23e36e50}{%
+           family={Marinai},
+           familyi={M\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \strng{fullhash}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \strng{fullhashraw}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \strng{bibnamehash}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \strng{authorbibnamehash}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \strng{authornamehash}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \strng{authorfullhash}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \strng{authorfullhashraw}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Nowadays, deep learning methods are employed in a broad range of research fields. The analysis and recognition of historical documents, as we survey in this work, is not an exception. Our study analyzes the papers published in the last few years on this topic from different perspectives: we first provide a pragmatic definition of historical documents from the point of view of the research in the area, then we look at the various sub-tasks addressed in this research. Guided by these tasks, we go through the different input-output relations that are expected from the used deep learning approaches and therefore we accordingly describe the most used models. We also discuss research datasets published in the field and their applications. This analysis shows that the latest research is a leap forward since it is not the simple use of recently proposed algorithms to previous problems, but novel tasks and novel applications of state of the art methods are now considered. Rather than just providing a conclusive picture of the current research in the topic we lastly suggest some potential future trends that can represent a stimulus for innovative research directions.}
+      \field{issn}{2313-433X}
+      \field{journaltitle}{Journal of Imaging}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Deep Learning for Historical Document Analysis and Recognition—A Survey}
+      \field{urlday}{7}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{6}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{110}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/jimaging6100110
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/NLCB4LY5/Lombardi and Marinai - 2020 - Deep Learning for Historical Document Analysis and Recognition—A Survey.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2313-433X/6/10/110
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2313-433X/6/10/110
+      \endverb
+      \keyw{lu}
+    \endentry
+    \entry{francesco_lombardi_deep_2020}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=620632e1bd85cf34a1727c9450210886}{%
+           family={Lombardi},
+           familyi={L\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=3807127b226407198691259c23e36e50}{%
+           family={Marinai},
+           familyi={M\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \strng{fullhash}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \strng{fullhashraw}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \strng{bibnamehash}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \strng{authorbibnamehash}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \strng{authornamehash}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \strng{authorfullhash}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \strng{authorfullhashraw}{e6bcbbfa92318adf04b8e64d9a296d5e}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Nowadays, deep learning methods are employed in a broad range of research fields. The analysis and recognition of historical documents, as we survey in this work, is not an exception. Our study analyzes the papers published in the last few years on this topic from different perspectives: we first provide a pragmatic definition of historical documents from the point of view of the research in the area, then we look at the various sub-tasks addressed in this research. Guided by these tasks, we go through the different input-output relations that are expected from the used deep learning approaches and therefore we accordingly describe the most used models. We also discuss research datasets published in the field and their applications. This analysis shows that the latest research is a leap forward since it is not the simple use of recently proposed algorithms to previous problems, but novel tasks and novel applications of state of the art methods are now considered. Rather than just providing a conclusive picture of the current research in the topic we lastly suggest some potential future trends that can represent a stimulus for innovative research directions.}
+      \field{issn}{2313-433X}
+      \field{journaltitle}{Journal of Imaging}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Deep Learning for Historical Document Analysis and Recognition—A Survey}
+      \field{urlday}{7}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{6}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{110}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/jimaging6100110
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/NLCB4LY5/Francesco Lombardi and Simone Marinai - 2020 - Deep Learning for Historical Document Analysis and Recognition—A Survey.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2313-433X/6/10/110
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2313-433X/6/10/110
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{s_marinai_artificial_2005}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=00dea0acd55d7b3ddb6cf57cac7fadf1}{%
+           family={Marinai},
+           familyi={M\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ab33529dbd8ef78724f1dc8a425e57e}{%
+           family={Gori},
+           familyi={G\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c847668ee71d997d12267fdaab725605}{%
+           family={Soda},
+           familyi={S\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e7a2ca0e7e971223b73badb142e4b871}
+      \strng{fullhash}{e7a2ca0e7e971223b73badb142e4b871}
+      \strng{fullhashraw}{e7a2ca0e7e971223b73badb142e4b871}
+      \strng{bibnamehash}{e7a2ca0e7e971223b73badb142e4b871}
+      \strng{authorbibnamehash}{e7a2ca0e7e971223b73badb142e4b871}
+      \strng{authornamehash}{e7a2ca0e7e971223b73badb142e4b871}
+      \strng{authorfullhash}{e7a2ca0e7e971223b73badb142e4b871}
+      \strng{authorfullhashraw}{e7a2ca0e7e971223b73badb142e4b871}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Artificial neural networks have been extensively applied to document analysis and recognition. Most efforts have been devoted to the recognition of isolated handwritten and printed characters with widely recognized successful results. However, many other document processing tasks, like preprocessing, layout analysis, character segmentation, word recognition, and signature verification, have been effectively faced with very promising results. This paper surveys the most significant problems in the area of offline document image processing, where connectionist-based approaches have been applied. Similarities and differences between approaches belonging to different categories are discussed. A particular emphasis is given on the crucial role of prior knowledge for the conception of both appropriate architectures and learning algorithms. Finally, the paper provides a critical analysts on the reviewed approaches and depicts the most promising research guidelines in the field. In particular, a second generation of connectionist-based models are foreseen which are based on appropriate graphical representations of the learning environment.}
+      \field{issn}{1939-3539}
+      \field{journaltitle}{{IEEE} Transactions on Pattern Analysis and Machine Intelligence}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Artificial neural networks for document analysis and recognition}
+      \field{urlday}{7}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{27}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{23\bibrangedash 35}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TPAMI.2005.4
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/PIPUJW7J/S. Marinai et al. - 2005 - Artificial neural networks for document analysis and recognition.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/1359749
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/1359749
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{mashinka_firunts_hakopian_art_2024}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7058171a532336710adc10ab4e23767c}{%
+           family={Mashinka},
+           familyi={M\bibinitperiod},
+           given={Firunts\bibnamedelima Hakopian},
+           giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7058171a532336710adc10ab4e23767c}
+      \strng{fullhash}{7058171a532336710adc10ab4e23767c}
+      \strng{fullhashraw}{7058171a532336710adc10ab4e23767c}
+      \strng{bibnamehash}{7058171a532336710adc10ab4e23767c}
+      \strng{authorbibnamehash}{7058171a532336710adc10ab4e23767c}
+      \strng{authornamehash}{7058171a532336710adc10ab4e23767c}
+      \strng{authorfullhash}{7058171a532336710adc10ab4e23767c}
+      \strng{authorfullhashraw}{7058171a532336710adc10ab4e23767c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper considers recent experiments in art and artificial intelligence that crystallize around training algorithms to generate artworks based on datasets derived from the Western art historical canon. Over the last decade, a shift towards the rejection of canonicity has begun to take shape in art historical discourse. At the same time, algorithmically enabled practices in the {US} and Europe have emerged that entrench the Western canon as a locus and guarantor of aesthetic value. Operating within the epistemic framework of a “view from nowhere,” this tendency in generative art inherits the coloniality of both art history and artificial intelligence. Producing “art histories from nowhere,” this tendency conflates the conceptual category of visual art with the histories of Western cultural production. It reproduces a set of aesthetic values that entrench the mythology of the artist-genius and his imputed whiteness and masculinity; the extolment of innovation and novelty as self-evident virtues; disembodied Cartesian models of knowing and sensing; and the erasure of contributions that have been occluded from canonical visibility. As we encounter systems trained on particular visions of art history and of the artist, how might we remain attentive to the specific lens through which they are taught to see? This essay addresses that question by bringing the coloniality of recent experiments into view, bridging data feminisms and decolonial studies to formulate alternative visions of encounters between art and {AI}.}
+      \field{day}{1}
+      \field{issn}{1435-5655}
+      \field{journaltitle}{{AI} \& {SOCIETY}}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shortjournal}{{AI} \& Soc}
+      \field{shorttitle}{Art histories from nowhere}
+      \field{title}{Art histories from nowhere: on the coloniality of experiments in art and artificial intelligence}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{39}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{29\bibrangedash 41}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/s00146-023-01768-0
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/8XZHDAPE/Mashinka Firunts Hakopian - 2024 - Art histories from nowhere on the coloniality of experiments in art and artificial intelligence.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00146-023-01768-0
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00146-023-01768-0
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{mcculloch_logical_1943}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1ccb147b2b2165266e6ce5900193e687}{%
+           family={{McCulloch}},
+           familyi={M\bibinitperiod},
+           given={Warren\bibnamedelima S.},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5a56e799cdf785e814246c091d36e73}{%
+           family={Pitts},
+           familyi={P\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{816477c5724040789c6fe02e3968dc62}
+      \strng{fullhash}{816477c5724040789c6fe02e3968dc62}
+      \strng{fullhashraw}{816477c5724040789c6fe02e3968dc62}
+      \strng{bibnamehash}{816477c5724040789c6fe02e3968dc62}
+      \strng{authorbibnamehash}{816477c5724040789c6fe02e3968dc62}
+      \strng{authornamehash}{816477c5724040789c6fe02e3968dc62}
+      \strng{authorfullhash}{816477c5724040789c6fe02e3968dc62}
+      \strng{authorfullhashraw}{816477c5724040789c6fe02e3968dc62}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Because of the “all-or-none” character of nervous activity, neural events and the relations among them can be treated by means of propositional logic. It is found that the behavior of every net can be described in these terms, with the addition of more complicated logical means for nets containing circles; and that for any logical expression satisfying certain conditions, one can find a net behaving in the fashion it describes. It is shown that many particular choices among possible neurophysiological assumptions are equivalent, in the sense that for every net behaving under one assumption, there exists another net which behaves under the other and gives the same results, although perhaps not in the same time. Various applications of the calculus are discussed.}
+      \field{day}{1}
+      \field{issn}{1522-9602}
+      \field{journaltitle}{The bulletin of mathematical biophysics}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{4}
+      \field{shortjournal}{Bulletin of Mathematical Biophysics}
+      \field{title}{A logical calculus of the ideas immanent in nervous activity}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{5}
+      \field{year}{1943}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{115\bibrangedash 133}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/BF02478259
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/2X6H2QHC/McCulloch and Pitts - 1943 - A logical calculus of the ideas immanent in nervous activity.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF02478259
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF02478259
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{michal_szostak_aesthetic_2025}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d24d305ee1c4b754f63f2fc50615782f}{%
+           family={Michał},
+           familyi={M\bibinitperiod},
+           given={Szostak},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Brill mentis}%
+      }
+      \strng{namehash}{d24d305ee1c4b754f63f2fc50615782f}
+      \strng{fullhash}{d24d305ee1c4b754f63f2fc50615782f}
+      \strng{fullhashraw}{d24d305ee1c4b754f63f2fc50615782f}
+      \strng{bibnamehash}{d24d305ee1c4b754f63f2fc50615782f}
+      \strng{authorbibnamehash}{d24d305ee1c4b754f63f2fc50615782f}
+      \strng{authornamehash}{d24d305ee1c4b754f63f2fc50615782f}
+      \strng{authorfullhash}{d24d305ee1c4b754f63f2fc50615782f}
+      \strng{authorfullhashraw}{d24d305ee1c4b754f63f2fc50615782f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract The chapter explores the aesthetic dimensions of human-{AI} collaboration in arts, cultural heritage, and academic research, addressing the complex interplay between artificial and human creativity. As {AI} technologies increasingly integrate into creative domains, fundamental questions arise regarding authorship, originality, emotional depth, and aesthetic judgment. This research analyses how {AI}-supported creative works compare to human-created ones, how {AI}-driven aesthetics challenge traditional human-centred notions of beauty and meaning, and how different research perspectives conceptualise {AI}-driven aesthetics within humanistic traditions. The methodology employed in this study is a systematic literature review and analytical framework, synthesising insights from interdisciplinary sources across aesthetic theory, cognitive science, {AI} research, and cultural studies. By structuring the discussion around seven research areas, the study identifies emerging paradoxes, aesthetic transformations, and evolving paradigms that redefine the relationship between {AI} and human creativity. The results highlight three significant findings: (1) {AI} introduces new aesthetic paradoxes, such as authenticity without intent and infinite synthesis without originality; (2) {AI} fosters novel aesthetic categories, including computational excess and predictive aesthetics (including a kitsch trap); and (3) {AI} acts as a meta-creator, shifting creative agency towards algorithmic curation and hybrid human-{AI} processes. The chapter may benefit scholars, artists, cultural theorists, and {AI} researchers by offering new conceptual frameworks for understanding {AI}’s impact on aesthetic judgment in art, cultural heritage, and knowledge production. It encourages further interdisciplinary dialogue on the evolving role of {AI} in shaping human creativity and intellectual inquiry.}
+      \field{booktitle}{Aesthetics of Human-{AI} Collaboration in Creative Activities}
+      \field{day}{30}
+      \field{isbn}{978-3-96975-346-0}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{note}{Section: Aesthetics of Human-{AI} Collaboration in Creative Activities}
+      \field{shorttitle}{Aesthetic Insights into Human-{AI} Collaboration in Art, Cultural Heritage, and Academic Practice}
+      \field{title}{Aesthetic Insights into Human-{AI} Collaboration in Art, Cultural Heritage, and Academic Practice: Research Perspectives}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 55}
+      \range{pages}{55}
+      \verb{doi}
+      \verb 10.30965/9783969753460_002
+      \endverb
+      \verb{urlraw}
+      \verb https://brill.com/edcollchap/book/9783969753460/BP000008.xml
+      \endverb
+      \verb{url}
+      \verb https://brill.com/edcollchap/book/9783969753460/BP000008.xml
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{monnier_docextractor_2020}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5c623ab3c147298244eae05925a77640}{%
+           family={Monnier},
+           familyi={M\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9520cf3d326610c36a727c2b40c80c7b}{%
+           family={Aubry},
+           familyi={A\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{66f06716d6b69b30f5dc1d6e7f63941b}
+      \strng{fullhash}{66f06716d6b69b30f5dc1d6e7f63941b}
+      \strng{fullhashraw}{66f06716d6b69b30f5dc1d6e7f63941b}
+      \strng{bibnamehash}{66f06716d6b69b30f5dc1d6e7f63941b}
+      \strng{authorbibnamehash}{66f06716d6b69b30f5dc1d6e7f63941b}
+      \strng{authornamehash}{66f06716d6b69b30f5dc1d6e7f63941b}
+      \strng{authorfullhash}{66f06716d6b69b30f5dc1d6e7f63941b}
+      \strng{authorfullhashraw}{66f06716d6b69b30f5dc1d6e7f63941b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We present {docExtractor}, a generic approach for extracting visual elements such as text lines or illustrations from historical documents without requiring any real data annotation. We demonstrate it provides high-quality performances as an offthe-shelf system across a wide variety of datasets and leads to results on par with state-of-the-art when ﬁne-tuned. We argue that the performance obtained without ﬁne-tuning on a speciﬁc dataset is critical for applications, in particular in digital humanities, and that the line-level page segmentation we address is the most relevant for a general purpose element extraction engine. We rely on a fast generator of rich synthetic documents and design a fully convolutional network, which we show to generalize better than a detection-based approach. Furthermore, we introduce a new public dataset dubbed {IlluHisDoc} dedicated to the ﬁne evaluation of illustration segmentation in historical documents.}
+      \field{booktitle}{2020 17th International Conference on Frontiers in Handwriting Recognition ({ICFHR})}
+      \field{eprinttype}{arxiv}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shorttitle}{{docExtractor}}
+      \field{title}{{docExtractor}: An off-the-shelf historical document element extraction}
+      \field{urlday}{1}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{91\bibrangedash 96}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICFHR2020.2020.00027
+      \endverb
+      \verb{eprint}
+      \verb 2012.08191 [cs]
+      \endverb
+      \verb{file}
+      \verb PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/4TIU5SF9/Monnier and Aubry - 2020 - docExtractor An off-the-shelf historical document element extraction.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2012.08191
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2012.08191
+      \endverb
+      \keyw{ont}
+    \endentry
+    \entry{caroline_muller_ecrire_2025}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5ee0f571c00a74548f4cb4d3768ac49b}{%
+           family={Muller},
+           familyi={M\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39bdf0b8c6b753ec6cf273dafe1a37fd}{%
+           family={Clavert},
+           familyi={C\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Armand Collin}%
+      }
+      \strng{namehash}{a20277a1486db4dbd6717d7be2b465bf}
+      \strng{fullhash}{a20277a1486db4dbd6717d7be2b465bf}
+      \strng{fullhashraw}{a20277a1486db4dbd6717d7be2b465bf}
+      \strng{bibnamehash}{a20277a1486db4dbd6717d7be2b465bf}
+      \strng{authorbibnamehash}{a20277a1486db4dbd6717d7be2b465bf}
+      \strng{authornamehash}{a20277a1486db4dbd6717d7be2b465bf}
+      \strng{authorfullhash}{a20277a1486db4dbd6717d7be2b465bf}
+      \strng{authorfullhashraw}{a20277a1486db4dbd6717d7be2b465bf}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-2-200-64337-9}
+      \field{title}{Écrire l'histoire, gestes et expériences à l'ère numérique.}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/SAHCMS9M/Caroline Muller and Frédéric Clavert - 2025 - Écrire l'histoire, gestes et expériences à l'ère numérique..pdf:application/pdf
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{nikolaidou_survey_2022}{book}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=eca3ea624f24903b749356329c44b565}{%
+           family={Nikolaidou},
+           familyi={N\bibinitperiod},
+           given={Konstantina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b2d44b199083bc016f5a1da0107429b}{%
+           family={Seuret},
+           familyi={S\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f22faa29bdc77d0676708660b3e88ea}{%
+           family={Mokayed},
+           familyi={M\bibinitperiod},
+           given={Hamam},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c68669e21dde05e765f1aed0bb9db58}{%
+           family={Liwicki},
+           familyi={L\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d9fac55edb2932cce80727abc5582927}
+      \strng{fullhash}{e6ff5bc8d584aa97cf772bd00724654f}
+      \strng{fullhashraw}{e6ff5bc8d584aa97cf772bd00724654f}
+      \strng{bibnamehash}{e6ff5bc8d584aa97cf772bd00724654f}
+      \strng{authorbibnamehash}{e6ff5bc8d584aa97cf772bd00724654f}
+      \strng{authornamehash}{d9fac55edb2932cce80727abc5582927}
+      \strng{authorfullhash}{e6ff5bc8d584aa97cf772bd00724654f}
+      \strng{authorfullhashraw}{e6ff5bc8d584aa97cf772bd00724654f}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents a systematic literature review of image datasets for document image analysis, focusing on historical documents, such as handwritten manuscripts and early prints. Finding appropriate datasets for historical document analysis is a crucial prerequisite to facilitate research using different machine learning algorithms. However, because of the very large variety of the actual data (e.g., scripts, tasks, dates, support systems, and amount of deterioration), the different formats for data and label representation, and the different evaluation processes and benchmarks, finding appropriate datasets is a difficult task. This work fills this gap, presenting a meta-study on existing datasets. After a systematic selection process (according to {PRISMA} guidelines), we select 65 studies that are chosen based on different factors, such as the year of publication, number of methods implemented in the article, reliability of the chosen algorithms, dataset size, and journal outlet. We summarize each study by assigning it to one of three pre-defined tasks: document classification, layout structure, or content analysis. We present the statistics, document type, language, tasks, input visual aspects, and ground truth information for every dataset. In addition, we provide the benchmark tasks and results from these papers or recent competitions. We further discuss gaps and challenges in this domain. We advocate for providing conversion tools to common formats (e.g., {COCO} format for computer vision tasks) and always providing a set of evaluation metrics, instead of just one, to make results comparable across studies.}
+      \field{day}{1}
+      \field{issn}{1433-2825}
+      \field{journaltitle}{International Journal on Document Analysis and Recognition ({IJDAR})}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{4}
+      \field{shortjournal}{{IJDAR}}
+      \field{title}{A survey of historical document image datasets}
+      \field{urlday}{1}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{25}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{305\bibrangedash 338}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1007/s10032-022-00405-8
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/ZEG7LRF7/Nikolaidou et al. - 2022 - A survey of historical document image datasets.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10032-022-00405-8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10032-022-00405-8
+      \endverb
+      \keyw{lu}
+    \endentry
+    \entry{somkeo_norindr_traitement_nodate}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ac48f72d2cab97c037a9df54c0533c36}{%
+           family={Norindr},
+           familyi={N\bibinitperiod},
+           given={Somkeo},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac48f72d2cab97c037a9df54c0533c36}
+      \strng{fullhash}{ac48f72d2cab97c037a9df54c0533c36}
+      \strng{fullhashraw}{ac48f72d2cab97c037a9df54c0533c36}
+      \strng{bibnamehash}{ac48f72d2cab97c037a9df54c0533c36}
+      \strng{authorbibnamehash}{ac48f72d2cab97c037a9df54c0533c36}
+      \strng{authornamehash}{ac48f72d2cab97c037a9df54c0533c36}
+      \strng{authorfullhash}{ac48f72d2cab97c037a9df54c0533c36}
+      \strng{authorfullhashraw}{ac48f72d2cab97c037a9df54c0533c36}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Le traitement des sources historiques par la vision artificielle: l'exemple des manuscrits d'astronomie de tradition ptoléméenne}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/4YKWF2NH/Somkeo Norindr - Le traitement des sources historiques par la vision artificielle l'exemple des manuscrits d'astrono.pdf:application/pdf
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{perez_germana_2009}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=30270f56535c019e4bcf5556e5ed50b7}{%
+           family={Pérez},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0120f9d20aaaa93a1137bc4b4209b3d3}{%
+           family={Tarazón},
+           familyi={T\bibinitperiod},
+           given={Lionel},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4710f1a104c7f0cad2be34142e7558cd}{%
+           family={Serrano},
+           familyi={S\bibinitperiod},
+           given={Nicolás},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdc0c2f95385b3a275d1e9d9449b632b}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70e4d0072fdae3ca6e7ef39a67acc956}{%
+           family={Terrades},
+           familyi={T\bibinitperiod},
+           given={Oriol\bibnamedelima Ramos},
+           giveni={O\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=060b4ceb4598884ea2964391a96ba66c}{%
+           family={Juan},
+           familyi={J\bibinitperiod},
+           given={Alfons},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{abcef7408060adc64c69224c89ea1903}
+      \strng{fullhash}{e954382c5bdbac3682895cffa462f583}
+      \strng{fullhashraw}{e954382c5bdbac3682895cffa462f583}
+      \strng{bibnamehash}{e954382c5bdbac3682895cffa462f583}
+      \strng{authorbibnamehash}{e954382c5bdbac3682895cffa462f583}
+      \strng{authornamehash}{abcef7408060adc64c69224c89ea1903}
+      \strng{authorfullhash}{e954382c5bdbac3682895cffa462f583}
+      \strng{authorfullhashraw}{e954382c5bdbac3682895cffa462f583}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new handwritten text database, {GERMANA}, is presented to facilitate empirical comparison of different approaches to text line extraction and off-line handwriting recognition. {GERMANA} is the result of digitising and annotating a 764-page Spanish manuscript from 1891, in which most pages only contain nearly calligraphed text written on ruled sheets of well-separated lines. To our knowledge, it is the first publicly available database for handwriting research, mostly written in Spanish and comparable in size to standard databases. Due to its sequential book structure, it is also well-suited for realistic assessment of interactive handwriting recognition systems. To provide baseline results for reference in future studies, empirical results are also reported, using standard techniques and tools for preprocessing, feature extraction, {HMM}-based image modelling, and language modelling.}
+      \field{booktitle}{2009 10th International Conference on Document Analysis and Recognition}
+      \field{eventtitle}{2009 10th International Conference on Document Analysis and Recognition}
+      \field{issn}{2379-2140}
+      \field{month}{7}
+      \field{note}{{ISSN}: 2379-2140}
+      \field{title}{The {GERMANA} Database}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{301\bibrangedash 305}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICDAR.2009.10
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/3WS6NDF4/Pérez et al. - 2009 - The GERMANA Database.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/5277691/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/5277691/
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{rose_mary_philip_authenticity_2026}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eee8b5ae12af5c324bfb7eb59fa2aa57}{%
+           family={Philip},
+           familyi={P\bibinitperiod},
+           given={Rose\bibnamedelima Mary},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eee8b5ae12af5c324bfb7eb59fa2aa57}
+      \strng{fullhash}{eee8b5ae12af5c324bfb7eb59fa2aa57}
+      \strng{fullhashraw}{eee8b5ae12af5c324bfb7eb59fa2aa57}
+      \strng{bibnamehash}{eee8b5ae12af5c324bfb7eb59fa2aa57}
+      \strng{authorbibnamehash}{eee8b5ae12af5c324bfb7eb59fa2aa57}
+      \strng{authornamehash}{eee8b5ae12af5c324bfb7eb59fa2aa57}
+      \strng{authorfullhash}{eee8b5ae12af5c324bfb7eb59fa2aa57}
+      \strng{authorfullhashraw}{eee8b5ae12af5c324bfb7eb59fa2aa57}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper examines the concept of authenticity in the context of digital reproductions and {AI}-generated art, engaging critically with Walter Benjamin's seminal concept of the 'aura' and its relevance to contemporary technological conditions. Drawing on philosophical frameworks from Heidegger, Goodman, and Danto, alongside contemporary digital aesthetics discourse, this analysis investigates how digitization and artificial intelligence challenge traditional conceptions of artistic authenticity, originality, and authorship. The paper argues that while digital technologies initially appeared to fulfill Benjamin's prophecy of democratized art through infinite reproduction, {AI}-generated art introduces a qualitatively different epistemic challenge that demands reconceptualizing authenticity beyond material origins and human intentionality. Through critical examination of the ontological status of digital and {AI}-generated artworks, this paper demonstrates that authenticity in the digital age must be understood not as an inherent property of objects but as a relational, contextual, and performative construct negotiated within specific aesthetic and cultural frameworks. The implications extend beyond art theory to broader questions of human creativity, technological mediation, and the future of aesthetic experience.}
+      \field{day}{3}
+      \field{journaltitle}{Peer-Reviewed Journal of Arts and Literature ({PRJAL})}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Authenticity in The Digital Age}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{1}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{16\bibrangedash 20}
+      \range{pages}{5}
+      \verb{file}
+      \verb Full Text PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/L3JN9LWB/Rose Mary Philip - 2026 - Authenticity in The Digital Age.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://peerreviewjournal.in/index.php/prjal/article/view/8
+      \endverb
+      \verb{url}
+      \verb https://peerreviewjournal.in/index.php/prjal/article/view/8
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{5597587}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=717c1a7b583c906ed4fcaae793238921}{%
+           family={Pletschacher},
+           familyi={P\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ceb539ff35ea2d3cfac7dbac6dba4fe1}{%
+           family={Antonacopoulos},
+           familyi={A\bibinitperiod},
+           given={Apostolos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2a69d310f5694d610b7753d80b9fb055}
+      \strng{fullhash}{2a69d310f5694d610b7753d80b9fb055}
+      \strng{fullhashraw}{2a69d310f5694d610b7753d80b9fb055}
+      \strng{bibnamehash}{2a69d310f5694d610b7753d80b9fb055}
+      \strng{authorbibnamehash}{2a69d310f5694d610b7753d80b9fb055}
+      \strng{authornamehash}{2a69d310f5694d610b7753d80b9fb055}
+      \strng{authorfullhash}{2a69d310f5694d610b7753d80b9fb055}
+      \strng{authorfullhashraw}{2a69d310f5694d610b7753d80b9fb055}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2010 20th International Conference on Pattern Recognition}
+      \field{title}{The PAGE (Page Analysis and Ground-Truth Elements) Format Framework}
+      \field{year}{2010}
+      \true{nocite}
+      \field{pages}{257\bibrangedash 260}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICPR.2010.72
+      \endverb
+      \keyw{ont}
+    \endentry
+    \entry{poublanc_introduction_2023}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1a47d11c03f7f1dc94bb9426e9cf24cb}{%
+           family={Poublanc},
+           familyi={P\bibinitperiod},
+           given={Sébastien},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa23bff3e13982b4264c589f825c9251}{%
+           family={Marqué},
+           familyi={M\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {{UMR} 5136 – {FRAMESPA}}%
+      }
+      \strng{namehash}{292098a1a4e09d2a2a132b892d988797}
+      \strng{fullhash}{292098a1a4e09d2a2a132b892d988797}
+      \strng{fullhashraw}{292098a1a4e09d2a2a132b892d988797}
+      \strng{bibnamehash}{292098a1a4e09d2a2a132b892d988797}
+      \strng{authorbibnamehash}{292098a1a4e09d2a2a132b892d988797}
+      \strng{authornamehash}{292098a1a4e09d2a2a132b892d988797}
+      \strng{authorfullhash}{292098a1a4e09d2a2a132b892d988797}
+      \strng{authorfullhashraw}{292098a1a4e09d2a2a132b892d988797}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{« Pendant vingt ou trente années, l’école historique française a vécu, admirablement, sur l’héritage des pères fondateurs, Lucien Febvre et Marc Bloch. Et, au moins dans le domaine de l’histoire sociale, économique et quantitative, cette école a constitué, pour les historiens des autres pays, le groupe de pointe et d’avant-garde. La révolution technologique que nous vivons risque de changer tout cela. Aux États-Unis, chaque université un peu importante a désormais son centre d’informatique et...}
+      \field{issn}{1760-4761}
+      \field{journaltitle}{Les Cahiers de Framespa. e-{STORIA}}
+      \field{langid}{french}
+      \field{number}{42}
+      \field{shorttitle}{Introduction au dossier « Historien·nes et numérique}
+      \field{title}{Introduction au dossier « Historien·nes et numérique : pratiques et expériences vécues »}
+      \field{urlday}{22}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.4000/framespa.14370
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.openedition.org/framespa/14370
+      \endverb
+      \verb{url}
+      \verb https://journals.openedition.org/framespa/14370
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{puren:hal-05460105}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=ddbc24ae74858c065db2961b93f64b9d}{%
+           family={Puren},
+           familyi={P\bibinitperiod},
+           given={Marie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e1a1a7db25641a4e33a4aa5d1a040bd}{%
+           family={Bian},
+           familyi={B\bibinitperiod},
+           given={Donghan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfb856c77a0ba308e7883f4a258cdc6e}{%
+           family={Pellet},
+           familyi={P\bibinitperiod},
+           given={Aurélien},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8feeff76343793ae5e3c4d7c2d39d3d8}{%
+           family={Perez},
+           familyi={P\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d2f433a9d358886dc3eb6813d034fd3}{%
+           family={Cafiero},
+           familyi={C\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Paris, France}%
+      }
+      \list{organization}{1}{%
+        {Association francophone des humanités numériques}%
+      }
+      \list{publisher}{1}{%
+        {Anthology of Computers and the Humanities}%
+      }
+      \strng{namehash}{ec6daa44e100848dad5a02fc9d5af28f}
+      \strng{fullhash}{f0704c3b54aa5af346d40d9b4fd95ac6}
+      \strng{fullhashraw}{f0704c3b54aa5af346d40d9b4fd95ac6}
+      \strng{bibnamehash}{f0704c3b54aa5af346d40d9b4fd95ac6}
+      \strng{authorbibnamehash}{f0704c3b54aa5af346d40d9b4fd95ac6}
+      \strng{authornamehash}{ec6daa44e100848dad5a02fc9d5af28f}
+      \strng{authorfullhash}{f0704c3b54aa5af346d40d9b4fd95ac6}
+      \strng{authorfullhashraw}{f0704c3b54aa5af346d40d9b4fd95ac6}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Anthology of Computers and the Humanities}}
+      \field{month}{5}
+      \field{title}{{Aligner méthode historique et RAG}}
+      \field{volume}{4}
+      \field{year}{2026}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.63744/G14mF7UizFzS
+      \endverb
+      \verb{file}
+      \verb https://hal.science/hal-05460105v3/file/10.63744_at_G14mF7UizFzS.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://hal.science/hal-05460105
+      \endverb
+      \verb{url}
+      \verb https://hal.science/hal-05460105
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{yolov3}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=99bced2e56a5253f3fe98a5f04e6d9b2}{%
+           family={Redmon},
+           familyi={R\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=396c6ddedb6f986906fc3e4994d19974}{%
+           family={Farhadi},
+           familyi={F\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{fullhash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{fullhashraw}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{bibnamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{authorbibnamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{authornamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{authorfullhash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{authorfullhashraw}{e3b480c56f52be95ad68ce67e9708174}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv}
+      \field{title}{YOLOv3: An Incremental Improvement}
+      \field{year}{2018}
+      \true{nocite}
+      \keyw{ml}
+    \endentry
+    \entry{rygiel_ordinateur_2006}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3ab4b26f4d05f765792f4d460566fe59}{%
+           family={Rygiel},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ab4b26f4d05f765792f4d460566fe59}
+      \strng{fullhash}{3ab4b26f4d05f765792f4d460566fe59}
+      \strng{fullhashraw}{3ab4b26f4d05f765792f4d460566fe59}
+      \strng{bibnamehash}{3ab4b26f4d05f765792f4d460566fe59}
+      \strng{authorbibnamehash}{3ab4b26f4d05f765792f4d460566fe59}
+      \strng{authornamehash}{3ab4b26f4d05f765792f4d460566fe59}
+      \strng{authorfullhash}{3ab4b26f4d05f765792f4d460566fe59}
+      \strng{authorfullhashraw}{3ab4b26f4d05f765792f4d460566fe59}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Les historiens sont familiarisés avec l’ordinateur et Internet depuis au moins une dizaine d’années. Pour certains d’entre eux, ceci a certainement changé ou changera la façon d’écrire l’histoire. Mais en nous appuyant sur des sources existantes, notamment les sites Web d’histoire en France et en Italie, nous faisons le constat du manque de preuves empiriques permettant de dire que l’existence de sources électroniques a déjà affecté la façon d’écrire l’histoire. Étant donné l’évolution rapide des technologies, mais aussi parce que les règles appliquées à l’écriture de l’histoire, rarement étudiées, sont le fruit d’une organisation sociale complexe et d’institutions puissantes dont le changement supposerait des transformations sociales, culturelles et économiques, nous pouvons conclure que les seules considérations techniques sont insuffisantes.}
+      \field{day}{1}
+      \field{issn}{0769-3206}
+      \field{journaltitle}{Matériaux pour l’histoire de notre temps}
+      \field{langid}{french}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shorttitle}{L'ordinateur, le réseau et l'écriture de l'histoire}
+      \field{title}{L'ordinateur, le réseau et l'écriture de l'histoire:}
+      \field{urlday}{12}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{volume}{N° 82}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{75\bibrangedash 79}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.3917/mate.082.0075
+      \endverb
+      \verb{file}
+      \verb PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/2KXX3CL3/Rygiel - 2006 - L'ordinateur, le réseau et l'écriture de l'histoire.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cairn.info/revue-materiaux-pour-l-histoire-de-notre-temps-2006-2-page-75.htm?ref=doi
+      \endverb
+      \verb{url}
+      \verb https://www.cairn.info/revue-materiaux-pour-l-histoire-de-notre-temps-2006-2-page-75.htm?ref=doi
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{philippe_rygiel_ecriture_2011}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3ab4b26f4d05f765792f4d460566fe59}{%
+           family={Rygiel},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=05e3a278a191a4c7bd5e2fd755d8a9f8}{%
+           family={Guichard},
+           familyi={G\bibinitperiod},
+           given={Éric},
+           giveni={É\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{3ab4b26f4d05f765792f4d460566fe59}
+      \strng{fullhash}{3ab4b26f4d05f765792f4d460566fe59}
+      \strng{fullhashraw}{3ab4b26f4d05f765792f4d460566fe59}
+      \strng{bibnamehash}{3ab4b26f4d05f765792f4d460566fe59}
+      \strng{authorbibnamehash}{3ab4b26f4d05f765792f4d460566fe59}
+      \strng{authornamehash}{3ab4b26f4d05f765792f4d460566fe59}
+      \strng{authorfullhash}{3ab4b26f4d05f765792f4d460566fe59}
+      \strng{authorfullhashraw}{3ab4b26f4d05f765792f4d460566fe59}
+      \strng{editorbibnamehash}{05e3a278a191a4c7bd5e2fd755d8a9f8}
+      \strng{editornamehash}{05e3a278a191a4c7bd5e2fd755d8a9f8}
+      \strng{editorfullhash}{05e3a278a191a4c7bd5e2fd755d8a9f8}
+      \strng{editorfullhashraw}{05e3a278a191a4c7bd5e2fd755d8a9f8}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Regards croisés sur l'Internet}
+      \field{isbn}{978-2-37546-044-3}
+      \field{langid}{french}
+      \field{note}{Code: Regards croisés sur l'Internet}
+      \field{series}{Papiers}
+      \field{title}{Écriture de l’histoire et réseaux numériques}
+      \field{urlday}{23}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{102\bibrangedash 124}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.1941
+      \endverb
+      \verb{urlraw}
+      \verb https://books.openedition.org/pressesenssib/1941
+      \endverb
+      \verb{url}
+      \verb https://books.openedition.org/pressesenssib/1941
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{santos_junior_comparative_2025}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=03d54cfb219713da0d5de035566f439b}{%
+           family={Santos\bibnamedelima Júnior},
+           familyi={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Eder\bibnamedelimb Silva\bibnamedelima dos},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02fe22c4adc58534967ee35d0b13b6ac}{%
+           family={Paixão},
+           familyi={P\bibinitperiod},
+           given={Thuanne},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=277cfe0c4cb8a00b98dd8b5679834689}{%
+           family={Alvarez},
+           familyi={A\bibinitperiod},
+           given={Ana\bibnamedelima Beatriz},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{bd4b00fcb666ec0cc79575514ff98636}
+      \strng{fullhash}{bd4b00fcb666ec0cc79575514ff98636}
+      \strng{fullhashraw}{bd4b00fcb666ec0cc79575514ff98636}
+      \strng{bibnamehash}{bd4b00fcb666ec0cc79575514ff98636}
+      \strng{authorbibnamehash}{bd4b00fcb666ec0cc79575514ff98636}
+      \strng{authornamehash}{bd4b00fcb666ec0cc79575514ff98636}
+      \strng{authorfullhash}{bd4b00fcb666ec0cc79575514ff98636}
+      \strng{authorfullhashraw}{bd4b00fcb666ec0cc79575514ff98636}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The digitalization of historical documents is of interest for many reasons, including historical preservation, accessibility, and searchability. One of the main challenges with the digitization of old newspapers involves complex layout analysis, where the content types of the document must be determined. In this context, this paper presents an evaluation of the most recent {YOLO} methods for the analysis of historical document layouts. Initially, a new dataset called {BHN} was created and made available, standing out as the first dataset of historical Brazilian newspapers for layout detection. The experiments were held using the {YOLOv}8, {YOLOv}9, {YOLOv}10, and {YOLOv}11 architectures. For training, validation, and testing of the models, the following historical newspaper datasets were combined: {BHN}, {GBN}, and Printed {BlaLet} {GT}. Recall, precision, and mean average precision ({mAP}) were used to evaluate the performance of the models. The results indicate that the best performer was {YOLOv}8, with a Recalltest of 81\% and an {mAPtest} of 89\%. This paper provides insights on the advantages of these models in historical document layout detection and also promotes improvement of document image conversion into editable and accessible formats.}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{6}
+      \field{title}{Comparative Performance of {YOLOv}8, {YOLOv}9, {YOLOv}10, and {YOLOv}11 for Layout Analysis of Historical Documents Images}
+      \field{urlday}{14}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{3164}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app15063164
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/15/6/3164
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/15/6/3164
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{semnani-etal-2025-churro}{book}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=e415ea7d0308531a3c6ee757e407d242}{%
+           family={Semnani},
+           familyi={S\bibinitperiod},
+           given={Sina},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e29e2cdbaa50d58d413b689667ace7db}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4afebda0f59d76ea2e4163c566ad3a0c}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Xinyan},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e750588fa10c4e463dc3b944142789f8}{%
+           family={Tekgurler},
+           familyi={T\bibinitperiod},
+           given={Merve},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fe9f1fb00f2f44ad187887eef1c6199}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=a870e7c2218dedf8fa395067da42b08f}{%
+           family={Christodoulopoulos},
+           familyi={C\bibinitperiod},
+           given={Christos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=12ef4925945d218592da34e0e46c4eb4}{%
+           family={Chakraborty},
+           familyi={C\bibinitperiod},
+           given={Tanmoy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=90630365a12b98e0c6e6ae9e11f9927b}{%
+           family={Rose},
+           familyi={R\bibinitperiod},
+           given={Carolyn},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ffb2927628843580b437b649623420ac}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Violet},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Suzhou, China}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{52fa31aec094ae3ecf78525159d9bde3}
+      \strng{fullhash}{f985f93d6b9b5a2d99cc5b205c3bb7e6}
+      \strng{fullhashraw}{f985f93d6b9b5a2d99cc5b205c3bb7e6}
+      \strng{bibnamehash}{f985f93d6b9b5a2d99cc5b205c3bb7e6}
+      \strng{authorbibnamehash}{f985f93d6b9b5a2d99cc5b205c3bb7e6}
+      \strng{authornamehash}{52fa31aec094ae3ecf78525159d9bde3}
+      \strng{authorfullhash}{f985f93d6b9b5a2d99cc5b205c3bb7e6}
+      \strng{authorfullhashraw}{f985f93d6b9b5a2d99cc5b205c3bb7e6}
+      \strng{editorbibnamehash}{272fa3789a8dc88d7f1dbc00f047ce47}
+      \strng{editornamehash}{7161839d6d65e78b31a4135336c8ebdb}
+      \strng{editorfullhash}{272fa3789a8dc88d7f1dbc00f047ce47}
+      \strng{editorfullhashraw}{272fa3789a8dc88d7f1dbc00f047ce47}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Accurate text recognition for historical documents can greatly advance the study and preservation of cultural heritage. Existing vision-language models (VLMs), however, are designed for modern, standardized texts and are not equipped to read the diverse languages and scripts, irregular layouts, and frequent degradation found in historical materials.This paper presents CHURRO, a 3B-parameter open-weight VLM specialized for historical text recognition. The model is trained on CHURRO-DS, the largest historical text recognition dataset to date. CHURRO-DS unifies 155 historical corpora comprising 99,491 pages, spanning 22 centuries of textual heritage across 46 language clusters, including historical variants and dead languages.We evaluate several open-weight and closed VLMs and optical character recognition (OCR) systems on CHURRO-DS and find that CHURRO outperforms all other VLMs. On the CHURRO-DS test set, CHURRO achieves 82.3{\%} (printed) and 70.1{\%} (handwritten) normalized Levenshtein similarity, surpassing the second-best model, Gemini 2.5 Pro, by 1.4{\%} and 6.5{\%}, respectively, while being 15.5 times more cost-effective.By releasing the model and dataset, we aim to enable community-driven research to improve the readability of historical texts and accelerate scholarship.}
+      \field{booktitle}{Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing}
+      \field{isbn}{979-8-89176-332-6}
+      \field{month}{11}
+      \field{title}{{CHURRO}: Making History Readable with an Open-Weight Large Vision-Language Model for High-Accuracy, Low-Cost Historical Text Recognition}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{34777\bibrangedash 34824}
+      \range{pages}{48}
+      \verb{doi}
+      \verb 10.18653/v1/2025.emnlp-main.1763
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2025.emnlp-main.1763/
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2025.emnlp-main.1763/
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{xiao_shuang_digital_nodate}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=de8cfc827891f69f23b1e67eb43ae3e6}{%
+           family={Shuang},
+           familyi={S\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University College Cork}%
+      }
+      \strng{namehash}{de8cfc827891f69f23b1e67eb43ae3e6}
+      \strng{fullhash}{de8cfc827891f69f23b1e67eb43ae3e6}
+      \strng{fullhashraw}{de8cfc827891f69f23b1e67eb43ae3e6}
+      \strng{bibnamehash}{de8cfc827891f69f23b1e67eb43ae3e6}
+      \strng{authorbibnamehash}{de8cfc827891f69f23b1e67eb43ae3e6}
+      \strng{authornamehash}{de8cfc827891f69f23b1e67eb43ae3e6}
+      \strng{authorfullhash}{de8cfc827891f69f23b1e67eb43ae3e6}
+      \strng{authorfullhashraw}{de8cfc827891f69f23b1e67eb43ae3e6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Digital Humanities: a bridge between computer vision and study of art}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb Digital Humanities\: a bridge between computer vision and study of art:/home/lunes/snap/zotero-snap/common/Zotero/storage/CD89GRGN/03aa9b8a-1174-4a32-9214-8d8d45a5e86a.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://cora.ucc.ie/items/03aa9b8a-1174-4a32-9214-8d8d45a5e86a
+      \endverb
+      \verb{url}
+      \verb https://cora.ucc.ie/items/03aa9b8a-1174-4a32-9214-8d8d45a5e86a
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{smits_multimodal_2023}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c0389172d12cff4cafb002f0ae29f8a4}{%
+           family={Smits},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=749b35d9e08f2ccc2a8916e3d43559ca}{%
+           family={Wevers},
+           familyi={W\bibinitperiod},
+           given={Melvin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6d82228e9dfaa38d5432766e3b3b909d}
+      \strng{fullhash}{6d82228e9dfaa38d5432766e3b3b909d}
+      \strng{fullhashraw}{6d82228e9dfaa38d5432766e3b3b909d}
+      \strng{bibnamehash}{6d82228e9dfaa38d5432766e3b3b909d}
+      \strng{authorbibnamehash}{6d82228e9dfaa38d5432766e3b3b909d}
+      \strng{authornamehash}{6d82228e9dfaa38d5432766e3b3b909d}
+      \strng{authorfullhash}{6d82228e9dfaa38d5432766e3b3b909d}
+      \strng{authorfullhashraw}{6d82228e9dfaa38d5432766e3b3b909d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Until recently, most research in the Digital Humanities ({DH}) was monomodal, meaning that the object of analysis was either textual or visual. Seeking to integrate multimodality theory into the {DH}, this article demonstrates that recently developed multimodal deep learning models, such as Contrastive Language Image Pre-training ({CLIP}), offer new possibilities to explore and analyze image–text combinations at scale. These models, which are trained on image and text pairs, can be applied to a wide range of text-to-image, image-to-image, and image-to-text prediction tasks. Moreover, multimodal models show high accuracy in zero-shot classification, i.e. predicting unseen categories across heterogeneous datasets. Based on three exploratory case studies, we argue that this zero-shot capability opens up the way for a multimodal turn in {DH} research. Moreover, multimodal models allow scholars to move past the artificial separation of text and images that was dominant in the field and analyze multimodal meaning at scale. However, we also need to be aware of the specific (historical) bias of multimodal deep learning that stems from biases in the training data used to train these models.}
+      \field{day}{1}
+      \field{issn}{2055-7671}
+      \field{journaltitle}{Digital Scholarship in the Humanities}
+      \field{month}{9}
+      \field{number}{3}
+      \field{shortjournal}{Digital Scholarship Humanities}
+      \field{title}{A multimodal turn in Digital Humanities. Using contrastive machine learning models to explore, enrich, and analyze digital visual historical collections}
+      \field{urlday}{22}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{38}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1267\bibrangedash 1280}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1093/llc/fqad008
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/NFLKWUUN/Smits and Wevers - 2023 - A multimodal turn in Digital Humanities. Using contrastive machine learning models to explore, enric.pdf:application/pdf;Snapshot:/home/lunes/snap/zotero-snap/common/Zotero/storage/YTUQ374F/fqad008.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/llc/fqad008
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/llc/fqad008
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{10.1093/llc/18.1.77}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=afd6aa8d45514d4dbd4823ab4c57db4a}{%
+           family={Stehno},
+           familyi={S\bibinitperiod},
+           given={Birgit},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b58a2d47ad8d6a38d12328c17d63948}{%
+           family={Egger},
+           familyi={E\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0da28796a9ea4e45c031e61be1dea663}{%
+           family={Retti},
+           familyi={R\bibinitperiod},
+           given={Gregor},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e672324fcf3148c6eb66b377e2b1d0b0}
+      \strng{fullhash}{e672324fcf3148c6eb66b377e2b1d0b0}
+      \strng{fullhashraw}{e672324fcf3148c6eb66b377e2b1d0b0}
+      \strng{bibnamehash}{e672324fcf3148c6eb66b377e2b1d0b0}
+      \strng{authorbibnamehash}{e672324fcf3148c6eb66b377e2b1d0b0}
+      \strng{authornamehash}{e672324fcf3148c6eb66b377e2b1d0b0}
+      \strng{authorfullhash}{e672324fcf3148c6eb66b377e2b1d0b0}
+      \strng{authorfullhashraw}{e672324fcf3148c6eb66b377e2b1d0b0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper explains why and how the digitization project METAe applies METS (Metadata Encoding and Transmission Standard) as encoding scheme for automatically extracted metadata. In contrast to TEI (Text Encoding Initiative) and other markup languages, METS allows encoding of the whole range of structural, descriptive, and administrative metadata in a systematic way. As the METS schema permits the integration of other existing standards, it provides a highly flexible output that can be converted easily to the individual needs of digital libraries. An innovative aspect of the METAe data structure is the ALTO file (‘Analysed layout and text object’), which contains the layout structures as well as the text passages of book pages. Structural maps of the METS schema are used to compose the logical and the physical structures out of ALTO and image files.}
+      \field{issn}{0268-1145}
+      \field{journaltitle}{Literary and Linguistic Computing}
+      \field{month}{04}
+      \field{number}{1}
+      \field{title}{METAe—Automated Encoding of Digitized Texts}
+      \field{volume}{18}
+      \field{year}{2003}
+      \true{nocite}
+      \field{pages}{77\bibrangedash 88}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1093/llc/18.1.77
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/dsh/article-pdf/18/1/77/6376492/180077.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/llc/18.1.77
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/llc/18.1.77
+      \endverb
+      \keyw{ont}
+    \endentry
+    \entry{noauthor_using_nodate}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8ecf55cb829f1dd0d3f98f9cb71e8494}{%
+           family={Steinkrau},
+           familyi={S\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f280f10d3e76be62d6bc98c24690ca9}{%
+           family={Simard},
+           familyi={S\bibinitperiod},
+           given={Patrice\bibnamedelima Y.},
+           giveni={P\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26af11cfc02d0f239a5482f14e1413f7}{%
+           family={Buck},
+           familyi={B\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{02a260741fbe9f750d679c4c34fcc744}
+      \strng{fullhash}{02a260741fbe9f750d679c4c34fcc744}
+      \strng{fullhashraw}{02a260741fbe9f750d679c4c34fcc744}
+      \strng{bibnamehash}{02a260741fbe9f750d679c4c34fcc744}
+      \strng{authorbibnamehash}{02a260741fbe9f750d679c4c34fcc744}
+      \strng{authornamehash}{02a260741fbe9f750d679c4c34fcc744}
+      \strng{authorfullhash}{02a260741fbe9f750d679c4c34fcc744}
+      \strng{authorfullhashraw}{02a260741fbe9f750d679c4c34fcc744}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Eighth International Conference on Document Analysis and Recognition (ICDAR)}
+      \field{title}{Using {GPUs} for Machine Learning Algorithms}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb Using GPUs for Machine Learning Algorithms:/home/lunes/snap/zotero-snap/common/Zotero/storage/SUIGBYFH/12OmNylKAVX.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.computer.org/csdl/proceedings-article/icdar/2005/24201115/12OmNylKAVX
+      \endverb
+      \verb{url}
+      \verb https://www.computer.org/csdl/proceedings-article/icdar/2005/24201115/12OmNylKAVX
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{10.1145/3746252.3761503}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b666f6422e52c749b94d46be02bced81}{%
+           family={Vafaie},
+           familyi={V\bibinitperiod},
+           given={Mahsa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4af9fa5cec1be62b092168e1285d0bb5}{%
+           family={Hertling},
+           familyi={H\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e361f95bdf359b09c21741dd18f56aa}{%
+           family={Banse-Strobel},
+           familyi={B\bibinithyphendelim S\bibinitperiod},
+           given={Inger},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f738c62cdc0cad2cc2a38ed18a074b5b}{%
+           family={Dubout},
+           familyi={D\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=edbd63a872f21d2e17b5b88881167be0}{%
+           family={Sack},
+           familyi={S\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Seoul, Republic of Korea}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{308910a3eb084932c95b6dc82109563a}
+      \strng{fullhash}{cc64f9f72114d95d9a457d1ecc66369f}
+      \strng{fullhashraw}{cc64f9f72114d95d9a457d1ecc66369f}
+      \strng{bibnamehash}{cc64f9f72114d95d9a457d1ecc66369f}
+      \strng{authorbibnamehash}{cc64f9f72114d95d9a457d1ecc66369f}
+      \strng{authornamehash}{308910a3eb084932c95b6dc82109563a}
+      \strng{authorfullhash}{cc64f9f72114d95d9a457d1ecc66369f}
+      \strng{authorfullhashraw}{cc64f9f72114d95d9a457d1ecc66369f}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Semi-structured Document Understanding presents a challenging research task due to the significant variations in layout, style, font, and content of documents. This complexity is further amplified when dealing with born-analogue historical documents, such as digitised archival records, which contain degraded print, handwritten annotations, stamps, marginalia and inconsistent formatting resulting from historical production and digitisation processes. Traditional approaches for extracting information from semi-structured documents rely on manual labour, making them costly and inefficient. This is partly due to the fact that within document collections, there are various layout types, each requiring customised optimisation to account for structural differences, which substantially increases the effort needed to achieve consistent quality. The emergence of Multimodal Large Language Models (MLLMs) has significantly advanced Document Understanding by enabling flexible, prompt-based understanding of document images, needless of OCR outputs or layout encodings. Moreover, the encoder-decoder architectures have overcome the limitations of encoder-only models, such as reliance on annotated datasets and fixed input lengths. However, there still remains a gap in effectively applying these models in real-world scenarios. To address this gap, we first introduce BZKOpen, a new annotated dataset designed for key information extraction from historical German index cards. Furthermore, we systematically assess the capabilities of several state-of-the-art MLLMs-including the open-source InternVL2.0 and InternVL2.5 series, and the commercial GPT-4o-mini-on the task of extracting key information from these archival documents. Both zero-shot and few-shot prompting strategies are evaluated across different model configurations to identify the optimal conditions for performance. Interestingly, our results reveal that increasing model size does not necessarily lead to better performance on this dataset. Among all models tested, the open-source InternVL2.5-38B consistently achieves the most robust results, outperforming both larger InternVL models and the proprietary alternative. We further provide practical insights into prompt engineering and inference settings, offering guidance for applying MLLMs to real-world key information extraction tasks. Additionally, we highlight the need for more ground truth datasets that include a wider range of historical documents with varying quality and in multiple languages, in order to fully explore the potentials and limitations of MLLMs for key information extraction from historical records.}
+      \field{booktitle}{Proceedings of the 34th ACM International Conference on Information and Knowledge Management}
+      \field{isbn}{9798400720406}
+      \field{series}{CIKM '25}
+      \field{title}{End-to-end Information Extraction from Archival Records with Multimodal Large Language Models}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{6075\bibrangedash 6083}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1145/3746252.3761503
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3746252.3761503
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3746252.3761503
+      \endverb
+      \keyw{digital cultural heritage,document understanding,key information extraction,multimodal large language models}
+    \endentry
+    \entry{vaswani_attention_2023}{book}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2bc899b1160163417da7bf510f15d33}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{fullhashraw}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{bibnamehash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{authorbibnamehash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{authorfullhashraw}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 {BLEU} on the {WMT} 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 {BLEU}. On the {WMT} 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art {BLEU} score of 41.8 after training for 3.5 days on eight {GPUs}, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.}
+      \field{day}{2}
+      \field{eprinttype}{arxiv}
+      \field{month}{8}
+      \field{number}{{arXiv}:1706.03762}
+      \field{title}{Attention Is All You Need}
+      \field{urlday}{10}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.1706.03762
+      \endverb
+      \verb{eprint}
+      \verb 1706.03762 [cs.CL]
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/C7V4XEXB/Vaswani et al. - 2023 - Attention Is All You Need.pdf:application/pdf;Snapshot:/home/lunes/snap/zotero-snap/common/Zotero/storage/L38TDM8M/1706.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1706.03762
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1706.03762
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{weng2017detection1}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=49d03d499031db786a0e61119024cf5a}{%
+           family={Weng},
+           familyi={W\bibinitperiod},
+           given={Lilian},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{49d03d499031db786a0e61119024cf5a}
+      \strng{fullhash}{49d03d499031db786a0e61119024cf5a}
+      \strng{fullhashraw}{49d03d499031db786a0e61119024cf5a}
+      \strng{bibnamehash}{49d03d499031db786a0e61119024cf5a}
+      \strng{authorbibnamehash}{49d03d499031db786a0e61119024cf5a}
+      \strng{authornamehash}{49d03d499031db786a0e61119024cf5a}
+      \strng{authorfullhash}{49d03d499031db786a0e61119024cf5a}
+      \strng{authorfullhashraw}{49d03d499031db786a0e61119024cf5a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{lilianweng.github.io}
+      \field{title}{Object Detection for Dummies Part 1: Gradient Vector, HOG, and SS}
+      \field{year}{2017}
+      \true{nocite}
+      \keyw{ml}
+    \endentry
+    \entry{wevers_visual_2020}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=749b35d9e08f2ccc2a8916e3d43559ca}{%
+           family={Wevers},
+           familyi={W\bibinitperiod},
+           given={Melvin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0389172d12cff4cafb002f0ae29f8a4}{%
+           family={Smits},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2ee5f81947e9a47d3488ed2eab8cecc3}
+      \strng{fullhash}{2ee5f81947e9a47d3488ed2eab8cecc3}
+      \strng{fullhashraw}{2ee5f81947e9a47d3488ed2eab8cecc3}
+      \strng{bibnamehash}{2ee5f81947e9a47d3488ed2eab8cecc3}
+      \strng{authorbibnamehash}{2ee5f81947e9a47d3488ed2eab8cecc3}
+      \strng{authornamehash}{2ee5f81947e9a47d3488ed2eab8cecc3}
+      \strng{authorfullhash}{2ee5f81947e9a47d3488ed2eab8cecc3}
+      \strng{authorfullhashraw}{2ee5f81947e9a47d3488ed2eab8cecc3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Digital humanities research has focused primarily on the analysis of texts. This emphasis stems from the availability of technology to study digitized text. Optical character recognition allows researchers to use keywords to search and analyze digitized texts. However, archives of digitized sources also contain large numbers of images. This article shows how convolutional neural networks ({CNNs}) can be used to categorize and analyze digitized historical visual sources. We present three different approaches to using {CNNs} for gaining a deeper understanding of visual trends in an archive of digitized Dutch newspapers. These include detecting medium-specific features (separating photographs from illustrations), querying images based on abstract visual aspects (clustering visually similar advertisements), and training a neural network based on visual categories developed by domain experts. We argue that {CNNs} allow researchers to explore the visual side of the digital turn. They allow archivists and researchers to classify and spot trends in large collections of digitized visual sources in radically new ways.}
+      \field{day}{1}
+      \field{issn}{2055-7671}
+      \field{journaltitle}{Digital Scholarship in the Humanities}
+      \field{month}{4}
+      \field{number}{1}
+      \field{shortjournal}{Digital Scholarship Humanities}
+      \field{shorttitle}{The visual digital turn}
+      \field{title}{The visual digital turn: Using neural networks to study historical images}
+      \field{urlday}{22}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{35}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{194\bibrangedash 207}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1093/llc/fqy085
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/9VYYV7GN/Wevers and Smits - 2020 - The visual digital turn Using neural networks to study historical images.pdf:application/pdf;Snapshot:/home/lunes/snap/zotero-snap/common/Zotero/storage/J5SC9FYV/fqy085.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/llc/fqy085
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/llc/fqy085
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{will_fenstermaker_how_2019}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=973689942462af49a354713e3cfd32ff}{%
+           family={Will},
+           familyi={W\bibinitperiod},
+           given={Fenstermaker},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{973689942462af49a354713e3cfd32ff}
+      \strng{fullhash}{973689942462af49a354713e3cfd32ff}
+      \strng{fullhashraw}{973689942462af49a354713e3cfd32ff}
+      \strng{bibnamehash}{973689942462af49a354713e3cfd32ff}
+      \strng{authorbibnamehash}{973689942462af49a354713e3cfd32ff}
+      \strng{authornamehash}{973689942462af49a354713e3cfd32ff}
+      \strng{authorfullhash}{973689942462af49a354713e3cfd32ff}
+      \strng{authorfullhashraw}{973689942462af49a354713e3cfd32ff}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{For one group of artists and technologists, {AI} can help us view The Met’s collection in new—or possibly ancient—ways.}
+      \field{day}{4}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{title}{How Artificial Intelligence Sees Art History - The Metropolitan Museum of Art}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb Snapshot:/home/lunes/snap/zotero-snap/common/Zotero/storage/WIQUQQLT/artificial-intelligence-machine-learning-art-authorship.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.metmuseum.org/perspectives/artificial-intelligence-machine-learning-art-authorship
+      \endverb
+      \verb{url}
+      \verb https://www.metmuseum.org/perspectives/artificial-intelligence-machine-learning-art-authorship
+      \endverb
+      \keyw{A lire,Mémoire}
+    \endentry
+    \entry{xiao_florence-2_2023}{misc}{}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=cffd355887e938e9121d9a52295539d9}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2157efd9baa6a13ef46ed3d79a9bbede}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Haiping},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1af43e7b83f6f5dfefb4111e47aa81b3}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Weijian},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a2fde7dc8bfb2012c1f37c5e5e35fba}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Xiyang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4309d5641ea19d41959a3273472849b4}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Houdong},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfa7d6c9a9ad5147d4a1544792918b97}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Yumao},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=284bc7f0b623647f7e92c47644547021}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17bf470b120f24c48675bbcb261cab37}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ce},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ed744adcf585a5b4419133e7134732a}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Lu},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{c0fcf3861563a1bd2eab0fe6da0fdd08}
+      \strng{fullhash}{99fa0e71ca3687acf4b7f416b50d4e90}
+      \strng{fullhashraw}{99fa0e71ca3687acf4b7f416b50d4e90}
+      \strng{bibnamehash}{99fa0e71ca3687acf4b7f416b50d4e90}
+      \strng{authorbibnamehash}{99fa0e71ca3687acf4b7f416b50d4e90}
+      \strng{authornamehash}{c0fcf3861563a1bd2eab0fe6da0fdd08}
+      \strng{authorfullhash}{99fa0e71ca3687acf4b7f416b50d4e90}
+      \strng{authorfullhashraw}{99fa0e71ca3687acf4b7f416b50d4e90}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We introduce Florence-2, a novel vision foundation model with a unified, prompt-based representation for a variety of computer vision and vision-language tasks. While existing large vision models excel in transfer learning, they struggle to perform a diversity of tasks with simple instructions, a capability that implies handling the complexity of various spatial hierarchy and semantic granularity. Florence-2 was designed to take text-prompt as task instructions and generate desirable results in text forms, whether it be captioning, object detection, grounding or segmentation. This multi-task learning setup demands large-scale, high-quality annotated data. To this end, we co-developed {FLD}-5B that consists of 5.4 billion comprehensive visual annotations on 126 million images, using an iterative strategy of automated image annotation and model refinement. We adopted a sequence-to-sequence structure to train Florence-2 to perform versatile and comprehensive vision tasks. Extensive evaluations on numerous tasks demonstrated Florence-2 to be a strong vision foundation model contender with unprecedented zero-shot and fine-tuning capabilities.}
+      \field{day}{10}
+      \field{eprinttype}{arxiv}
+      \field{month}{11}
+      \field{number}{{arXiv}:2311.06242}
+      \field{shorttitle}{Florence-2}
+      \field{title}{Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2311.06242
+      \endverb
+      \verb{eprint}
+      \verb 2311.06242 [cs.CV]
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/lunes/snap/zotero-snap/common/Zotero/storage/8TFSNCKI/2311.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2311.06242
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2311.06242
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{xu_show_2016}{misc}{}{}
+      \name{author}{8}{}{%
+        {{un=1,uniquepart=given,hash=dc2232b001fa318a37c38c2de1bd6b09}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Kelvin},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8aa66e8231cc2fdbe67aa4f18ca970c6}{%
+           family={Ba},
+           familyi={B\bibinitperiod},
+           given={Jimmy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ca4d6f3496c5a623fcad2f5de58670b}{%
+           family={Kiros},
+           familyi={K\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3da7501a79d9346572c7fd6e41b615df}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Kyunghyun},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd2be300d445e9f6db7808f9533e66cb}{%
+           family={Salakhutdinov},
+           familyi={S\bibinitperiod},
+           given={Ruslan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77a44166b8233ae29b20f292779447e0}{%
+           family={Zemel},
+           familyi={Z\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{4122580c3599b10d5b7fc11a33af75cc}
+      \strng{fullhash}{0813336aeee8c493b602e54a5cb48c2a}
+      \strng{fullhashraw}{0813336aeee8c493b602e54a5cb48c2a}
+      \strng{bibnamehash}{0813336aeee8c493b602e54a5cb48c2a}
+      \strng{authorbibnamehash}{0813336aeee8c493b602e54a5cb48c2a}
+      \strng{authornamehash}{4122580c3599b10d5b7fc11a33af75cc}
+      \strng{authorfullhash}{0813336aeee8c493b602e54a5cb48c2a}
+      \strng{authorfullhashraw}{0813336aeee8c493b602e54a5cb48c2a}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Inspired by recent work in machine translation and object detection, we introduce an attention based model that automatically learns to describe the content of images. We describe how we can train this model in a deterministic manner using standard backpropagation techniques and stochastically by maximizing a variational lower bound. We also show through visualization how the model is able to automatically learn to fix its gaze on salient objects while generating the corresponding words in the output sequence. We validate the use of attention with state-of-the-art performance on three benchmark datasets: Flickr8k, Flickr30k and {MS} {COCO}.}
+      \field{day}{19}
+      \field{eprinttype}{arxiv}
+      \field{month}{4}
+      \field{number}{{arXiv}:1502.03044}
+      \field{shorttitle}{Show, Attend and Tell}
+      \field{title}{Show, Attend and Tell: Neural Image Caption Generation with Visual Attention}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.1502.03044
+      \endverb
+      \verb{eprint}
+      \verb 1502.03044 [cs.LG]
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/JSW984FH/Xu et al. - 2016 - Show, Attend and Tell Neural Image Caption Generation with Visual Attention.pdf:application/pdf;Snapshot:/home/lunes/snap/zotero-snap/common/Zotero/storage/EJZUW59J/1502.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1502.03044
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1502.03044
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{xu_layoutlm_2020}{book}{}{}
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=37ab3773594025d7f25c839aac01952d}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yiheng},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=54c3918df39c65be2d07d130c2d4bc6d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Minghao},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=183ec41bf2d4edc2c4d5fb9f288d8e6a}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Shaohan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5bfd490d91c5d1b935092ce3132a083}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Furu},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a72f304d2bc33c9c92301f2dc3063b2}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34c59249e1a9dc9e867dccc4aecc7faa}
+      \strng{fullhash}{ff4fda81c2a59d198cecdea15e01a150}
+      \strng{fullhashraw}{ff4fda81c2a59d198cecdea15e01a150}
+      \strng{bibnamehash}{ff4fda81c2a59d198cecdea15e01a150}
+      \strng{authorbibnamehash}{ff4fda81c2a59d198cecdea15e01a150}
+      \strng{authornamehash}{34c59249e1a9dc9e867dccc4aecc7faa}
+      \strng{authorfullhash}{ff4fda81c2a59d198cecdea15e01a150}
+      \strng{authorfullhashraw}{ff4fda81c2a59d198cecdea15e01a150}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Pre-training techniques have been verified successfully in a variety of {NLP} tasks in recent years. Despite the widespread use of pre-training models for {NLP} applications, they almost exclusively focus on text-level manipulation, while neglecting layout and style information that is vital for document image understanding. In this paper, we propose the {LayoutLM} to jointly model interactions between text and layout information across scanned document images, which is beneficial for a great number of real-world document image understanding tasks such as information extraction from scanned documents. Furthermore, we also leverage image features to incorporate words’ visual information into {LayoutLM}. To the best of our knowledge, this is the first time that text and layout are jointly learned in a single framework for documentlevel pre-training. It achieves new state-of-the-art results in several downstream tasks, including form understanding (from 70.72 to 79.27), receipt understanding (from 94.02 to 95.24) and document image classification (from 93.07 to 94.42). The code and pre-trained {LayoutLM} models are publicly available at https://aka.ms/layoutlm.}
+      \field{booktitle}{Proceedings of the 26th {ACM} {SIGKDD} International Conference on Knowledge Discovery \& Data Mining}
+      \field{day}{23}
+      \field{eprinttype}{arxiv}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shorttitle}{{LayoutLM}}
+      \field{title}{{LayoutLM}: Pre-training of Text and Layout for Document Image Understanding}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1192\bibrangedash 1200}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1145/3394486.3403172
+      \endverb
+      \verb{eprint}
+      \verb 1912.13318 [cs.CL]
+      \endverb
+      \verb{file}
+      \verb PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/ZFQLRGVX/Xu et al. - 2020 - LayoutLM Pre-training of Text and Layout for Document Image Understanding.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1912.13318
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1912.13318
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{eugene_yan_how_2023}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=07d4c310b2fa66fe61a6c3b11cbb02f5}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{07d4c310b2fa66fe61a6c3b11cbb02f5}
+      \strng{fullhash}{07d4c310b2fa66fe61a6c3b11cbb02f5}
+      \strng{fullhashraw}{07d4c310b2fa66fe61a6c3b11cbb02f5}
+      \strng{bibnamehash}{07d4c310b2fa66fe61a6c3b11cbb02f5}
+      \strng{authorbibnamehash}{07d4c310b2fa66fe61a6c3b11cbb02f5}
+      \strng{authornamehash}{07d4c310b2fa66fe61a6c3b11cbb02f5}
+      \strng{authorfullhash}{07d4c310b2fa66fe61a6c3b11cbb02f5}
+      \strng{authorfullhashraw}{07d4c310b2fa66fe61a6c3b11cbb02f5}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Writing good instructions to achieve high precision and throughput.}
+      \field{day}{12}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{note}{Section: posts}
+      \field{title}{How to Write Data Labeling/Annotation Guidelines}
+      \field{titleaddon}{eugeneyan.com}
+      \field{urlday}{30}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb Snapshot:/home/lunes/snap/zotero-snap/common/Zotero/storage/YMZN77MT/labeling-guidelines.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://eugeneyan.com/writing/labeling-guidelines/
+      \endverb
+      \verb{url}
+      \verb https://eugeneyan.com/writing/labeling-guidelines/
+      \endverb
+      \keyw{ont}
+    \endentry
+    \entry{yangzi_li_ai_2022}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c1248ee37583bf1c7d9888f7deec8ae3}{%
+           family={Yangzi},
+           familyi={Y\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c1248ee37583bf1c7d9888f7deec8ae3}
+      \strng{fullhash}{c1248ee37583bf1c7d9888f7deec8ae3}
+      \strng{fullhashraw}{c1248ee37583bf1c7d9888f7deec8ae3}
+      \strng{bibnamehash}{c1248ee37583bf1c7d9888f7deec8ae3}
+      \strng{authorbibnamehash}{c1248ee37583bf1c7d9888f7deec8ae3}
+      \strng{authornamehash}{c1248ee37583bf1c7d9888f7deec8ae3}
+      \strng{authorfullhash}{c1248ee37583bf1c7d9888f7deec8ae3}
+      \strng{authorfullhashraw}{c1248ee37583bf1c7d9888f7deec8ae3}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recently, artificial intelligence ({AI}) has shed light on the restoration of fragmentary masterpieces. It is said that {AI}-restored content can reproduce the missing part in fragmentary works, reveal authors’ initial intention, and give the younger generation a chance to appreciate the essence of cultural heritage. {AI} restoration leads to a discussion on whether copyright law should apply to {AI}-restored works. The existing literature about the nexus between the restoration of works and copyright is scarce, and none is related to {AI}-restored works. Therefore, this paper focuses on investigating the potential copyright issues regarding {AI}-restored works and exploring how the traditional copyright regime fails to solve those issues. Besides, this paper suggests recalibrating the copyright regime to enhance the authenticity of {AI}-restored output. Lastly, this cutting-edge article provides theoretical evidence for {IP} scholars interested in {AI}-related issues and advocates future research on the relation between {AI} models and copyright law.}
+      \field{day}{1}
+      \field{issn}{0967-0769}
+      \field{journaltitle}{International Journal of Law and Information Technology}
+      \field{month}{9}
+      \field{number}{3}
+      \field{shortjournal}{Int J Law Info Tech}
+      \field{title}{{AI} restoration brings ‘dying’ masterpieces back to life, but tricks copyright?}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{30}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{368\bibrangedash 384}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1093/ijlit/eaac023
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/lunes/snap/zotero-snap/common/Zotero/storage/QWL7JHEN/eaac023.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/ijlit/eaac023
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/ijlit/eaac023
+      \endverb
+      \keyw{hn}
+    \endentry
+    \entry{noauthor_yolo_2023}{online}{}{}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Explore essential {YOLO}26 performance metrics like {mAP}, {IoU}, F1 Score, Precision, and Recall. Learn how to calculate and interpret them for model evaluation.}
+      \field{day}{12}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{title}{{YOLO} Performance Metrics}
+      \field{titleaddon}{Ultralytics Docs}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb Snapshot:/home/lunes/snap/zotero-snap/common/Zotero/storage/372HGGVX/yolo-performance-metrics.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.ultralytics.com/guides/yolo-performance-metrics
+      \endverb
+      \verb{url}
+      \verb https://docs.ultralytics.com/guides/yolo-performance-metrics
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{yongho_kim_object_2024}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=79accb35091906831f162bb6e8abc912}{%
+           family={Yongho},
+           familyi={Y\bibinitperiod},
+           given={Kim},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b3273c08f74c54640504ca13df71d24}{%
+           family={Im},
+           familyi={I\bibinitperiod},
+           given={Chanjong},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45f24176552e2189b97c10247c2b9994}{%
+           family={Mandl},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{522da595ecc8f77a1bfc7290bcefc5cc}
+      \strng{fullhash}{522da595ecc8f77a1bfc7290bcefc5cc}
+      \strng{fullhashraw}{522da595ecc8f77a1bfc7290bcefc5cc}
+      \strng{bibnamehash}{522da595ecc8f77a1bfc7290bcefc5cc}
+      \strng{authorbibnamehash}{522da595ecc8f77a1bfc7290bcefc5cc}
+      \strng{authornamehash}{522da595ecc8f77a1bfc7290bcefc5cc}
+      \strng{authorfullhash}{522da595ecc8f77a1bfc7290bcefc5cc}
+      \strng{authorfullhashraw}{522da595ecc8f77a1bfc7290bcefc5cc}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The automatic analysis of images in the historical sciences often requires the identification of objects. Object identification is a well-researched problem for modern photographs; however, for historical material, annotations are often necessary. We present a solution for finding objects without manual work. The method consists of a style transfer of images from the {COCO} dataset into the domain using {CycleGAN} and training with items obtained through pseudo-labelling on the original and the additional transferred {COCO} images. Different strategies to assemble the dataset are compared. The best method obtains an F1 score of 0.58 for 15 object types without any labelling.}
+      \field{day}{7}
+      \field{issn}{1556-4673}
+      \field{journaltitle}{{ACM} Journal on Computing and Cultural Heritage}
+      \field{month}{12}
+      \field{number}{4}
+      \field{shortjournal}{J. Comput. Cult. Herit.}
+      \field{shorttitle}{Object Detection in Historical Images}
+      \field{title}{Object Detection in Historical Images: Transfer Learning and Pseudo Labelling}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{volume}{17}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{58:1\bibrangedash 58:15}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1145/3699963
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/lunes/snap/zotero-snap/common/Zotero/storage/TBL98USJ/Yongho Kim et al. - 2024 - Object Detection in Historical Images Transfer Learning and Pseudo Labelling.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3699963
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3699963
+      \endverb
+      \keyw{ml}
+    \endentry
+    \entry{s25133952}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6e179b37ac2319805ed0b07b8975e83c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9301cc9fc5b5edda7efda285395fed27}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2752743cdb5377a4fa458b294014a35}{%
+           family={Mu},
+           familyi={M\bibinitperiod},
+           given={Lisha},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9da56aa14a30c98df0864be5e16b8a11}
+      \strng{fullhash}{9da56aa14a30c98df0864be5e16b8a11}
+      \strng{fullhashraw}{9da56aa14a30c98df0864be5e16b8a11}
+      \strng{bibnamehash}{9da56aa14a30c98df0864be5e16b8a11}
+      \strng{authorbibnamehash}{9da56aa14a30c98df0864be5e16b8a11}
+      \strng{authornamehash}{9da56aa14a30c98df0864be5e16b8a11}
+      \strng{authorfullhash}{9da56aa14a30c98df0864be5e16b8a11}
+      \strng{authorfullhashraw}{9da56aa14a30c98df0864be5e16b8a11}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{DEtection TRansformer (DETR) introduced an end-to-end object detection paradigm using Transformers, eliminating hand-crafted components like anchor boxes and Non-Maximum Suppression (NMS) via set prediction and bipartite matching. Despite its potential, the original DETR suffered from slow convergence, poor small object detection, and low efficiency, prompting extensive research. This paper systematically reviews DETR’s technical evolution from a “problem-driven” perspective, focusing on advancements in attention mechanisms, query design, training strategies, and architectural efficiency. We also outline DETR’s applications in autonomous driving, medical imaging, and remote sensing, and its expansion to fine-grained classification and video understanding. Finally, we summarize current challenges and future directions. This “problem-driven” analysis offers researchers a comprehensive and insightful overview, aiming to fill gaps in the existing literature on DETR’s evolution and logic.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{number}{13}
+      \field{title}{A Review of DEtection TRansformer: From Basic Architecture to Advanced Developments and Visual Perception Applications}
+      \field{volume}{25}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.3390/s25133952
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/25/13/3952
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/25/13/3952
+      \endverb
+      \keyw{ml}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

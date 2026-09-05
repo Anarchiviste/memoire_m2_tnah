@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>main.bcf</file>
@@ -60,7 +60,7 @@
       <file>french.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
@@ -79,9 +79,9 @@
       <file>main.bcf</file>
     </requires>
     <requires type="editable">
-      <file>./bibliographies/HumanitesNumeriques.bib</file>
-      <file>./bibliographies/MachineLearning.bib</file>
-      <file>./bibliographies/Ontologie.bib</file>
+      <file>bibliographies/HumanitesNumeriques.bib</file>
+      <file>bibliographies/MachineLearning.bib</file>
+      <file>bibliographies/Ontologie.bib</file>
     </requires>
   </external>
 </requests>

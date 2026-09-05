@@ -4,109 +4,116 @@
 \contentsline {chapter}{Avant-propos}{vii}{chapter*.3}%
 \contentsline {section}{Remerciements}{vii}{section*.4}%
 \contentsline {section}{Bibliographies}{ix}{section*.4}%
-\contentsline {chapter}{Introduction Générale}{ix}{chapter*.5}%
-\contentsline {part}{I\hspace {1em}La vision par ordinateur et l’historien : rétrospective, enjeux et méthodes}{1}{part.21}%
-\contentsline {chapter}{\numberline {1}L'émergence du traitement d'images historiques}{5}{chapter.23}%
-\contentsline {section}{\numberline {I.}L'origine de la vision documentaire}{5}{section.25}%
-\contentsline {subsection}{\numberline {1.}La naissance de la vision artificielle appliquée aux documents}{6}{subsection.26}%
-\contentsline {subsection}{\numberline {2.}La mise en place de la vision dans les institutions patrimoniales françaises}{6}{subsection.28}%
-\contentsline {subsection}{\numberline {3.}2005-2010 : la prise de conscience de l'importance des données}{7}{subsection.32}%
-\contentsline {section}{\numberline {II.}La vision aujourd'hui}{7}{section.35}%
-\contentsline {subsection}{\numberline {1.}\textit {You Only Look Once} (\gls {yolo})}{8}{subsection.41}%
-\contentsline {subsection}{\numberline {2.}\gls {detr} : le concurrent direct de \gls {yolo}}{9}{subsection.46}%
-\contentsline {section}{\numberline {III.}2020 : les nouvelles approches}{10}{section.50}%
-\contentsline {subsection}{\numberline {1.}Les \textit {Visual Language Models} (\gls {vlm}) : Du pixel à la sémantique}{10}{subsection.52}%
-\contentsline {subsection}{\numberline {2.}Les modèles fondateurs et l'apparition de l'approche \textit {Zero-shot}/\textit {Few-shot}}{12}{subsection.60}%
-\contentsline {chapter}{\numberline {2}Vision artificielle et humanités}{15}{chapter.65}%
-\contentsline {section}{\numberline {I.}La prise en main par les chercheur}{15}{section.66}%
-\contentsline {subsection}{\numberline {1.}Les tâches la vision à but patrimoniale.}{16}{subsection.67}%
-\contentsline {subsubsection}{\numberline {a.}La classification globale :}{16}{subsubsection.68}%
-\contentsline {subsubsection}{\numberline {b.}La détection d'objet et l'analyse de mise en page :}{16}{subsubsection.69}%
-\contentsline {subsubsection}{\numberline {c.}La segmentation au pixel :}{17}{subsubsection.73}%
-\contentsline {subsection}{\numberline {2.}Le triptyque Dataset / Modèle / Papier}{18}{subsection.75}%
-\contentsline {subsubsection}{\numberline {a.}Les métriques de performances de base pour évaluer un modèle:}{18}{subsubsection.76}%
-\contentsline {subsubsection}{\numberline {b.}Les métriques de performances calculées pour évaluer un modèle:}{19}{subsubsection.77}%
-\contentsline {section}{\numberline {II.}De la prédiction à la connaissance}{20}{section.78}%
-\contentsline {subsection}{\numberline {1.}La fabrique de la vérité de terrain}{21}{subsection.80}%
-\contentsline {subsubsection}{\numberline {a.}Découplage indispensable entre la structure physique la fonction sémantique}{21}{subsubsection.81}%
-\contentsline {subsubsection}{\numberline {b.}La réalité humaine de la tâche d'annotation}{23}{subsubsection.85}%
-\contentsline {subsection}{\numberline {2.}Vers une « nouvelle économie de l'érudition » : La vision et les pratiques des chercheurs}{24}{subsection.88}%
-\contentsline {subsubsection}{\numberline {a.}La construction d'infrastructures de recherche : permettre la mise en place d'un workflow global pour les chercheurs}{24}{subsubsection.89}%
-\contentsline {subsubsection}{\numberline {b.}Le standard IIIF et ses atouts pour l'Open Data}{26}{subsubsection.93}%
-\contentsline {chapter}{\numberline {3}Le projet Aikon}{27}{chapter.94}%
-\contentsline {section}{\numberline {I.}Le contexte et les objectifs du projet Aikon}{27}{section.95}%
-\contentsline {subsection}{\numberline {1.}Les objectifs scientifiques de la plateforme}{27}{subsection.96}%
-\contentsline {subsection}{\numberline {2.}Les réalisations techniques du projet}{28}{subsection.99}%
-\contentsline {section}{\numberline {II.}Les projets de recherche en vision artificielle historique}{29}{section.101}%
-\contentsline {subsection}{\numberline {1.}Le projet Aikon et ses collaborateurs}{30}{subsection.102}%
-\contentsline {subsection}{\numberline {2.}Les autres projets de vision artificielle historique :}{32}{subsection.105}%
-\contentsline {part}{II\hspace {1em}Construire un corpus de numérisations pour le traitement par vision artificielle}{35}{part.111}%
-\contentsline {chapter}{\numberline {4}Préparer une campagne d'annotation}{39}{chapter.113}%
-\contentsline {section}{\numberline {I.}L'ontologie en machine learning}{39}{section.114}%
-\contentsline {subsection}{\numberline {1.}L'importance de l'ontologie pour les méthodes d'apprentissage automatique}{39}{subsection.115}%
-\contentsline {subsection}{\numberline {2.}Les ontologies appliquées aux documents historiques}{40}{subsection.117}%
-\contentsline {subsubsection}{\numberline {a.}Les ontologies PAGE XML et ALTO XML}{41}{subsubsection.118}%
-\contentsline {subsubsection}{\numberline {b.}SegmOnto}{42}{subsubsection.121}%
-\contentsline {section}{\numberline {II.}Construire une ontologie d'annotation}{43}{section.124}%
-\contentsline {subsection}{\numberline {1.}Définir les frontières sémantiques : le défi des cas limites}{43}{subsection.125}%
-\contentsline {subsection}{\numberline {2.}Mettre en place l'ontologie : Écrire un guide d'annotation}{44}{subsection.127}%
-\contentsline {subsubsection}{\numberline {a.}Les règles générales}{44}{subsubsection.128}%
-\contentsline {subsubsection}{\numberline {b.}Les règles ontologiques}{45}{subsubsection.129}%
-\contentsline {chapter}{\numberline {5}Construire un corpus historique}{47}{chapter.133}%
-\contentsline {section}{\numberline {I.}La nature documentaire du Corpus}{47}{section.134}%
-\contentsline {subsection}{\numberline {1.}La réutilisation des jeux de données existants}{47}{subsection.135}%
-\contentsline {subsection}{\numberline {2.}Récupérer des données d'Aikon}{50}{subsection.140}%
-\contentsline {section}{\numberline {II.}La nature technique du corpus}{51}{section.143}%
-\contentsline {subsection}{\numberline {1.}Faire fonctionner des données entre elles}{52}{subsection.144}%
-\contentsline {subsubsection}{\numberline {a.}Travailler avec le format YOLO}{52}{subsubsection.145}%
-\contentsline {subsubsection}{\numberline {b.}De la segmentation par pixels aux boîtes englobantes : le cas d'IlluHisDoc}{54}{subsubsection.147}%
-\contentsline {subsection}{\numberline {2.}Corriger des données}{55}{subsection.150}%
-\contentsline {subsubsection}{\numberline {a.}L'environnement technique de correction : Label Studio}{55}{subsubsection.151}%
-\contentsline {subsubsection}{\numberline {b.}Corriger des annotations}{56}{subsubsection.155}%
-\contentsline {chapter}{\numberline {6}Entraîner et évaluer}{59}{chapter.157}%
-\contentsline {section}{\numberline {I.}Hyperparamètres}{59}{section.158}%
-\contentsline {section}{\numberline {II.}Évaluer les résultats de l'inférence}{62}{section.159}%
-\contentsline {subsection}{\numberline {1.}Définir la méthodologie d'évaluation}{62}{subsection.160}%
-\contentsline {subsubsection}{\numberline {a.}L'importance du découpage du jeu de données (Data Splitting)}{62}{subsubsection.161}%
-\contentsline {subsubsection}{\numberline {b.}La représentativité de la distribution réelle}{62}{subsubsection.162}%
-\contentsline {subsection}{\numberline {2.}Résultats pour GenHisDoc}{63}{subsection.163}%
-\contentsline {subsubsection}{\numberline {a.}Comprendre les métriques générales}{63}{subsubsection.164}%
-\contentsline {subsubsection}{\numberline {b.}Comprendre les métriques par classes}{65}{subsubsection.166}%
-\contentsline {section}{\numberline {III.}Pistes d'amélioration}{67}{section.169}%
-\contentsline {subsection}{\numberline {1.}Modifier les hyperparamètres}{67}{subsection.170}%
-\contentsline {subsection}{\numberline {2.}Mettre en place une meilleure méthodologie d'évaluation}{68}{subsection.172}%
-\contentsline {subsection}{\numberline {3.}Modifier et faire évoluer les annotations}{68}{subsection.173}%
-\contentsline {subsection}{\numberline {4.}Transformer l'ontologie}{69}{subsection.174}%
-\contentsline {part}{III\hspace {1em}Conclusion \& Annexes}{71}{part.175}%
-\contentsline {chapter}{\numberline {7}Conclusion Générale}{73}{chapter.176}%
-\contentsline {chapter}{\numberline {A}Rendu Technique : GenHisDoc Dataset}{77}{appendix.177}%
-\contentsline {chapter}{\numberline {B}Évaluation des capacités d'annotation de \gls {vlm} en \textit {zero shot}}{79}{appendix.178}%
-\contentsline {chapter}{\numberline {C}Data Labelling Guideline}{81}{appendix.179}%
-\contentsline {section}{\numberline {I.}Introduction}{81}{section.180}%
-\contentsline {subsection}{\numberline {1.}Context}{81}{subsection.181}%
-\contentsline {subsection}{\numberline {2.}Task Definition}{82}{subsection.182}%
-\contentsline {section}{\numberline {II.}General rules}{82}{section.183}%
-\contentsline {subsection}{\numberline {1.}Hug the border of the object as tightly as possible}{82}{subsection.184}%
-\contentsline {subsection}{\numberline {2.}Separate the elements that are not visually connected.}{82}{subsection.186}%
-\contentsline {subsection}{\numberline {3.}Avoid item overlap}{84}{subsection.188}%
-\contentsline {subsection}{\numberline {4.}Annotate only the main page}{84}{subsection.190}%
-\contentsline {subsection}{\numberline {5.}Annotate what is visible, not what you infer}{84}{subsection.192}%
-\contentsline {subsection}{\numberline {6.}Review your work before submitting.}{84}{subsection.194}%
-\contentsline {section}{\numberline {III.}Class definition}{86}{section.195}%
-\contentsline {subsection}{\numberline {1.}Illustration}{86}{subsection.196}%
-\contentsline {subsubsection}{\numberline {a.}Description}{86}{subsubsection.197}%
-\contentsline {subsubsection}{\numberline {b.}Rules}{86}{subsubsection.199}%
-\contentsline {subsubsection}{\numberline {c.}Edgecases}{86}{subsubsection.201}%
-\contentsline {subsection}{\numberline {2.}Ornament}{88}{subsection.204}%
-\contentsline {subsubsection}{\numberline {a.}Description}{88}{subsubsection.205}%
-\contentsline {subsubsection}{\numberline {b.}Rules \& edgecases}{88}{subsubsection.206}%
-\contentsline {subsection}{\numberline {3.}Initial}{90}{subsection.208}%
-\contentsline {subsubsection}{\numberline {a.}Description}{90}{subsubsection.209}%
-\contentsline {subsubsection}{\numberline {b.}Rules}{90}{subsubsection.211}%
-\contentsline {subsubsection}{\numberline {c.}Edgecases}{93}{subsubsection.212}%
-\contentsline {subsection}{\numberline {4.}Stamp}{93}{subsection.213}%
-\contentsline {subsubsection}{\numberline {a.}Rules}{93}{subsubsection.215}%
-\contentsline {subsection}{\numberline {5.}Table}{93}{subsection.216}%
-\contentsline {subsubsection}{\numberline {a.}Rules}{95}{subsubsection.217}%
-\contentsline {subsubsection}{\numberline {b.}Edgecases}{95}{subsubsection.218}%
-\contentsline {chapter}{Glossaire des acronymes}{97}{section*.220}%
+\contentsline {chapter}{Introduction Générale}{xvii}{chapter*.8}%
+\contentsline {part}{I\hspace {1em}La vision par ordinateur et l’historien : rétrospective, enjeux et méthodes}{1}{part.25}%
+\contentsline {chapter}{\numberline {1}L'émergence du traitement d'images historiques}{5}{chapter.27}%
+\contentsline {section}{\numberline {I.}L'origine de la vision documentaire}{5}{section.29}%
+\contentsline {subsection}{\numberline {1.}La naissance de la vision artificielle appliquée aux documents}{6}{subsection.30}%
+\contentsline {subsection}{\numberline {2.}La mise en place de la vision dans les institutions patrimoniales françaises}{6}{subsection.32}%
+\contentsline {subsection}{\numberline {3.}2005-2010 : la prise de conscience de l'importance des données}{7}{subsection.36}%
+\contentsline {section}{\numberline {II.}La vision aujourd'hui}{7}{section.39}%
+\contentsline {subsection}{\numberline {1.}\textit {You Only Look Once} (\gls {yolo})}{8}{subsection.45}%
+\contentsline {subsection}{\numberline {2.}\gls {detr} : le concurrent direct de \gls {yolo}}{9}{subsection.50}%
+\contentsline {section}{\numberline {III.}2020 : les nouvelles approches}{10}{section.54}%
+\contentsline {subsection}{\numberline {1.}Les \textit {Visual Language Models} (\gls {vlm}) : Du pixel à la sémantique}{10}{subsection.56}%
+\contentsline {subsection}{\numberline {2.}Les modèles fondateurs et l'apparition de l'approche \textit {Zero-shot}/\textit {Few-shot}}{12}{subsection.64}%
+\contentsline {chapter}{\numberline {2}Vision artificielle et humanités}{15}{chapter.69}%
+\contentsline {section}{\numberline {I.}La prise en main par les chercheurs}{15}{section.70}%
+\contentsline {subsection}{\numberline {1.}Les tâches la vision à visée patrimoniale}{16}{subsection.71}%
+\contentsline {subsubsection}{\numberline {a.}La classification globale}{16}{subsubsection.72}%
+\contentsline {subsubsection}{\numberline {b.}La détection d'objet et l'analyse de mise en page}{16}{subsubsection.73}%
+\contentsline {subsubsection}{\numberline {c.}La segmentation au pixel :}{17}{subsubsection.77}%
+\contentsline {subsection}{\numberline {2.}Le triptyque Dataset / Modèle / Papier}{18}{subsection.79}%
+\contentsline {subsubsection}{\numberline {a.}Les métriques de performances de base pour évaluer un modèle}{18}{subsubsection.80}%
+\contentsline {subsubsection}{\numberline {b.}Les métriques de performance calculées pour évaluer un modèle:}{18}{subsubsection.81}%
+\contentsline {section}{\numberline {II.}De la prédiction à la connaissance}{20}{section.82}%
+\contentsline {subsection}{\numberline {1.}La fabrique de la vérité de terrain}{21}{subsection.84}%
+\contentsline {subsubsection}{\numberline {a.}Le découplage indispensable entre la structure physique et la fonction sémantique}{21}{subsubsection.85}%
+\contentsline {subsubsection}{\numberline {b.}La réalité humaine de la tâche d'annotation}{23}{subsubsection.89}%
+\contentsline {subsection}{\numberline {2.}Vers une \@FB@og nouvelle économie de l'érudition \@FB@fg \relax {} : la vision et les pratiques des chercheurs}{24}{subsection.92}%
+\contentsline {subsubsection}{\numberline {a.}Du « goût de l'archive » à une recherche collective : les enjeux méthodologiques de l'intermédiation numérique}{24}{subsubsection.93}%
+\contentsline {subsubsection}{\numberline {b.}Le standard \gls {iiif} et ses atouts pour l'Open Data}{26}{subsubsection.97}%
+\contentsline {chapter}{\numberline {3}Le projet AIKON}{29}{chapter.98}%
+\contentsline {section}{\numberline {I.}Le contexte et les objectifs du projet AIKON}{29}{section.99}%
+\contentsline {subsection}{\numberline {1.}Les objectifs scientifiques de la plateforme}{29}{subsection.100}%
+\contentsline {subsection}{\numberline {2.}Les réalisations techniques du projet}{30}{subsection.103}%
+\contentsline {section}{\numberline {II.}Les projets de recherche en vision artificielle historique}{32}{section.105}%
+\contentsline {subsection}{\numberline {1.}Le projet AIKON et ses collaborateurs}{32}{subsection.106}%
+\contentsline {subsection}{\numberline {2.}Les autres projets de vision par ordinateur historiques}{34}{subsection.109}%
+\contentsline {part}{II\hspace {1em}Construire un corpus de numérisations pour le traitement par vision artificielle}{37}{part.115}%
+\contentsline {chapter}{\numberline {4}Préparer une campagne d’annotation}{41}{chapter.117}%
+\contentsline {section}{\numberline {I.}L'ontologie en machine learning}{41}{section.118}%
+\contentsline {subsection}{\numberline {1.}L'importance de l'ontologie pour les méthodes d'apprentissage automatique}{41}{subsection.119}%
+\contentsline {subsection}{\numberline {2.}Les ontologies appliquées aux documents historiques}{42}{subsection.120}%
+\contentsline {subsubsection}{\numberline {a.}Les ontologies PAGE XML et ALTO XML}{42}{subsubsection.121}%
+\contentsline {subsubsection}{\numberline {b.}SegmOnto}{43}{subsubsection.124}%
+\contentsline {section}{\numberline {II.}Construire une ontologie d'annotation}{44}{section.127}%
+\contentsline {subsection}{\numberline {1.}Définir les frontières sémantiques : le défi des cas limites}{45}{subsection.128}%
+\contentsline {subsection}{\numberline {2.}Mettre en place l'ontologie : écrire un guide d'annotation}{45}{subsection.130}%
+\contentsline {subsubsection}{\numberline {a.}Les règles générales}{46}{subsubsection.131}%
+\contentsline {subsubsection}{\numberline {b.}Les règles ontologiques}{47}{subsubsection.132}%
+\contentsline {chapter}{\numberline {5}Construire un corpus historique}{49}{chapter.136}%
+\contentsline {section}{\numberline {I.}La nature documentaire du corpus}{49}{section.137}%
+\contentsline {subsection}{\numberline {1.}La réutilisation des jeux de données existants}{50}{subsection.138}%
+\contentsline {subsection}{\numberline {2.}La récupération des données depuis la plateforme AIKON}{53}{subsection.146}%
+\contentsline {section}{\numberline {II.}La nature technique du corpus}{54}{section.150}%
+\contentsline {subsection}{\numberline {1.}Faire fonctionner des données entre elles}{55}{subsection.151}%
+\contentsline {subsubsection}{\numberline {a.}Travailler avec le format YOLO}{55}{subsubsection.152}%
+\contentsline {subsubsection}{\numberline {b.}De la segmentation par pixels aux boîtes englobantes : le cas d'IlluHisDoc}{57}{subsubsection.154}%
+\contentsline {subsection}{\numberline {2.}Corriger les données}{58}{subsection.157}%
+\contentsline {subsubsection}{\numberline {a.}L'environnement technique de correction : Label Studio}{59}{subsubsection.158}%
+\contentsline {subsubsection}{\numberline {b.}Corriger des annotations}{59}{subsubsection.162}%
+\contentsline {chapter}{\numberline {6}Entraîner et évaluer}{61}{chapter.164}%
+\contentsline {section}{\numberline {I.}Les hyperparamètres}{61}{section.165}%
+\contentsline {section}{\numberline {II.}Évaluer les résultats de l'inférence}{64}{section.166}%
+\contentsline {subsection}{\numberline {1.}Définir la méthodologie d'évaluation}{64}{subsection.167}%
+\contentsline {subsubsection}{\numberline {a.}L'importance du découpage du jeu de données (\textit {Data Splitting})}{64}{subsubsection.168}%
+\contentsline {subsubsection}{\numberline {b.}La représentativité de la distribution réelle}{65}{subsubsection.169}%
+\contentsline {subsection}{\numberline {2.}Résultats pour GenHisDoc}{65}{subsection.170}%
+\contentsline {subsubsection}{\numberline {a.}Comprendre les métriques générales}{65}{subsubsection.171}%
+\contentsline {subsubsection}{\numberline {b.}Comprendre les métriques par classes}{67}{subsubsection.173}%
+\contentsline {section}{\numberline {III.}Les pistes d'amélioration}{69}{section.176}%
+\contentsline {subsection}{\numberline {1.}Modifier les hyperparamètres}{69}{subsection.177}%
+\contentsline {subsection}{\numberline {2.}Mettre en place une meilleure méthodologie d'évaluation}{70}{subsection.179}%
+\contentsline {subsection}{\numberline {3.}Modifier et faire évoluer les annotations}{70}{subsection.180}%
+\contentsline {subsection}{\numberline {4.}Transformer l'ontologie}{71}{subsection.181}%
+\contentsline {part}{III\hspace {1em}Conclusion \& Annexes}{73}{part.182}%
+\contentsline {chapter}{\numberline {7}Conclusion Générale}{75}{chapter.183}%
+\contentsline {chapter}{\numberline {A}Annexes : Code}{79}{appendix.184}%
+\contentsline {section}{\numberline {I.}GenHisDoc et ses modèles}{79}{section.185}%
+\contentsline {section}{\numberline {II.}Description des modèles entraînés}{80}{section.187}%
+\contentsline {subsection}{\numberline {1.}GenHisDoc YOLOv26L}{80}{subsection.188}%
+\contentsline {subsection}{\numberline {2.}GenHisDoc YOLOV8L}{81}{subsection.190}%
+\contentsline {subsection}{\numberline {3.}Benchmark Aikon}{82}{subsection.192}%
+\contentsline {section}{\numberline {III.}Aikoncli}{82}{section.194}%
+\contentsline {chapter}{\numberline {B}Annexes : Formations}{83}{appendix.195}%
+\contentsline {chapter}{\numberline {C}Guidelines d'Annotations}{85}{appendix.196}%
+\contentsline {section}{\numberline {I.}Introduction}{85}{section.197}%
+\contentsline {subsection}{\numberline {1.}Context}{85}{subsection.198}%
+\contentsline {subsection}{\numberline {2.}Task Definition}{86}{subsection.199}%
+\contentsline {section}{\numberline {II.}General rules}{86}{section.200}%
+\contentsline {subsection}{\numberline {1.}Hug the border of the object as tightly as possible}{86}{subsection.201}%
+\contentsline {subsection}{\numberline {2.}Separate the elements that are not visually connected.}{86}{subsection.203}%
+\contentsline {subsection}{\numberline {3.}Avoid item overlap}{87}{subsection.205}%
+\contentsline {subsection}{\numberline {4.}Annotate only the main page}{87}{subsection.207}%
+\contentsline {subsection}{\numberline {5.}Annotate what is visible, not what you infer}{89}{subsection.209}%
+\contentsline {subsection}{\numberline {6.}Review your work before submitting.}{89}{subsection.211}%
+\contentsline {section}{\numberline {III.}Class definition}{89}{section.212}%
+\contentsline {subsection}{\numberline {1.}Illustration}{90}{subsection.213}%
+\contentsline {subsubsection}{\numberline {a.}Description}{90}{subsubsection.214}%
+\contentsline {subsubsection}{\numberline {b.}Rules}{90}{subsubsection.216}%
+\contentsline {subsubsection}{\numberline {c.}Edgecases}{92}{subsubsection.218}%
+\contentsline {subsection}{\numberline {2.}Ornament}{92}{subsection.221}%
+\contentsline {subsubsection}{\numberline {a.}Description}{92}{subsubsection.222}%
+\contentsline {subsubsection}{\numberline {b.}Rules \& edgecases}{94}{subsubsection.223}%
+\contentsline {subsection}{\numberline {3.}Initial}{94}{subsection.225}%
+\contentsline {subsubsection}{\numberline {a.}Description}{94}{subsubsection.226}%
+\contentsline {subsubsection}{\numberline {b.}Rules}{97}{subsubsection.228}%
+\contentsline {subsubsection}{\numberline {c.}Edgecases}{97}{subsubsection.229}%
+\contentsline {subsection}{\numberline {4.}Stamp}{97}{subsection.230}%
+\contentsline {subsubsection}{\numberline {a.}Rules}{97}{subsubsection.232}%
+\contentsline {subsection}{\numberline {5.}Table}{99}{subsection.233}%
+\contentsline {subsubsection}{\numberline {a.}Rules}{99}{subsubsection.234}%
+\contentsline {subsubsection}{\numberline {b.}Edgecases}{99}{subsubsection.235}%
+\contentsline {chapter}{\numberline {D}Annexes : Expériences}{103}{appendix.237}%
+\contentsline {chapter}{Glossaire des acronymes}{107}{section*.241}%

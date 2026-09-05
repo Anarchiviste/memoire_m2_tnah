@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.9.1)  2 SEP 2026 01:15
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.9.1)  3 SEP 2026 21:27
  restricted system commands enabled.
 **main
 (./main.tex
@@ -781,25 +781,61 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedRightParindent=\skip91
 \JustifyingParindent=\skip92
 )
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count449
+\lst@gtempboxa=\box105
+\lst@token=\toks31
+\lst@length=\count450
+\lst@currlwidth=\dimen194
+\lst@column=\count451
+\lst@pos=\count452
+\lst@lostspace=\dimen195
+\lst@width=\dimen196
+\lst@newlines=\count453
+\lst@lineno=\count454
+\lst@maxwidth=\dimen197
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count455
+\lst@skipnumbers=\count456
+\lst@framebox=\box106
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen194
-\lightrulewidth=\dimen195
-\cmidrulewidth=\dimen196
-\belowrulesep=\dimen197
-\belowbottomsep=\dimen198
-\aboverulesep=\dimen199
-\abovetopsep=\dimen256
-\cmidrulesep=\dimen257
-\cmidrulekern=\dimen258
-\defaultaddspace=\dimen259
-\@cmidla=\count449
-\@cmidlb=\count450
-\@aboverulesep=\dimen260
-\@belowrulesep=\dimen261
-\@thisruleclass=\count451
-\@lastruleclass=\count452
-\@thisrulewidth=\dimen262
+\heavyrulewidth=\dimen198
+\lightrulewidth=\dimen199
+\cmidrulewidth=\dimen256
+\belowrulesep=\dimen257
+\belowbottomsep=\dimen258
+\aboverulesep=\dimen259
+\abovetopsep=\dimen260
+\cmidrulesep=\dimen261
+\cmidrulekern=\dimen262
+\defaultaddspace=\dimen263
+\@cmidla=\count457
+\@cmidlb=\count458
+\@aboverulesep=\dimen264
+\@belowrulesep=\dimen265
+\@thisruleclass=\count459
+\@lastruleclass=\count460
+\@thisrulewidth=\dimen266
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count461
+\float@exts=\toks32
+\float@box=\box107
+\@float@everytoks=\toks33
+\@floatcapt=\box108
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
@@ -815,19 +851,19 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 106.
 )
-\Gin@req@height=\dimen263
-\Gin@req@width=\dimen264
+\Gin@req@height=\dimen267
+\Gin@req@width=\dimen268
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks31
-\pgfutil@tempdima=\dimen265
-\pgfutil@tempdimb=\dimen266
+\pgfutil@everybye=\toks34
+\pgfutil@tempdima=\dimen269
+\pgfutil@tempdimb=\dimen270
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box105
+\pgfutil@abb=\box109
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -841,33 +877,33 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks32
-\pgfkeys@temptoks=\toks33
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
 .code.tex
-\pgfkeys@tmptoks=\toks34
+\pgfkeys@tmptoks=\toks37
 ))
-\pgf@x=\dimen267
-\pgf@y=\dimen268
-\pgf@xa=\dimen269
-\pgf@ya=\dimen270
-\pgf@xb=\dimen271
-\pgf@yb=\dimen272
-\pgf@xc=\dimen273
-\pgf@yc=\dimen274
-\pgf@xd=\dimen275
-\pgf@yd=\dimen276
+\pgf@x=\dimen271
+\pgf@y=\dimen272
+\pgf@xa=\dimen273
+\pgf@ya=\dimen274
+\pgf@xb=\dimen275
+\pgf@yb=\dimen276
+\pgf@xc=\dimen277
+\pgf@yc=\dimen278
+\pgf@xd=\dimen279
+\pgf@yd=\dimen280
 \w@pgf@writea=\write5
 \r@pgf@reada=\read4
-\c@pgf@counta=\count453
-\c@pgf@countb=\count454
-\c@pgf@countc=\count455
-\c@pgf@countd=\count456
-\t@pgf@toka=\toks35
-\t@pgf@tokb=\toks36
-\t@pgf@tokc=\toks37
-\pgf@sys@id@count=\count457
+\c@pgf@counta=\count462
+\c@pgf@countb=\count463
+\c@pgf@countc=\count464
+\c@pgf@countd=\count465
+\t@pgf@toka=\toks38
+\t@pgf@tokb=\toks39
+\t@pgf@tokc=\toks40
+\pgf@sys@id@count=\count466
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -882,8 +918,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count458
-\pgfsyssoftpath@bigbuffer@items=\count459
+\pgfsyssoftpath@smallbuffer@items=\count467
+\pgfsyssoftpath@bigbuffer@items=\count468
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -895,12 +931,12 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen277
-\pgfmath@count=\count460
-\pgfmath@box=\box106
-\pgfmath@toks=\toks38
-\pgfmath@stack@operand=\toks39
-\pgfmath@stack@operation=\toks40
+\pgfmath@dimen=\dimen281
+\pgfmath@count=\count469
+\pgfmath@box=\box110
+\pgfmath@toks=\toks41
+\pgfmath@stack@operand=\toks42
+\pgfmath@stack@operation=\toks43
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -921,58 +957,58 @@ tex)
 thmetics.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count461
+\c@pgfmathroundto@lastzeros=\count470
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen278
-\pgf@picmaxx=\dimen279
-\pgf@picminy=\dimen280
-\pgf@picmaxy=\dimen281
-\pgf@pathminx=\dimen282
-\pgf@pathmaxx=\dimen283
-\pgf@pathminy=\dimen284
-\pgf@pathmaxy=\dimen285
-\pgf@xx=\dimen286
-\pgf@xy=\dimen287
-\pgf@yx=\dimen288
-\pgf@yy=\dimen289
-\pgf@zx=\dimen290
-\pgf@zy=\dimen291
+\pgf@picminx=\dimen282
+\pgf@picmaxx=\dimen283
+\pgf@picminy=\dimen284
+\pgf@picmaxy=\dimen285
+\pgf@pathminx=\dimen286
+\pgf@pathmaxx=\dimen287
+\pgf@pathminy=\dimen288
+\pgf@pathmaxy=\dimen289
+\pgf@xx=\dimen290
+\pgf@xy=\dimen291
+\pgf@yx=\dimen292
+\pgf@yy=\dimen293
+\pgf@zx=\dimen294
+\pgf@zy=\dimen295
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen292
-\pgf@path@lasty=\dimen293
+\pgf@path@lastx=\dimen296
+\pgf@path@lasty=\dimen297
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen294
-\pgf@shorten@start@additional=\dimen295
+\pgf@shorten@end@additional=\dimen298
+\pgf@shorten@start@additional=\dimen299
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box107
-\pgf@hbox=\box108
-\pgf@layerbox@main=\box109
-\pgf@picture@serial@count=\count462
+\pgfpic=\box111
+\pgf@hbox=\box112
+\pgf@layerbox@main=\box113
+\pgf@picture@serial@count=\count471
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen296
+\pgflinewidth=\dimen300
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen297
-\pgf@pt@y=\dimen298
-\pgf@pt@temp=\dimen299
+\pgf@pt@x=\dimen301
+\pgf@pt@y=\dimen302
+\pgf@pt@temp=\dimen303
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -988,13 +1024,13 @@ File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen300
+\pgfarrowsep=\dimen304
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen301
-\pgf@sys@shading@range@num=\count463
-\pgf@shadingcount=\count464
+\pgf@max=\dimen305
+\pgf@sys@shading@range@num=\count472
+\pgf@shadingcount=\count473
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -1002,7 +1038,7 @@ File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box110
+\pgfexternal@startupbox=\box114
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -1021,15 +1057,15 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box111
+\pgfnodeparttextbox=\box115
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen302
-\pgf@nodesepend=\dimen303
+\pgf@nodesepstart=\dimen306
+\pgf@nodesepend=\dimen307
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -1041,10 +1077,10 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen304
-\pgffor@skip=\dimen305
-\pgffor@stack=\toks41
-\pgffor@toks=\toks42
+\pgffor@iter=\dimen308
+\pgffor@skip=\dimen309
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
@@ -1052,44 +1088,44 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count465
-\pgfplotmarksize=\dimen306
+\pgf@plot@mark@count=\count474
+\pgfplotmarksize=\dimen310
 )
-\tikz@lastx=\dimen307
-\tikz@lasty=\dimen308
-\tikz@lastxsaved=\dimen309
-\tikz@lastysaved=\dimen310
-\tikz@lastmovetox=\dimen311
-\tikz@lastmovetoy=\dimen312
-\tikzleveldistance=\dimen313
-\tikzsiblingdistance=\dimen314
-\tikz@figbox=\box112
-\tikz@figbox@bg=\box113
-\tikz@tempbox=\box114
-\tikz@tempbox@bg=\box115
-\tikztreelevel=\count466
-\tikznumberofchildren=\count467
-\tikznumberofcurrentchild=\count468
-\tikz@fig@count=\count469
+\tikz@lastx=\dimen311
+\tikz@lasty=\dimen312
+\tikz@lastxsaved=\dimen313
+\tikz@lastysaved=\dimen314
+\tikz@lastmovetox=\dimen315
+\tikz@lastmovetoy=\dimen316
+\tikzleveldistance=\dimen317
+\tikzsiblingdistance=\dimen318
+\tikz@figbox=\box116
+\tikz@figbox@bg=\box117
+\tikz@tempbox=\box118
+\tikz@tempbox@bg=\box119
+\tikztreelevel=\count475
+\tikznumberofchildren=\count476
+\tikznumberofcurrentchild=\count477
+\tikz@fig@count=\count478
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count470
-\pgfmatrixcurrentcolumn=\count471
-\pgf@matrix@numberofcolumns=\count472
+\pgfmatrixcurrentrow=\count479
+\pgfmatrixcurrentcolumn=\count480
+\pgf@matrix@numberofcolumns=\count481
 )
-\tikz@expandcount=\count473
+\tikz@expandcount=\count482
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen315
-\WF@size=\dimen316
-\c@WF@wrappedlines=\count474
-\WF@box=\box116
-\WF@everypar=\toks43
+\wrapoverhang=\dimen319
+\WF@size=\dimen320
+\c@WF@wrappedlines=\count483
+\WF@box=\box120
+\WF@everypar=\toks46
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
@@ -1100,25 +1136,27 @@ Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen317
-\captionmargin=\dimen318
-\caption@leftmargin=\dimen319
-\caption@rightmargin=\dimen320
-\caption@width=\dimen321
-\caption@indent=\dimen322
-\caption@parindent=\dimen323
-\caption@hangindent=\dimen324
+\caption@tempdima=\dimen321
+\captionmargin=\dimen322
+\caption@leftmargin=\dimen323
+\caption@rightmargin=\dimen324
+\caption@width=\dimen325
+\caption@indent=\dimen326
+\caption@parindent=\dimen327
+\caption@hangindent=\dimen328
 Package caption Info: Standard document class detected.
 Package caption Info: french babel package is loaded.
 )
-\c@caption@flags=\count475
-\c@continuedfloat=\count476
+\c@caption@flags=\count484
+\c@continuedfloat=\count485
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count477
+\c@subfigure=\count486
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count478
+\c@subtable=\count487
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
@@ -1128,12 +1166,12 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
 \pgfplots@luabackend@table=\catcodetable16
-\t@pgfplots@toka=\toks44
-\t@pgfplots@tokb=\toks45
-\t@pgfplots@tokc=\toks46
-\pgfplots@tmpa=\dimen325
-\c@pgfplots@coordindex=\count479
-\c@pgfplots@scanlineindex=\count480
+\t@pgfplots@toka=\toks47
+\t@pgfplots@tokb=\toks48
+\t@pgfplots@tokc=\toks49
+\pgfplots@tmpa=\dimen329
+\c@pgfplots@coordindex=\count488
+\c@pgfplots@scanlineindex=\count489
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
 .tex))
@@ -1144,9 +1182,9 @@ gfsupp_loader.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
 )
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks47
-\t@pgf@tokb=\toks48
-\t@pgf@tokc=\toks49
+\t@pgf@toka=\toks50
+\t@pgf@tokb=\toks51
+\t@pgf@tokc=\toks52
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfutil-common-lists.tex)
@@ -1165,14 +1203,14 @@ tructure.code.tex)
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count481
+\c@pgfplotsarray@tmp=\count490
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count482
-\t@pgfplotstable@a=\toks50
+\c@pgfplotstable@counta=\count491
+\t@pgfplotstable@a=\toks53
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
 .code.tex)
@@ -1184,7 +1222,7 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count483
+\c@pgfplotslibrarysurf@no=\count492
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
 shading.pgfsys-luatex.def)))
@@ -1211,16 +1249,16 @@ e.tex)
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen326
-\pgfdecoratedremainingdistance=\dimen327
-\pgfdecoratedinputsegmentcompleteddistance=\dimen328
-\pgfdecoratedinputsegmentremainingdistance=\dimen329
-\pgf@decorate@distancetomove=\dimen330
-\pgf@decorate@repeatstate=\count484
-\pgfdecorationsegmentamplitude=\dimen331
-\pgfdecorationsegmentlength=\dimen332
+\pgfdecoratedcompleteddistance=\dimen330
+\pgfdecoratedremainingdistance=\dimen331
+\pgfdecoratedinputsegmentcompleteddistance=\dimen332
+\pgfdecoratedinputsegmentremainingdistance=\dimen333
+\pgf@decorate@distancetomove=\dimen334
+\pgf@decorate@repeatstate=\count493
+\pgfdecorationsegmentamplitude=\dimen335
+\pgfdecorationsegmentlength=\dimen336
 )
-\tikz@lib@dec@box=\box117
+\tikz@lib@dec@box=\box121
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.pathmorphing.code.tex
@@ -1232,13 +1270,13 @@ zlibrarydecorations.pathreplacing.code.tex
 decorations.pathreplacing.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.co
 ntourlua.code.tex)
-\pgfplots@numplots=\count485
-\pgfplots@xmin@reg=\dimen333
-\pgfplots@xmax@reg=\dimen334
-\pgfplots@ymin@reg=\dimen335
-\pgfplots@ymax@reg=\dimen336
-\pgfplots@zmin@reg=\dimen337
-\pgfplots@zmax@reg=\dimen338
+\pgfplots@numplots=\count494
+\pgfplots@xmin@reg=\dimen337
+\pgfplots@xmax@reg=\dimen338
+\pgfplots@ymin@reg=\dimen339
+\pgfplots@ymax@reg=\dimen340
+\pgfplots@zmin@reg=\dimen341
+\pgfplots@zmax@reg=\dimen342
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
@@ -1249,8 +1287,8 @@ de.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks51
-\verbatim@line=\toks52
+\every@verbatim=\toks54
+\verbatim@line=\toks55
 \verbatim@in@stream=\read5
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
@@ -1258,9 +1296,9 @@ Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count486
-\l__lipsum_a_int=\count487
-\l__lipsum_b_int=\count488
+\g__lipsum_par_int=\count495
+\l__lipsum_a_int=\count496
+\l__lipsum_b_int=\count497
 
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesome.sty
@@ -1304,18 +1342,18 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count489
-\Gm@cntv=\count490
-\c@Gm@tempcnt=\count491
-\Gm@bindingoffset=\dimen339
-\Gm@wd@mp=\dimen340
-\Gm@odd@mp=\dimen341
-\Gm@even@mp=\dimen342
-\Gm@layoutwidth=\dimen343
-\Gm@layoutheight=\dimen344
-\Gm@layouthoffset=\dimen345
-\Gm@layoutvoffset=\dimen346
-\Gm@dimlist=\toks53
+\Gm@cnth=\count498
+\Gm@cntv=\count499
+\c@Gm@tempcnt=\count500
+\Gm@bindingoffset=\dimen343
+\Gm@wd@mp=\dimen344
+\Gm@odd@mp=\dimen345
+\Gm@even@mp=\dimen346
+\Gm@layoutwidth=\dimen347
+\Gm@layoutheight=\dimen348
+\Gm@layouthoffset=\dimen349
+\Gm@layoutvoffset=\dimen350
+\Gm@dimlist=\toks56
 )
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
@@ -1337,7 +1375,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip104
 \f@nch@widthC=\skip105
 \f@nch@widthR=\skip106
-\@temptokenb=\toks54
+\@temptokenb=\toks57
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
@@ -1360,15 +1398,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count492
+\c@section@level=\count501
 )
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen347
-\Hy@linkcounter=\count493
-\Hy@pagecounter=\count494
+\@linkdim=\dimen351
+\Hy@linkcounter=\count502
+\Hy@pagecounter=\count503
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
@@ -1376,7 +1414,7 @@ File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count495
+\Hy@SavedSpaceFactor=\count504
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
@@ -1392,9 +1430,9 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count496
+\c@Hy@tempcnt=\count505
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen348
+\XeTeXLinkMargin=\dimen352
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1403,9 +1441,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count497
-\Field@Width=\dimen349
-\Fld@charsize=\dimen350
+\Fld@menulength=\count506
+\Field@Width=\dimen353
+\Fld@charsize=\dimen354
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -1418,9 +1456,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count498
-\c@Item=\count499
-\c@Hfootnote=\count500
+\Hy@abspage=\count507
+\c@Item=\count508
+\c@Hfootnote=\count509
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
@@ -1432,8 +1470,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count501
-\c@bookmark@seq@number=\count502
+\Fld@listcount=\count510
+\c@bookmark@seq@number=\count511
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -1446,7 +1484,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip107
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 188.
+Package hyperref Info: Option `colorlinks' set `true' on input line 203.
 
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
@@ -1454,15 +1492,15 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
-\BKM@id=\count503
+\BKM@id=\count512
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2025/03/03 v4.56 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks55
-\@glsmrest=\toks56
+\@glsmfirst=\toks58
+\@glsmrest=\toks59
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
@@ -1484,53 +1522,53 @@ Package: datatool-base 2025/03/05 v3.0.1 (NLCT)
 (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-lua.def
 File: datatool-lua.def 2025/03/05 v3.0.1 (NLCT)
 )
-\@dtl@toks=\toks57
-\@dtl@tmpcount=\count504
+\@dtl@toks=\toks60
+\@dtl@tmpcount=\count513
 \dtl@tmplength=\skip108
-\l__datatool_measure_box=\box118
-\dtl@sortresult=\count505
+\l__datatool_measure_box=\box122
+\dtl@sortresult=\count514
 
 (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-utf8.ldf
 File: datatool-utf8.ldf 2025/03/05 v3.0.1 (NLCT)
 )
-\@dtl@datatype=\count506
-\l__datatool_tmpa_int=\count507
-\l__datatool_tmpb_int=\count508
-\l__datatool_tmpc_int=\count509
-\l__datatool_tmpd_int=\count510
-\l__datatool_count_int=\count511
-\l__datatool_tmp_datatype_int=\count512
-\l__datatool_tmpa_dim=\dimen351
-\l__datatool_tmpb_dim=\dimen352
-\c_datatool_unknown_int=\count513
-\l__datatool_year_int=\count514
-\l__datatool_month_int=\count515
-\l__datatool_day_int=\count516
-\l__datatool_hour_int=\count517
-\l__datatool_minute_int=\count518
-\l__datatool_second_int=\count519
-\l__datatool_tzhour_int=\count520
-\l__datatool_tzminute_int=\count521
-\l__datatool_julian_int=\count522
-\l__datatool_local_julian_int=\count523
-\l__datatool_prefix_int=\count524
-\l__datatool_suffix_int=\count525
-\@dtl@foreach@level=\count526
+\@dtl@datatype=\count515
+\l__datatool_tmpa_int=\count516
+\l__datatool_tmpb_int=\count517
+\l__datatool_tmpc_int=\count518
+\l__datatool_tmpd_int=\count519
+\l__datatool_count_int=\count520
+\l__datatool_tmp_datatype_int=\count521
+\l__datatool_tmpa_dim=\dimen355
+\l__datatool_tmpb_dim=\dimen356
+\c_datatool_unknown_int=\count522
+\l__datatool_year_int=\count523
+\l__datatool_month_int=\count524
+\l__datatool_day_int=\count525
+\l__datatool_hour_int=\count526
+\l__datatool_minute_int=\count527
+\l__datatool_second_int=\count528
+\l__datatool_tzhour_int=\count529
+\l__datatool_tzminute_int=\count530
+\l__datatool_julian_int=\count531
+\l__datatool_local_julian_int=\count532
+\l__datatool_prefix_int=\count533
+\l__datatool_suffix_int=\count534
+\@dtl@foreach@level=\count535
 
 
 Package tracklang Warning: No `datatool' support for dialect `french'  on input
  line 9897.
 
-\dtl@codeA=\count527
-\dtl@codeB=\count528
+\dtl@codeA=\count536
+\dtl@codeB=\count537
 )
-\gls@level=\count529
-\@gls@tmpb=\toks58
+\gls@level=\count538
+\@gls@tmpb=\toks61
 \gls@tmplen=\skip109
-\glskeylisttok=\toks59
-\glslabeltok=\toks60
-\glsshorttok=\toks61
-\glslongtok=\toks62
+\glskeylisttok=\toks62
+\glslabeltok=\toks63
+\glsshorttok=\toks64
+\glslongtok=\toks65
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.st
 y
@@ -1547,18 +1585,18 @@ Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \LTright=\skip112
 \LTpre=\skip113
 \LTpost=\skip114
-\LTchunksize=\count530
-\LTcapwidth=\dimen353
-\LT@head=\box119
-\LT@firsthead=\box120
-\LT@foot=\box121
-\LT@lastfoot=\box122
-\LT@gbox=\box123
-\LT@cols=\count531
-\LT@rows=\count532
-\c@LT@tables=\count533
-\c@LT@chunks=\count534
-\LT@p@ftn=\toks63
+\LTchunksize=\count539
+\LTcapwidth=\dimen357
+\LT@head=\box123
+\LT@firsthead=\box124
+\LT@foot=\box125
+\LT@lastfoot=\box126
+\LT@gbox=\box127
+\LT@cols=\count540
+\LT@rows=\count541
+\c@LT@tables=\count542
+\c@LT@chunks=\count543
+\LT@p@ftn=\toks66
 )
 \glsdescwidth=\skip115
 \glspagelistwidth=\skip116
@@ -1568,21 +1606,21 @@ Package: glossary-super 2025/03/03 v4.56 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2024/07/20 v4.2c the supertabular environment
-\c@tracingst=\count535
-\ST@wd=\dimen354
+\c@tracingst=\count544
+\ST@wd=\dimen358
 \ST@rightskip=\skip117
 \ST@leftskip=\skip118
 \ST@parfillskip=\skip119
-\ST@pageleft=\dimen355
-\ST@headht=\dimen356
-\ST@tailht=\dimen357
-\ST@pagesofar=\dimen358
-\ST@pboxht=\dimen359
-\ST@rowht=\dimen360
-\ST@prevht=\dimen361
-\ST@toadd=\dimen362
-\ST@dimen=\dimen363
-\ST@pbox=\box124
+\ST@pageleft=\dimen359
+\ST@headht=\dimen360
+\ST@tailht=\dimen361
+\ST@pagesofar=\dimen362
+\ST@pboxht=\dimen363
+\ST@rowht=\dimen364
+\ST@prevht=\dimen365
+\ST@toadd=\dimen366
+\ST@dimen=\dimen367
+\ST@pbox=\box128
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2025/03/03 v4.56 (NLCT)
@@ -1597,11 +1635,11 @@ runsystem(makeindex -s main.ist -t main.alg -o main.acr main.acn)...executed
 \glo@main@file=\write7
 
 \openout7 = main.glo
-Package glossaries Info: Writing glossary file main.glo on input line 217.
+Package glossaries Info: Writing glossary file main.glo on input line 232.
 \glo@acronym@file=\write8
 
 \openout8 = main.acn
-Package glossaries Info: Writing glossary file main.acn on input line 217.
+Package glossaries Info: Writing glossary file main.acn on input line 232.
 
 (./glossarie.tex)
 Package csquotes Info: Checking for multilingual support...
@@ -1615,26 +1653,26 @@ LaTeX Warning: Label `tab:segmonto' multiply defined.
 )
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1642,77 +1680,77 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 227.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 227.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 227.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 227.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 227.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 227.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 227.
-LaTeX Font Info:    Redeclaring math accent \check on input line 227.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 227.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 227.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 227.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 227.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 227.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 227.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 227.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 227.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 227.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 227.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 227.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 227.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 227.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 227.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 227.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 227.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 242.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 242.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 242.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 242.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 242.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 242.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 242.
+LaTeX Font Info:    Redeclaring math accent \check on input line 242.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 242.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 242.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 242.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 242.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 227.
+(Font)              `operators' in the math version `normal' on input line 242.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 227.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 242.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 227.
+(Font)              `operators' in the math version `bold' on input line 242.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 227.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 242.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 227.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 242.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 227.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 242.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 227.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 242.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 227.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 242.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 227.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 242.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 227.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 242.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 227.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 242.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 227.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 242.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 227.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 242.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 227.
+(french.ldf)             reported on input line 242.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 227.
-LaTeX Info: Redefining \up on input line 227.
+(french.ldf)             reported on input line 242.
+LaTeX Info: Redefining \up on input line 242.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count536
-\scratchdimen=\dimen364
-\scratchbox=\box125
-\nofMPsegments=\count537
-\nofMParguments=\count538
-\everyMPshowfont=\toks64
-\MPscratchCnt=\count539
-\MPscratchDim=\dimen365
-\MPnumerator=\count540
-\makeMPintoPDFobject=\count541
-\everyMPtoPDFconversion=\toks65
+\scratchcounter=\count545
+\scratchdimen=\dimen368
+\scratchbox=\box129
+\nofMPsegments=\count546
+\nofMParguments=\count547
+\everyMPshowfont=\toks67
+\MPscratchCnt=\count548
+\MPscratchDim=\dimen369
+\MPnumerator=\count549
+\makeMPintoPDFobject=\count550
+\everyMPtoPDFconversion=\toks68
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1737,8 +1775,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 227.
-Package biblatex Info: Reference segment=0 on input line 227.
+Package biblatex Info: Reference section=0 on input line 242.
+Package biblatex Info: Reference segment=0 on input line 242.
+\c@lstlisting=\count551
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1753,7 +1792,7 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 227.
+ on input line 242.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1789,7 +1828,7 @@ your preamble.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 227.
+Package hyperref Info: Link coloring ON on input line 242.
 
 
 [1
@@ -1816,52 +1855,28 @@ Package hyperref Info: Link coloring ON on input line 227.
 
 ]
 
-[4])
+[4]
+
+[5])
 \tf@toc=\write9
 
 \openout9 = main.toc
 
 
-[5]
-
-[6
-
-]
+[6]
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 24.16241pt ({M});
-(lettrine.sty)             reported on input line 305.
+(lettrine.sty)             reported on input line 322.
 
 
-[7]
+[7
+
+]
 
 [8
 
 ]
-
-Package biblatex Warning: Keyword 'hn' not found on input line 312.
-
-
-LaTeX Warning: Empty bibliography on input line 312.
-
-
-Package biblatex Warning: Keyword 'ml' not found on input line 316.
-
-
-LaTeX Warning: Empty bibliography on input line 316.
-
-
-Package biblatex Warning: Keyword 'ont' not found on input line 320.
-
-
-LaTeX Warning: Empty bibliography on input line 320.
-
-(./00introduction.tex
-Package lettrine.sty Info: Targeted height = 24.16246pt
-(lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 24.72845pt (C);
-(lettrine.sty)             reported on input line 6.
-
 
 [9
 
@@ -1869,17 +1884,89 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 
 [10]
 
-[11]
+[11
 
-[12])
+
+]
+Overfull \hbox (4.14752pt too wide) in paragraph at lines 338--338
+\TU/lmr/m/it/12 for High-Accuracy, Low-Cost His-to-ri-cal Text Re-cog-ni-tion\T
+U/lmr/m/n/12 , dir. Chris-tos Christodoulopoulos,
+ []
+
+
+Overfull \hbox (45.87648pt too wide) in paragraph at lines 338--338
+[][]\TU/lmr/m/sc/12 Xu \TU/lmr/m/n/12 (Kel-vin), \TU/lmr/m/sc/12 Ba \TU/lmr/m/n
+/12 (Jimmy), \TU/lmr/m/sc/12 Kiros \TU/lmr/m/n/12 (Ryan), \TU/lmr/m/sc/12 Cho \
+TU/lmr/m/n/12 (Kyun-ghyun), \TU/lmr/m/sc/12 Courville \TU/lmr/m/n/12 (Aa-ron), 
+\TU/lmr/m/sc/12 Salakhutdinov
+ []
+
+
+
+[12]
+Overfull \hbox (16.78952pt too wide) in paragraph at lines 338--338
+[][]\TU/lmr/m/it/12 YOLO Per-for-mance Me-trics\TU/lmr/m/n/12 , Ul-tra-ly-tics 
+Docs, 12 nov. 2023, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : [][]$\TU/lmtt/m/n/12 ht
+tps : / / docs . ultralytics .
+ []
+
+
 
 [13]
 
 [14
 
+
+]
+Overfull \hbox (82.89786pt too wide) in paragraph at lines 343--343
+[][]\TU/lmr/m/sc/12 Aljalbout \TU/lmr/m/n/12 (Sa-har) et \TU/lmr/m/sc/12 Falquet
+ \TU/lmr/m/n/12 (Gilles), «   A Se-man-tic Mo-del for His-to-ri-cal Ma-nus-crip
+ts »–arXiv:1802.00295
+ []
+
+
+Overfull \hbox (19.98967pt too wide) in paragraph at lines 343--343
+[][]\TU/lmr/m/sc/12 Ghassan Beydoun\TU/lmr/m/n/12 , \TU/lmr/m/sc/12 Antonio A. 
+Lopez-Lorca\TU/lmr/m/n/12 , \TU/lmr/m/sc/12 Francisco García-Sánchez \TU/lmr/
+m/n/12 et \TU/lmr/m/sc/12 Rodrigo
+ []
+
+
+
+[15]
+
+[16] (./00introduction.tex
+Package lettrine.sty Info: Targeted height = 24.16246pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 24.72845pt (C);
+(lettrine.sty)             reported on input line 6.
+
+
+[17
+
 ]
 
+[18]
+
+[19]
+<img/GenHisDocOrganisation.png, id=529, 831.105pt x 414.79968pt>
+File: img/GenHisDocOrganisation.png Graphic file (type png)
+<use img/GenHisDocOrganisation.png>
+Package luatex.def Info: img/GenHisDocOrganisation.png  used on input line 31.
+(luatex.def)             Requested size: 415.55148pt x 207.39934pt.
+
+
+[20<./img/GenHisDocOrganisation.png>]
+Underfull \vbox (badness 7344) has occurred while \output is active []
+
+
+
+[21])
+
+[22]
+
 [1
+
 
 
 ]
@@ -1909,7 +1996,7 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 [6]
 
 [7]
-<img/felzenszwalb.png, id=459, 803.6424pt x 353.4003pt>
+<img/felzenszwalb.png, id=652, 803.6424pt x 353.4003pt>
 File: img/felzenszwalb.png Graphic file (type png)
 <use img/felzenszwalb.png>
 Package luatex.def Info: img/felzenszwalb.png  used on input line 34.
@@ -1948,19 +2035,19 @@ oche \TU/lmr/bx/it/14.4 Zero-shot\TU/lmr/bx/n/14.4 /\TU/lmr/bx/it/14.4 Few-
 
 
 [11]
-<img/illustrationsonnet5zeroshot.jpg, id=579, 1860.9525pt x 3161.8125pt>
+<img/illustrationsonnet5zeroshot.jpg, id=773, 1860.9525pt x 3161.8125pt>
 File: img/illustrationsonnet5zeroshot.jpg Graphic file (type jpg)
 <use img/illustrationsonnet5zeroshot.jpg>
 Package luatex.def Info: img/illustrationsonnet5zeroshot.jpg  used on input lin
 e 88.
 (luatex.def)             Requested size: 92.08762pt x 156.49014pt.
-<img/lettrinesonnet5zeroshot.jpg, id=580, 7243.06pt x 5432.295pt>
+<img/lettrinesonnet5zeroshot.jpg, id=774, 7243.06pt x 5432.295pt>
 File: img/lettrinesonnet5zeroshot.jpg Graphic file (type jpg)
 <use img/lettrinesonnet5zeroshot.jpg>
 Package luatex.def Info: img/lettrinesonnet5zeroshot.jpg  used on input line 95
 .
 (luatex.def)             Requested size: 208.55135pt x 156.49014pt.
-<img/multiclassesonnet5zeroshot.jpg, id=581, 7243.06pt x 5432.295pt>
+<img/multiclassesonnet5zeroshot.jpg, id=775, 7243.06pt x 5432.295pt>
 File: img/multiclassesonnet5zeroshot.jpg Graphic file (type jpg)
 <use img/multiclassesonnet5zeroshot.jpg>
 Package luatex.def Info: img/multiclassesonnet5zeroshot.jpg  used on input line
@@ -1994,12 +2081,12 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 ]
 
 [16]
-<img/segmentation.png, id=631, 407.27156pt x 585.68813pt>
+<img/segmentation.png, id=827, 407.27156pt x 585.68813pt>
 File: img/segmentation.png Graphic file (type png)
 <use img/segmentation.png>
 Package luatex.def Info: img/segmentation.png  used on input line 34.
 (luatex.def)             Requested size: 162.90573pt x 234.27109pt.
-<img/detection.jpg, id=632, 1467.4825pt x 2509.375pt>
+<img/detection.jpg, id=828, 1467.4825pt x 2509.375pt>
 File: img/detection.jpg Graphic file (type jpg)
 <use img/detection.jpg>
 Package luatex.def Info: img/detection.jpg  used on input line 41.
@@ -2007,9 +2094,6 @@ Package luatex.def Info: img/detection.jpg  used on input line 41.
 
 
 [17<./img/segmentation.png><./img/detection.jpg>]
-Underfull \vbox (badness 5245) has occurred while \output is active []
-
-
 
 [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2021,32 +2105,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [20]
 
 [21]
-<img/s-ved.png, id=679, 875.52094pt x 649.67719pt>
+<img/s-ved.png, id=879, 875.52094pt x 649.67719pt>
 File: img/s-ved.png Graphic file (type png)
 <use img/s-ved.png>
-Package luatex.def Info: img/s-ved.png  used on input line 131.
+Package luatex.def Info: img/s-ved.png  used on input line 130.
 (luatex.def)             Requested size: 262.65831pt x 194.90465pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 [22<./img/s-ved.png>]
-Overfull \hbox (12.21695pt too wide) in paragraph at lines 145--160
- [][] 
- []
-
-
 
 [23]
 
 [24]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [25
 Missing character: There is no ⟩ (U+27E9) in font [lmroman10-regular]:+tlig;!
 ]) (./1erpartie/Aikon.tex
 
 [26]
+
+[27]
+
+[28
+
+]
 Chapitre 3.
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
@@ -2054,21 +2139,15 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             reported on input line 5.
 
 
-[27
-
-]
-<img/aikonmethod.png, id=731, 440.39531pt x 344.78813pt>
+[29]
+<img/aikonmethod.png, id=963, 440.39531pt x 344.78813pt>
 File: img/aikonmethod.png Graphic file (type png)
 <use img/aikonmethod.png>
 Package luatex.def Info: img/aikonmethod.png  used on input line 21.
 (luatex.def)             Requested size: 220.19711pt x 172.39363pt.
 
 
-[28<./img/aikonmethod.png>]
-
-[29]
-
-[30]
+[30<./img/aikonmethod.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2076,28 +2155,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [31]
 
 [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[33])
+
+
+[33]
 
 [34]
 
-[35
+[35])
+
+[36]
+
+[37
 
 ]
 
-[36] (./2partie/introductiondeuxiemepartie.tex
+[38] (./2partie/introductiondeuxiemepartie.tex
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 24.72845pt (S);
 (lettrine.sty)             reported on input line 13.
 
 
-[37
+[39
 Missing character: There is no ⟨ (U+27E8) in font [lmroman12-regular]:+tlig;!
 Missing character: There is no ⟩ (U+27E9) in font [lmroman12-regular]:+tlig;!
 ]) (./2partie/preparercampagneannotation.tex
 
-[38]
+[40]
 Chapitre 4.
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
@@ -2105,32 +2191,30 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             reported on input line 3.
 
 
-[39
+[41
 
 ]
-<img/GenHisDocOrganisation.png, id=816, 831.105pt x 414.79968pt>
-File: img/GenHisDocOrganisation.png Graphic file (type png)
-<use img/GenHisDocOrganisation.png>
-Package luatex.def Info: img/GenHisDocOrganisation.png  used on input line 21.
-(luatex.def)             Requested size: 415.55148pt x 207.39934pt.
-
-
-[40<./img/GenHisDocOrganisation.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[41]
 
 [42]
 
 [43]
 
-[44]) (./2partie/construirecorpushistorique.tex
+[44]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 [45]
+Underfull \vbox (badness 5548) has occurred while \output is active []
 
-[46
+
+
+[46]) (./2partie/construirecorpushistorique.tex
+
+[47]
+
+[48
 
 ]
 Chapitre 5.
@@ -2139,65 +2223,105 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             Lettrine height = 24.16241pt (L);
 (lettrine.sty)             reported on input line 3.
 
+Underfull \vbox (badness 1975) has occurred while \output is active []
 
-[47]
 
-[48]
 
 [49]
 
 [50]
-Underfull \vbox (badness 1052) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
 
 
 
 [51]
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 100.
-<img/aikon.png, id=910, 648.92438pt x 484.81125pt>
-File: img/aikon.png Graphic file (type png)
-<use img/aikon.png>
-Package luatex.def Info: img/aikon.png  used on input line 107.
-(luatex.def)             Requested size: 324.4614pt x 242.40503pt.
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
+
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+
+Underfull \vbox (badness 3407) has occurred while \output is active []
 
 
 
 [52]
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
-[53<./img/aikon.png>]
-<img/btv1b10532593m_f14_seg.png, id=926, 1003.75pt x 1391.1975pt>
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+
+ []
+
+<img/vhs1.jpg, id=1210, 2509.375pt x 1980.39874pt>
+File: img/vhs1.jpg Graphic file (type jpg)
+<use img/vhs1.jpg>
+Package luatex.def Info: img/vhs1.jpg  used on input line 89.
+(luatex.def)             Requested size: 216.2998pt x 170.70381pt.
+<img/eida1.jpg, id=1211, 1178.15157pt x 1882.03125pt>
+File: img/eida1.jpg Graphic file (type jpg)
+<use img/eida1.jpg>
+Package luatex.def Info: img/eida1.jpg  used on input line 96.
+(luatex.def)             Requested size: 106.856pt x 170.6965pt.
+
+
+[53]
+
+[54<./img/vhs1.jpg><./img/eida1.jpg>]
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 132.
+<img/aikon.png, id=1231, 648.92438pt x 484.81125pt>
+File: img/aikon.png Graphic file (type png)
+<use img/aikon.png>
+Package luatex.def Info: img/aikon.png  used on input line 139.
+(luatex.def)             Requested size: 377.62642pt x 282.13022pt.
+
+
+[55]
+
+[56<./img/aikon.png>]
+<img/btv1b10532593m_f14_seg.png, id=1254, 1003.75pt x 1391.1975pt>
 File: img/btv1b10532593m_f14_seg.png Graphic file (type png)
 <use img/btv1b10532593m_f14_seg.png>
-Package luatex.def Info: img/btv1b10532593m_f14_seg.png  used on input line 152
+Package luatex.def Info: img/btv1b10532593m_f14_seg.png  used on input line 183
 .
-(luatex.def)             Requested size: 118.4384pt x 164.15564pt.
-<img/illuhisdoc.jpg, id=927, 1003.75pt x 1391.1975pt>
+(luatex.def)             Requested size: 123.17104pt x 170.71507pt.
+<img/illuhisdoc.jpg, id=1255, 1003.75pt x 1391.1975pt>
 File: img/illuhisdoc.jpg Graphic file (type jpg)
 <use img/illuhisdoc.jpg>
-Package luatex.def Info: img/illuhisdoc.jpg  used on input line 157.
-(luatex.def)             Requested size: 118.4384pt x 164.15564pt.
+Package luatex.def Info: img/illuhisdoc.jpg  used on input line 190.
+(luatex.def)             Requested size: 123.17104pt x 170.71507pt.
 
-
-[54<./img/btv1b10532593m_f14_seg.png><./img/illuhisdoc.jpg>]
-<img/LabelsStudio.png, id=935, 895.09406pt x 168.63pt>
-File: img/LabelsStudio.png Graphic file (type png)
-<use img/LabelsStudio.png>
-Package luatex.def Info: img/LabelsStudio.png  used on input line 175.
-(luatex.def)             Requested size: 447.54593pt x 84.31479pt.
-
-
-[55<./img/LabelsStudio.png>]
-
-[56]) (./2partie/entraineretevaluer.tex
 
 [57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[58
 
-]
+
+[58<./img/btv1b10532593m_f14_seg.png><./img/illuhisdoc.jpg>]
+<img/LabelsStudio.png, id=1268, 895.09406pt x 168.63pt>
+File: img/LabelsStudio.png Graphic file (type png)
+<use img/LabelsStudio.png>
+Package luatex.def Info: img/LabelsStudio.png  used on input line 211.
+(luatex.def)             Requested size: 401.22942pt x 75.58946pt.
+
+
+[59<./img/LabelsStudio.png>]) (./2partie/entraineretevaluer.tex
+
+[60]
 Chapitre 6.
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
@@ -2205,158 +2329,199 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             reported on input line 3.
 
 
-[59]
-Underfull \vbox (badness 1565) has occurred while \output is active []
+[61
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
-[60]
+ []
 
-[61]
+
 
 [62]
 
 [63]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [64]
-<img/BoxF1_curve.png, id=999, 650.43pt x 433.62pt>
+
+[65]
+<img/BoxF1_curve.png, id=1318, 650.43pt x 433.62pt>
 File: img/BoxF1_curve.png Graphic file (type png)
 <use img/BoxF1_curve.png>
-Package luatex.def Info: img/BoxF1_curve.png  used on input line 123.
+Package luatex.def Info: img/BoxF1_curve.png  used on input line 109.
 (luatex.def)             Requested size: 226.57211pt x 151.04807pt.
-<img/confusion_matrix_normalized.png, id=1000, 867.24pt x 650.43pt>
+<img/confusion_matrix_normalized.png, id=1319, 867.24pt x 650.43pt>
 File: img/confusion_matrix_normalized.png Graphic file (type png)
 <use img/confusion_matrix_normalized.png>
 Package luatex.def Info: img/confusion_matrix_normalized.png  used on input lin
-e 130.
+e 116.
 (luatex.def)             Requested size: 226.5622pt x 169.92163pt.
 
-
-[65<./img/BoxF1_curve.png><./img/confusion_matrix_normalized.png>]
-Underfull \vbox (badness 8075) has occurred while \output is active []
+Underfull \vbox (badness 2435) has occurred while \output is active []
 
 
 
 [66]
-<img/loss.png, id=1015, 588.69937pt x 247.67531pt>
+
+[67<./img/BoxF1_curve.png><./img/confusion_matrix_normalized.png>]
+
+[68]
+
+[69]
+<img/loss.png, id=1346, 588.69937pt x 247.67531pt>
 File: img/loss.png Graphic file (type png)
 <use img/loss.png>
-Package luatex.def Info: img/loss.png  used on input line 189.
+Package luatex.def Info: img/loss.png  used on input line 179.
 (luatex.def)             Requested size: 377.62642pt x 158.87445pt.
 
 
-[67<./img/loss.png>]
-Underfull \vbox (badness 1527) has occurred while \output is active []
+[70<./img/loss.png>])
 
+[71]
 
-
-[68])
-
-[69]
-
-[70]
-
-[71
-
-]
-
-[72] (./conclusion.tex
-Chapitre 7.
-
+[72]
 
 [73
 
+]
+
+[74] (./conclusion.tex
+Chapitre 7.
+
+
+[75
+
 ])
 
-[74]
+[76]
 
-[75]
-
-[76
-
-] (./annexes.tex
-Annexe A.
-
-
-[77
-
-]
+[77]
 
 [78
 
+] (./annexes.tex
+Annexe A.
+<img/distribution.png, id=1395, 505.89pt x 365.6862pt>
+File: img/distribution.png Graphic file (type png)
+<use img/distribution.png>
+Package luatex.def Info: img/distribution.png  used on input line 11.
+(luatex.def)             Requested size: 455.29678pt x 329.11453pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[79
+
 ]
+File: img/BoxF1_curve.png Graphic file (type png)
+<use img/BoxF1_curve.png>
+Package luatex.def Info: img/BoxF1_curve.png  used on input line 32.
+(luatex.def)             Requested size: 226.57211pt x 151.04807pt.
+File: img/confusion_matrix_normalized.png Graphic file (type png)
+<use img/confusion_matrix_normalized.png>
+Package luatex.def Info: img/confusion_matrix_normalized.png  used on input lin
+e 38.
+(luatex.def)             Requested size: 226.5622pt x 169.92163pt.
+
+
+[80<./img/distribution.png>]
+<img/F1V8.png, id=1409, 650.43pt x 433.62pt>
+File: img/F1V8.png Graphic file (type png)
+<use img/F1V8.png>
+Package luatex.def Info: img/F1V8.png  used on input line 58.
+(luatex.def)             Requested size: 226.57211pt x 151.04807pt.
+<img/CONFUSIONV8.png, id=1410, 867.24pt x 650.43pt>
+File: img/CONFUSIONV8.png Graphic file (type png)
+<use img/CONFUSIONV8.png>
+Package luatex.def Info: img/CONFUSIONV8.png  used on input line 64.
+(luatex.def)             Requested size: 226.5622pt x 169.92163pt.
+
+
+[81<./img/F1V8.png><./img/CONFUSIONV8.png>]
+
+[82]
 Annexe B.
+(./Guidelines/guideline.tex
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 3.
+[83
 
-)
+]
 
-[79]
-
-[80
+[84
 
 ]
 Annexe C.
-(./Guidelines/guideline.tex (./Guidelines/0_introduction.tex
+(./Guidelines/0_introduction.tex
 
-[81]) (./Guidelines/1_Annotations_Rules.tex
-<Guidelines/bad_fitting.png, id=1095, 415.5525pt x 603.75563pt>
+[85]) (./Guidelines/1_Annotations_Rules.tex
+<Guidelines/bad_fitting.png, id=1441, 415.5525pt x 603.75563pt>
 File: Guidelines/bad_fitting.png Graphic file (type png)
 <use Guidelines/bad_fitting.png>
 Package luatex.def Info: Guidelines/bad_fitting.png  used on input line 15.
 (luatex.def)             Requested size: 137.08202pt x 199.16626pt.
-<Guidelines/good_fitting.png, id=1096, 415.5525pt x 599.99156pt>
+<Guidelines/good_fitting.png, id=1442, 415.5525pt x 599.99156pt>
 File: Guidelines/good_fitting.png Graphic file (type png)
 <use Guidelines/good_fitting.png>
 Package luatex.def Info: Guidelines/good_fitting.png  used on input line 22.
 (luatex.def)             Requested size: 137.94437pt x 199.16968pt.
-<Guidelines/unification.png, id=1101, 402.00188pt x 572.1375pt>
+
+
+[86]
+<Guidelines/unification.png, id=1454, 402.00188pt x 572.1375pt>
 File: Guidelines/unification.png Graphic file (type png)
 <use Guidelines/unification.png>
 Package luatex.def Info: Guidelines/unification.png  used on input line 41.
 (luatex.def)             Requested size: 139.94214pt x 199.16858pt.
-<Guidelines/separation.png, id=1102, 401.24907pt x 572.89032pt>
+<Guidelines/separation.png, id=1455, 401.24907pt x 572.89032pt>
 File: Guidelines/separation.png Graphic file (type png)
 <use Guidelines/separation.png>
 Package luatex.def Info: Guidelines/separation.png  used on input line 48.
 (luatex.def)             Requested size: 139.4964pt x 199.16841pt.
-
-
-[82]
-
-[83<./Guidelines/bad_fitting.png><./Guidelines/good_fitting.png><./Guidelines/un
-ification.png><./Guidelines/separation.png>]
-<Guidelines/overlap.png, id=1120, 454.69875pt x 603.0028pt>
+<Guidelines/overlap.png, id=1457, 454.69875pt x 603.0028pt>
 File: Guidelines/overlap.png Graphic file (type png)
 <use Guidelines/overlap.png>
 Package luatex.def Info: Guidelines/overlap.png  used on input line 63.
 (luatex.def)             Requested size: 150.18286pt x 199.16635pt.
-<Guidelines/correct_overlap.png, id=1121, 453.19313pt x 603.75563pt>
+<Guidelines/correct_overlap.png, id=1458, 453.19313pt x 603.75563pt>
 File: Guidelines/correct_overlap.png Graphic file (type png)
 <use Guidelines/correct_overlap.png>
 Package luatex.def Info: Guidelines/correct_overlap.png  used on input line 70.
 
 (luatex.def)             Requested size: 149.49887pt x 199.16626pt.
-<Guidelines/Screenshot_20260702_112821.png, id=1124, 447.17062pt x 606.01407pt>
+<Guidelines/Screenshot_20260702_112821.png, id=1461, 447.17062pt x 606.01407pt>
 
 File: Guidelines/Screenshot_20260702_112821.png Graphic file (type png)
 <use Guidelines/Screenshot_20260702_112821.png>
 Package luatex.def Info: Guidelines/Screenshot_20260702_112821.png  used on inp
 ut line 85.
 (luatex.def)             Requested size: 146.96631pt x 199.17152pt.
-<Guidelines/Screenshot_20260702_135302_2.png, id=1125, 802.49812pt x 602.25pt>
+<Guidelines/Screenshot_20260702_135302_2.png, id=1462, 802.49812pt x 602.25pt>
 File: Guidelines/Screenshot_20260702_135302_2.png Graphic file (type png)
 <use Guidelines/Screenshot_20260702_135302_2.png>
 Package luatex.def Info: Guidelines/Screenshot_20260702_135302_2.png  used on i
 nput line 92.
 (luatex.def)             Requested size: 226.57144pt x 170.03485pt.
-<Guidelines/tomuch.png, id=1127, 505.13719pt x 603.75563pt>
+
+
+[87<./Guidelines/bad_fitting.png><./Guidelines/good_fitting.png>]
+
+[88<./Guidelines/unification.png><./Guidelines/separation.png><./Guidelines/over
+lap.png><./Guidelines/correct_overlap.png>]
+<Guidelines/tomuch.png, id=1484, 505.13719pt x 603.75563pt>
 File: Guidelines/tomuch.png Graphic file (type png)
 <use Guidelines/tomuch.png>
 Package luatex.def Info: Guidelines/tomuch.png  used on input line 107.
 (luatex.def)             Requested size: 166.63412pt x 199.16626pt.
-<Guidelines/correct_amount.png, id=1128, 501.37312pt x 603.0028pt>
+<Guidelines/correct_amount.png, id=1485, 501.37312pt x 603.0028pt>
 File: Guidelines/correct_amount.png Graphic file (type png)
 <use Guidelines/correct_amount.png>
 Package luatex.def Info: Guidelines/correct_amount.png  used on input line 114.
@@ -2364,54 +2529,55 @@ Package luatex.def Info: Guidelines/correct_amount.png  used on input line 114.
 (luatex.def)             Requested size: 165.59898pt x 199.16635pt.
 )
 (./Guidelines/2_Class_Definiton.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[84<./Guidelines/overlap.png><./Guidelines/correct_overlap.png>]
 
-[85<./Guidelines/Screenshot_20260702_112821.png><./Guidelines/Screenshot_2026070
-2_135302_2.png><./Guidelines/tomuch.png><./Guidelines/correct_amount.png>]
-<Guidelines/illustraiton_4.png, id=1149, 402.00188pt x 593.96906pt>
+
+[89<./Guidelines/Screenshot_20260702_112821.png><./Guidelines/Screenshot_2026070
+2_135302_2.png>]
+<Guidelines/illustraiton_4.png, id=1494, 402.00188pt x 593.96906pt>
 File: Guidelines/illustraiton_4.png Graphic file (type png)
 <use Guidelines/illustraiton_4.png>
 Package luatex.def Info: Guidelines/illustraiton_4.png  used on input line 39.
 (luatex.def)             Requested size: 134.8018pt x 199.17346pt.
-<Guidelines/illustration_2.png, id=1150, 500.62032pt x 602.25pt>
+<Guidelines/illustration_2.png, id=1495, 500.62032pt x 602.25pt>
 File: Guidelines/illustration_2.png Graphic file (type png)
 <use Guidelines/illustration_2.png>
 Package luatex.def Info: Guidelines/illustration_2.png  used on input line 44.
 (luatex.def)             Requested size: 165.5566pt x 199.16583pt.
-<Guidelines/illustration_3.png, id=1151, 405.76593pt x 601.4972pt>
+<Guidelines/illustration_3.png, id=1496, 405.76593pt x 601.4972pt>
 File: Guidelines/illustration_3.png Graphic file (type png)
 <use Guidelines/illustration_3.png>
 Package luatex.def Info: Guidelines/illustration_3.png  used on input line 49.
 (luatex.def)             Requested size: 134.35515pt x 199.16469pt.
-<Guidelines/ilustration_5.png, id=1152, 415.5525pt x 601.4972pt>
+<Guidelines/ilustration_5.png, id=1497, 415.5525pt x 601.4972pt>
 File: Guidelines/ilustration_5.png Graphic file (type png)
 <use Guidelines/ilustration_5.png>
 Package luatex.def Info: Guidelines/ilustration_5.png  used on input line 55.
 (luatex.def)             Requested size: 137.59563pt x 199.16469pt.
-<Guidelines/sepsepsep.png, id=1155, 430.60875pt x 600.74437pt>
+
+
+[90<./Guidelines/tomuch.png><./Guidelines/correct_amount.png>]
+
+[91<./Guidelines/illustraiton_4.png><./Guidelines/illustration_2.png><./Guidelin
+es/illustration_3.png><./Guidelines/ilustration_5.png>]
+<Guidelines/sepsepsep.png, id=1518, 430.60875pt x 600.74437pt>
 File: Guidelines/sepsepsep.png Graphic file (type png)
 <use Guidelines/sepsepsep.png>
 Package luatex.def Info: Guidelines/sepsepsep.png  used on input line 76.
 (luatex.def)             Requested size: 142.76494pt x 199.17207pt.
-<Guidelines/illustration_frame_rule.png, id=1156, 376.40625pt x 576.65437pt>
+<Guidelines/illustration_frame_rule.png, id=1519, 376.40625pt x 576.65437pt>
 File: Guidelines/illustration_frame_rule.png Graphic file (type png)
 <use Guidelines/illustration_frame_rule.png>
 Package luatex.def Info: Guidelines/illustration_frame_rule.png  used on input 
 line 82.
 (luatex.def)             Requested size: 130.00388pt x 199.16594pt.
-
-
-[86]
-
-[87<./Guidelines/illustraiton_4.png><./Guidelines/illustration_2.png><./Guidelin
-es/illustration_3.png><./Guidelines/ilustration_5.png>]
-<Guidelines/printer_mark.png, id=1178, 350.05782pt x 564.60938pt>
+<Guidelines/printer_mark.png, id=1524, 350.05782pt x 564.60938pt>
 File: Guidelines/printer_mark.png Graphic file (type png)
 <use Guidelines/printer_mark.png>
 Package luatex.def Info: Guidelines/printer_mark.png  used on input line 100.
 (luatex.def)             Requested size: 123.48352pt x 199.16698pt.
-<Guidelines/illustration_initial_ornamentation.png, id=1179, 398.99063pt x 581.
+<Guidelines/illustration_initial_ornamentation.png, id=1525, 398.99063pt x 581.
 17125pt>
 File: Guidelines/illustration_initial_ornamentation.png Graphic file (type png)
 
@@ -2419,7 +2585,7 @@ File: Guidelines/illustration_initial_ornamentation.png Graphic file (type png)
 Package luatex.def Info: Guidelines/illustration_initial_ornamentation.png  use
 d on input line 112.
 (luatex.def)             Requested size: 136.7326pt x 199.16524pt.
-<Guidelines/ornamentation_illustration.png, id=1180, 368.87813pt x 566.86781pt>
+<Guidelines/ornamentation_illustration.png, id=1526, 368.87813pt x 566.86781pt>
 
 File: Guidelines/ornamentation_illustration.png Graphic file (type png)
 <use Guidelines/ornamentation_illustration.png>
@@ -2428,31 +2594,31 @@ ut line 119.
 (luatex.def)             Requested size: 129.60458pt x 199.16788pt.
 
 
-[88<./Guidelines/sepsepsep.png><./Guidelines/illustration_frame_rule.png>]
+[92<./Guidelines/sepsepsep.png><./Guidelines/illustration_frame_rule.png>]
 
-[89<./Guidelines/printer_mark.png><./Guidelines/illustration_initial_ornamentati
+[93<./Guidelines/printer_mark.png><./Guidelines/illustration_initial_ornamentati
 on.png><./Guidelines/ornamentation_illustration.png>]
-<Guidelines/ornament.png, id=1203, 362.85562pt x 563.10374pt>
+<Guidelines/ornament.png, id=1549, 362.85562pt x 563.10374pt>
 File: Guidelines/ornament.png Graphic file (type png)
 <use Guidelines/ornament.png>
 Package luatex.def Info: Guidelines/ornament.png  used on input line 155.
 (luatex.def)             Requested size: 128.34125pt x 199.16858pt.
-<Guidelines/ornament_2.png, id=1204, 319.1925pt x 561.59813pt>
+<Guidelines/ornament_2.png, id=1550, 319.1925pt x 561.59813pt>
 File: Guidelines/ornament_2.png Graphic file (type png)
 <use Guidelines/ornament_2.png>
 Package luatex.def Info: Guidelines/ornament_2.png  used on input line 162.
 (luatex.def)             Requested size: 113.19966pt x 199.16734pt.
-<Guidelines/ornament_3.png, id=1205, 368.87813pt x 576.65437pt>
+<Guidelines/ornament_3.png, id=1551, 368.87813pt x 576.65437pt>
 File: Guidelines/ornament_3.png Graphic file (type png)
 <use Guidelines/ornament_3.png>
 Package luatex.def Info: Guidelines/ornament_3.png  used on input line 169.
 (luatex.def)             Requested size: 127.4038pt x 199.16594pt.
-<Guidelines/ornament_4.png, id=1206, 356.83313pt x 562.35094pt>
+<Guidelines/ornament_4.png, id=1552, 356.83313pt x 562.35094pt>
 File: Guidelines/ornament_4.png Graphic file (type png)
 <use Guidelines/ornament_4.png>
 Package luatex.def Info: Guidelines/ornament_4.png  used on input line 176.
 (luatex.def)             Requested size: 126.3799pt x 199.16832pt.
-<Guidelines/ornament_end_of_line.png, id=1207, 419.31656pt x 503.63156pt>
+<Guidelines/ornament_end_of_line.png, id=1553, 419.31656pt x 503.63156pt>
 File: Guidelines/ornament_end_of_line.png Graphic file (type png)
 <use Guidelines/ornament_end_of_line.png>
 Package luatex.def Info: Guidelines/ornament_end_of_line.png  used on input lin
@@ -2462,24 +2628,24 @@ e 183.
 
 LaTeX Warning: Float too large for page by 84.49371pt on input line 190.
 
-<Guidelines/initial.png, id=1208, 462.22687pt x 563.85657pt>
+<Guidelines/initial.png, id=1554, 462.22687pt x 563.85657pt>
 File: Guidelines/initial.png Graphic file (type png)
 <use Guidelines/initial.png>
 Package luatex.def Info: Guidelines/initial.png  used on input line 202.
 (luatex.def)             Requested size: 163.27pt x 199.16814pt.
-<Guidelines/lettrine_ornament.png, id=1209, 320.69812pt x 453.19313pt>
+<Guidelines/lettrine_ornament.png, id=1555, 320.69812pt x 453.19313pt>
 File: Guidelines/lettrine_ornament.png Graphic file (type png)
 <use Guidelines/lettrine_ornament.png>
 Package luatex.def Info: Guidelines/lettrine_ornament.png  used on input line 2
 09.
 (luatex.def)             Requested size: 140.94122pt x 199.17047pt.
-<Guidelines/pilcrown_printed.png, id=1210, 454.69875pt x 117.43875pt>
+<Guidelines/pilcrown_printed.png, id=1556, 454.69875pt x 117.43875pt>
 File: Guidelines/pilcrown_printed.png Graphic file (type png)
 <use Guidelines/pilcrown_printed.png>
 Package luatex.def Info: Guidelines/pilcrown_printed.png  used on input line 21
 6.
 (luatex.def)             Requested size: 226.57173pt x 58.51851pt.
-<Guidelines/manuscript_pilcrow.jpg, id=1211, 580.19577pt x 353.2069pt>
+<Guidelines/manuscript_pilcrow.jpg, id=1557, 580.19577pt x 353.2069pt>
 File: Guidelines/manuscript_pilcrow.jpg Graphic file (type jpg)
 <use Guidelines/manuscript_pilcrow.jpg>
 Package luatex.def Info: Guidelines/manuscript_pilcrow.jpg  used on input line 
@@ -2487,61 +2653,63 @@ Package luatex.def Info: Guidelines/manuscript_pilcrow.jpg  used on input line
 (luatex.def)             Requested size: 226.56758pt x 137.92798pt.
 
 
-[90]
+[94]
 
-[91<./Guidelines/ornament.png><./Guidelines/ornament_2.png><./Guidelines/ornamen
+[95<./Guidelines/ornament.png><./Guidelines/ornament_2.png><./Guidelines/ornamen
 t_3.png><./Guidelines/ornament_4.png><./Guidelines/ornament_end_of_line.png>]
 
-[92<./Guidelines/initial.png><./Guidelines/lettrine_ornament.png><./Guidelines/p
+[96<./Guidelines/initial.png><./Guidelines/lettrine_ornament.png><./Guidelines/p
 ilcrown_printed.png><./Guidelines/manuscript_pilcrow.jpg>]
-<Guidelines/stamp_ex_libris.png, id=1242, 395.97937pt x 569.12625pt>
+<Guidelines/stamp_ex_libris.png, id=1588, 395.97937pt x 569.12625pt>
 File: Guidelines/stamp_ex_libris.png Graphic file (type png)
 <use Guidelines/stamp_ex_libris.png>
 Package luatex.def Info: Guidelines/stamp_ex_libris.png  used on input line 253
 .
 (luatex.def)             Requested size: 138.57672pt x 199.17111pt.
-<Guidelines/stamps.png, id=1243, 337.26pt x 557.83406pt>
+<Guidelines/stamps.png, id=1589, 337.26pt x 557.83406pt>
 File: Guidelines/stamps.png Graphic file (type png)
 <use Guidelines/stamps.png>
 Package luatex.def Info: Guidelines/stamps.png  used on input line 260.
 (luatex.def)             Requested size: 120.41515pt x 199.16881pt.
-<Guidelines/stamps_2.png, id=1244, 422.32782pt x 563.10374pt>
+<Guidelines/stamps_2.png, id=1590, 422.32782pt x 563.10374pt>
 File: Guidelines/stamps_2.png Graphic file (type png)
 <use Guidelines/stamps_2.png>
 Package luatex.def Info: Guidelines/stamps_2.png  used on input line 267.
 (luatex.def)             Requested size: 149.37643pt x 199.16858pt.
-<Guidelines/library_stamp.png, id=1245, 380.92313pt x 558.58687pt>
+<Guidelines/library_stamp.png, id=1591, 380.92313pt x 558.58687pt>
 File: Guidelines/library_stamp.png Graphic file (type png)
 <use Guidelines/library_stamp.png>
 Package luatex.def Info: Guidelines/library_stamp.png  used on input line 274.
 (luatex.def)             Requested size: 135.8186pt x 199.16484pt.
 
 
-[93]
+[97]
 
-[94<./Guidelines/stamp_ex_libris.png><./Guidelines/stamps.png><./Guidelines/stam
+[98<./Guidelines/stamp_ex_libris.png><./Guidelines/stamps.png><./Guidelines/stam
 ps_2.png><./Guidelines/library_stamp.png>]
-<Guidelines/table_1.png, id=1270, 374.14781pt x 554.07pt>
+
+[99]
+<Guidelines/table_1.png, id=1626, 374.14781pt x 554.07pt>
 File: Guidelines/table_1.png Graphic file (type png)
 <use Guidelines/table_1.png>
 Package luatex.def Info: Guidelines/table_1.png  used on input line 328.
 (luatex.def)             Requested size: 134.49329pt x 199.16914pt.
-<Guidelines/table_2.png, id=1271, 327.47343pt x 516.42938pt>
+<Guidelines/table_2.png, id=1627, 327.47343pt x 516.42938pt>
 File: Guidelines/table_2.png Graphic file (type png)
 <use Guidelines/table_2.png>
 Package luatex.def Info: Guidelines/table_2.png  used on input line 335.
 (luatex.def)             Requested size: 126.29503pt x 199.1687pt.
-<Guidelines/table_3.png, id=1272, 347.04657pt x 557.08125pt>
+<Guidelines/table_3.png, id=1628, 347.04657pt x 557.08125pt>
 File: Guidelines/table_3.png Graphic file (type png)
 <use Guidelines/table_3.png>
 Package luatex.def Info: Guidelines/table_3.png  used on input line 342.
 (luatex.def)             Requested size: 124.0735pt x 199.16353pt.
-<Guidelines/table_6.png, id=1273, 365.11406pt x 532.23843pt>
+<Guidelines/table_6.png, id=1629, 365.11406pt x 532.23843pt>
 File: Guidelines/table_6.png Graphic file (type png)
 <use Guidelines/table_6.png>
 Package luatex.def Info: Guidelines/table_6.png  used on input line 349.
 (luatex.def)             Requested size: 136.62773pt x 199.16661pt.
-<Guidelines/table_7.png, id=1274, 358.33875pt x 528.47438pt>
+<Guidelines/table_7.png, id=1630, 358.33875pt x 528.47438pt>
 File: Guidelines/table_7.png Graphic file (type png)
 <use Guidelines/table_7.png>
 Package luatex.def Info: Guidelines/table_7.png  used on input line 356.
@@ -2550,34 +2718,131 @@ Package luatex.def Info: Guidelines/table_7.png  used on input line 356.
 
 LaTeX Warning: Float too large for page by 30.09874pt on input line 362.
 
-))
+)))
 
-[95]
+[100]
 
-[96<./Guidelines/table_1.png><./Guidelines/table_2.png><./Guidelines/table_3.png
-><./Guidelines/table_6.png><./Guidelines/table_7.png>] (./main.acr [97
+[101<./Guidelines/table_1.png><./Guidelines/table_2.png><./Guidelines/table_3.pn
+g><./Guidelines/table_6.png><./Guidelines/table_7.png>]
+
+[102
+
+]
+Annexe D.
+File: img/illustrationsonnet5zeroshot.jpg Graphic file (type jpg)
+<use img/illustrationsonnet5zeroshot.jpg>
+Package luatex.def Info: img/illustrationsonnet5zeroshot.jpg  used on input lin
+e 416.
+(luatex.def)             Requested size: 92.08762pt x 156.49014pt.
+File: img/lettrinesonnet5zeroshot.jpg Graphic file (type jpg)
+<use img/lettrinesonnet5zeroshot.jpg>
+Package luatex.def Info: img/lettrinesonnet5zeroshot.jpg  used on input line 42
+3.
+(luatex.def)             Requested size: 208.55135pt x 156.49014pt.
+File: img/multiclassesonnet5zeroshot.jpg Graphic file (type jpg)
+<use img/multiclassesonnet5zeroshot.jpg>
+Package luatex.def Info: img/multiclassesonnet5zeroshot.jpg  used on input line
+ 429.
+(luatex.def)             Requested size: 227.56079pt x 170.71652pt.
+
+Overfull \hbox (15.14818pt too wide) in paragraph at lines 429--430
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/chatgpt1.png, id=1651, 960.58875pt x 1649.16125pt>
+File: img/chatgpt1.png Graphic file (type png)
+<use img/chatgpt1.png>
+Package luatex.def Info: img/chatgpt1.png  used on input line 439.
+(luatex.def)             Requested size: 91.13962pt x 156.49014pt.
+<img/chatgpt3.png, id=1652, 1457.445pt x 1087.06125pt>
+File: img/chatgpt3.png Graphic file (type png)
+<use img/chatgpt3.png>
+Package luatex.def Info: img/chatgpt3.png  used on input line 446.
+(luatex.def)             Requested size: 209.80075pt x 156.49014pt.
+<img/chatgpt2.png, id=1653, 1425.325pt x 1112.155pt>
+File: img/chatgpt2.png Graphic file (type png)
+<use img/chatgpt2.png>
+Package luatex.def Info: img/chatgpt2.png  used on input line 452.
+(luatex.def)             Requested size: 218.76997pt x 170.71652pt.
+
+Overfull \hbox (6.35736pt too wide) in paragraph at lines 452--453
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/geminitest1.jpeg, id=1654, 786.94pt x 1346.02875pt>
+File: img/geminitest1.jpeg Graphic file (type jpg)
+<use img/geminitest1.jpeg>
+Package luatex.def Info: img/geminitest1.jpeg  used on input line 462.
+(luatex.def)             Requested size: 91.48683pt x 156.49014pt.
+<img/geminitest3.png, id=1655, 636.3775pt x 475.7775pt>
+File: img/geminitest3.png Graphic file (type png)
+<use img/geminitest3.png>
+Package luatex.def Info: img/geminitest3.png  used on input line 469.
+(luatex.def)             Requested size: 209.31578pt x 156.49014pt.
+<img/geminitest2.jpeg, id=1656, 1027.84pt x 766.865pt>
+File: img/geminitest2.jpeg Graphic file (type jpg)
+<use img/geminitest2.jpeg>
+Package luatex.def Info: img/geminitest2.jpeg  used on input line 475.
+(luatex.def)             Requested size: 228.80739pt x 170.71652pt.
+
+Overfull \hbox (16.39478pt too wide) in paragraph at lines 475--476
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[103]
+
+[104]
+
+[105<./img/chatgpt1.png><./img/chatgpt3.png><./img/chatgpt2.png>]
+
+[106<./img/geminitest1.jpeg><./img/geminitest3.png><./img/geminitest2.jpeg>]
+(./main.acr [107
 
 
 
 
 ])
 
-[98] (./main.aux)
+[108] (./main.lof
+Underfull \vbox (badness 3471) has occurred while \output is active []
+
+
+
+[109
+
+])
+\tf@lof=\write10
+
+\openout10 = main.lof
+
+
+[110] (./main.lot)
+\tf@lot=\write11
+
+\openout11 = main.lot
+
+
+[111
+
+] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 
@@ -2585,53 +2850,54 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 57267 strings out of 475512
+ 59973 strings out of 475512
  125086,2848258 words of node,token memory allocated
- 13896 words of node memory still in use:
-   10 hlist, 2 vlist, 2 rule, 2 disc, 827 glue, 5 kern, 1 penalty, 17 glyph, 311
-9 attribute, 92 glue_spec, 447 attribute_list, 2 write, 22 pdf_action, 4 pdf_col
-orstack nodes
-   avail lists: 1:5,2:5605,3:876,4:227,5:608,6:107,7:9680,8:33,9:558,10:28,11:10
-31
- 78501 multiletter control sequences out of 65536+600000
- 64 fonts using 5960975 bytes
- 88i,13n,128p,2720b,2377s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 19012 words of node memory still in use:
+   10 hlist, 2 vlist, 2 rule, 2 disc, 1119 glue, 5 kern, 1 penalty, 17 glyph, 43
+59 attribute, 94 glue_spec, 624 attribute_list, 2 write, 60 pdf_action, 4 pdf_co
+lorstack nodes
+   avail lists: 1:4,2:5021,3:831,4:306,5:624,6:116,7:9574,8:152,9:597,10:30,11:1
+032
+ 80999 multiletter control sequences out of 65536+600000
+ 68 fonts using 6476527 bytes
+ 88i,13n,128p,2721b,2379s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-warning  (pdf backend): unreferenced destination with name 'page.v'
+warning  (pdf backend): unreferenced destination with name 'page.xvii'
 
-warning  (pdf backend): unreferenced destination with name 'page.ix'
+warning  (pdf backend): unreferenced destination with name 'page.xx'
 
-warning  (pdf backend): unreferenced destination with name 'page.xii'
-
-warning  (pdf backend): unreferenced destination with name 'page.xiii'
+warning  (pdf backend): unreferenced destination with name 'page.xxi'
 
 warning  (pdf backend): unreferenced destination with name 'page.iii'
 
-warning  (pdf backend): unreferenced destination with name 'page.xi'
+warning  (pdf backend): unreferenced destination with name 'page.xix'
 
-warning  (pdf backend): unreferenced destination with name 'page.x'
-</usr/share/texmf/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/share/texli
-ve/texmf-dist/fonts/opentype/public/fontawesome/FontAwesome.otf></usr/share/texm
-f/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share/texmf/fonts/opentype
-/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman
-slant10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-italic.
-otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share
-/texmf/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texmf/fonts/ope
-ntype/public/lm/lmromancaps10-regular.otf></usr/share/texmf/fonts/opentype/publi
-c/lm/lmroman17-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-
-bolditalic.otf></usr/share/texmf/fonts/opentype/public/lm/lmromanslant12-regular
-.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-italic.otf></usr/share
-/texmf/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/texmf/fonts/opent
-ype/public/lm/lmroman12-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (114 pages, 49610821 bytes).
+warning  (pdf backend): unreferenced destination with name 'page.xviii'
+</usr/share/texmf/fonts/opentype/public/lm/lmroman8-bold.otf></usr/share/texmf/f
+onts/opentype/public/lm/lmmonolt10-bold.otf></usr/share/texmf/fonts/opentype/pub
+lic/lm/lmmono10-regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public
+/fontawesome/FontAwesome.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman1
+0-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmromanslant10-regular.otf
+></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/share
+/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/op
+entype/public/lm/lmroman8-regular.otf></usr/share/texmf/fonts/opentype/public/lm
+/lmroman10-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmmono12-regula
+r.otf></usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr
+/share/texmf/fonts/opentype/public/lm/lmroman17-regular.otf></usr/share/texmf/fo
+nts/opentype/public/lm/lmromanslant12-regular.otf></usr/share/texmf/fonts/openty
+pe/public/lm/lmroman12-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmr
+oman12-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (135 pages, 61318145 bytes).
 
-PDF statistics: 1740 PDF objects out of 2073 (max. 8388607)
- 1458 compressed objects within 15 object streams
- 373 named destinations out of 1000 (max. 131072)
- 648 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 2302 PDF objects out of 2487 (max. 8388607)
+ 1972 compressed objects within 20 object streams
+ 494 named destinations out of 1000 (max. 131072)
+ 704 words of extra memory for PDF output out of 10000 (max. 100000000)
 
